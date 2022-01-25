@@ -1,0 +1,1 @@
+25:01:2022	16:06:14	Caught Exception --> TypeError: fsPromises.readFil is not a function
