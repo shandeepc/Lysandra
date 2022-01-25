@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "name": "node-rest-api-as-iiq-source",
+  "version": "1.0.0",
+  "description": "A Node.js REST API for simple IIQ webservice(REST) connector integration",
+  "main": "server.js",
+  "dependencies": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "author": "Shandeep",
+  "license": "ISC"
+}
