@@ -19,4 +19,4 @@ const log = async (msg, logFile) => {
     }
 }
 
-module.exports = log;
+module.exports.log = log;

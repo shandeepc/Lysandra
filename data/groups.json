@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "mailRead"
+    },
+    {
+        "id": 2,
+        "name": "mailWrite"
+    },
+    {
+        "id": 3,
+        "name": "payrollRead"
+    },
+    {
+        "id": 4,
+        "firstname": "payrollWrite"
+    }
+]

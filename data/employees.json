@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "firstname": "Shandeep",
+        "lastname": "Srinivas",
+        "groups" : ["mailRead", "mailWrite"]
+    },
+    {
+        "id": 2,
+        "firstname": "John",
+        "lastname": "Smith",
+        "groups" : ["payrollRead", "payrollWrite"]
+    }
+]

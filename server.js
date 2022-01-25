@@ -1,33 +1,52 @@
 const express = require('express');
 const cors = require('cors');
 const logger = require('./middleware/logger');
-const EventEmitter = require('events');
 const path =  require('path');
-class ServerLogger extends EventEmitter{};
-const serverLogger = new ServerLogger();
-serverLogger.on('reqLog', (msg) => logger(msg,'reqLog.txt'));
-serverLogger.on('errorLog', (msg) => logger(msg,'errorLog.txt'));
-serverLogger.emit('reqLog', 'Starting Application...');
+logger.log('Starting Application...', 'reqLog.txt');
 const app = express();
 const SERVER_PORT = process.env.PORT || 6969;
 
 app.use((request, response, next) => {
-    serverLogger.emit('reqLog', `${request.url}\t${request.method}\t${request.headers.origin}`);
+    logger.log(`${request.url}\t${request.method}\t${request.headers.origin}`, 'reqLog.txt');
     next();
 });
 
-app.use(cors());
+const whitelist = ['http://127.0.0.1'];
+const corsOptions = {
+    origin: (origin, callback) => {
+        if (whitelist.indexOf(origin) !== -1 || !origin) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'));
+            logger.log(`Not allowed by CORS, Origin --> ${origin}`, 'errorLog.txt');
+        }
+    },
+    optionsSuccessStatus: 200
+}
+
+app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '/public')));
 
-app.get('^/$|/index(.html)?|/home(.html)?', (request, response) => {
-    response.sendFile('./webpage/index.html', {root : __dirname});
+app.use('/', express.static(path.join(__dirname, '/public')));
+
+app.use('/', require('./routes/root'));
+app.use('/employees|/api/employees', require('./routes/api/employees'));
+
+
+app.all('*', (request, response) => {
+    logger.log(`Invaid request ${request.url}`, 'reqLog.txt');
+    response.status(404);
+    if (request.accepts('html')) {
+        response.sendFile(path.join(__dirname, 'webpage', '404.html'));
+    } else if (req.accepts('json')) {
+        response.json({ "error": "404 Not Found" });
+    }
 });
 
-app.get('/*', (request, response) => {
-    serverLogger.emit('reqLog', `Invaid request ${request.url}`);
-    response.status(404).sendFile('./webpage/404.html', {root : __dirname});
+app.use((error, request, response , next) => {
+    logger.log(`ERROR --> ${error.stack}`, 'errorLog.txt');
+    response.status(500).send(error.message);
 });
 
-app.listen(SERVER_PORT, () => serverLogger.emit('reqLog', `Application running on port ${SERVER_PORT}`));
+app.listen(SERVER_PORT, () => logger.log(`Application running on port ${SERVER_PORT}`, 'reqLog.txt'));
