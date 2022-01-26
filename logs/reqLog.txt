@@ -96,3 +96,532 @@
 25:01:2022	21:47:48	/api/employees	GET	undefined
 25:01:2022	21:50:08	Starting Application...
 25:01:2022	21:50:08	Application running on port 6969
+25:01:2022	21:54:12	Starting Application...
+25:01:2022	21:54:12	Application running on port 6969
+25:01:2022	21:55:04	/employees	GET	undefined
+25:01:2022	21:55:11	/employees	GET	undefined
+25:01:2022	21:56:47	/employees	GET	undefined
+25:01:2022	21:57:57	/employees	POST	undefined
+25:01:2022	21:59:23	/employees	POST	undefined
+25:01:2022	22:00:46	/employees/1	GET	undefined
+26:01:2022	08:53:48	Starting Application...
+26:01:2022	08:53:48	Application running on port 6969
+26:01:2022	08:53:58	/employees	GET	undefined
+26:01:2022	08:54:05	/employees/1	GET	undefined
+26:01:2022	08:55:36	Starting Application...
+26:01:2022	08:55:36	Application running on port 6969
+26:01:2022	08:55:43	/employees/1	GET	undefined
+26:01:2022	08:55:43	undefined
+26:01:2022	08:56:11	Starting Application...
+26:01:2022	08:56:11	Application running on port 6969
+26:01:2022	08:56:15	/employees/1	GET	undefined
+26:01:2022	08:56:15	[object Object]
+26:01:2022	08:56:40	Starting Application...
+26:01:2022	08:56:40	Application running on port 6969
+26:01:2022	08:56:43	/employees/1	GET	undefined
+26:01:2022	08:56:43	{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]}
+26:01:2022	08:56:52	/employees/10	GET	undefined
+26:01:2022	08:56:52	undefined
+26:01:2022	09:00:15	Starting Application...
+26:01:2022	09:00:15	Application running on port 6969
+26:01:2022	09:00:29	/employees/1	GET	undefined
+26:01:2022	09:00:29	{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]}
+26:01:2022	09:00:44	/employees	POST	undefined
+26:01:2022	09:00:44	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:29:50	Starting Application...
+26:01:2022	09:29:50	Application running on port 6969
+26:01:2022	09:30:06	Starting Application...
+26:01:2022	09:30:06	Application running on port 6969
+26:01:2022	09:30:10	/employees	POST	undefined
+26:01:2022	09:31:09	Starting Application...
+26:01:2022	09:31:09	Application running on port 6969
+26:01:2022	09:31:13	/employees	POST	undefined
+26:01:2022	09:31:13	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:33:31	Starting Application...
+26:01:2022	09:33:31	Application running on port 6969
+26:01:2022	09:33:35	/employees	POST	undefined
+26:01:2022	09:33:35	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:33:35	firstname ram
+26:01:2022	09:33:35	firstname kumar
+26:01:2022	09:33:45	Starting Application...
+26:01:2022	09:33:45	Application running on port 6969
+26:01:2022	09:33:52	/employees	POST	undefined
+26:01:2022	09:33:52	{"firstname":"ram","groups":["mailRead","mailWrite"]}
+26:01:2022	09:33:52	firstname --> ram
+26:01:2022	09:33:52	firstname --> undefined
+26:01:2022	09:34:05	Starting Application...
+26:01:2022	09:34:05	Application running on port 6969
+26:01:2022	09:37:46	Starting Application...
+26:01:2022	09:37:46	Application running on port 6969
+26:01:2022	09:37:55	/employees	POST	undefined
+26:01:2022	09:37:55	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:37:55	firstname --> ram
+26:01:2022	09:37:55	firstname --> kumar
+26:01:2022	09:37:55	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:38:47	Starting Application...
+26:01:2022	09:38:47	Application running on port 6969
+26:01:2022	09:38:49	/employees	POST	undefined
+26:01:2022	09:38:49	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:38:49	firstname --> ram
+26:01:2022	09:38:49	firstname --> kumar
+26:01:2022	09:38:49	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:39:39	Starting Application...
+26:01:2022	09:39:39	Application running on port 6969
+26:01:2022	09:40:22	Starting Application...
+26:01:2022	09:40:22	Application running on port 6969
+26:01:2022	09:40:28	/employees	POST	undefined
+26:01:2022	09:40:28	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:40:28	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:40:28	[{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]},{"id":2,"firstname":"John","lastname":"Smith","groups":["payrollRead","payrollWrite"]},{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}]
+26:01:2022	09:41:15	Starting Application...
+26:01:2022	09:41:15	Application running on port 6969
+26:01:2022	09:41:20	/employees	POST	undefined
+26:01:2022	09:41:20	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:41:47	Starting Application...
+26:01:2022	09:41:47	Application running on port 6969
+26:01:2022	09:41:52	/employees	POST	undefined
+26:01:2022	09:41:52	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:42:57	Starting Application...
+26:01:2022	09:42:57	Application running on port 6969
+26:01:2022	09:43:02	/employees	POST	undefined
+26:01:2022	09:43:02	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:43:14	Starting Application...
+26:01:2022	09:43:14	Application running on port 6969
+26:01:2022	09:43:15	/employees	POST	undefined
+26:01:2022	09:43:15	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:43:22	Starting Application...
+26:01:2022	09:43:22	Application running on port 6969
+26:01:2022	09:43:23	Starting Application...
+26:01:2022	09:43:23	Application running on port 6969
+26:01:2022	09:43:27	/employees	POST	undefined
+26:01:2022	09:43:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:43:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:44:03	Starting Application...
+26:01:2022	09:44:03	Application running on port 6969
+26:01:2022	09:45:23	Starting Application...
+26:01:2022	09:45:23	Application running on port 6969
+26:01:2022	09:45:35	Starting Application...
+26:01:2022	09:45:35	Application running on port 6969
+26:01:2022	09:46:22	Starting Application...
+26:01:2022	09:46:22	Application running on port 6969
+26:01:2022	09:47:18	Starting Application...
+26:01:2022	09:47:18	Application running on port 6969
+26:01:2022	09:47:58	Starting Application...
+26:01:2022	09:47:58	Application running on port 6969
+26:01:2022	09:49:35	Starting Application...
+26:01:2022	09:49:35	Application running on port 6969
+26:01:2022	09:49:39	/employees	POST	undefined
+26:01:2022	09:49:39	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:49:39	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:51:08	Starting Application...
+26:01:2022	09:51:08	Application running on port 6969
+26:01:2022	09:51:10	/employees/1	GET	undefined
+26:01:2022	09:51:10	{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]}
+26:01:2022	09:51:20	/employees	GET	undefined
+26:01:2022	09:53:31	Starting Application...
+26:01:2022	09:53:31	Application running on port 6969
+26:01:2022	09:53:36	/employees	POST	undefined
+26:01:2022	09:53:36	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:53:36	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:57:25	Starting Application...
+26:01:2022	09:57:25	Application running on port 6969
+26:01:2022	09:57:27	/employees	POST	undefined
+26:01:2022	09:57:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:57:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:57:36	Starting Application...
+26:01:2022	09:57:36	Application running on port 6969
+26:01:2022	09:57:38	/employees	POST	undefined
+26:01:2022	09:57:38	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:57:38	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:58:19	Starting Application...
+26:01:2022	09:58:19	Application running on port 6969
+26:01:2022	09:58:21	/employees	POST	undefined
+26:01:2022	09:58:21	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:58:21	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:59:02	Starting Application...
+26:01:2022	09:59:02	Application running on port 6969
+26:01:2022	09:59:06	/employees	POST	undefined
+26:01:2022	09:59:06	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:59:06	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	09:59:29	Starting Application...
+26:01:2022	09:59:29	Application running on port 6969
+26:01:2022	09:59:31	/employees	POST	undefined
+26:01:2022	09:59:31	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	09:59:31	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:01:20	Starting Application...
+26:01:2022	10:01:20	Application running on port 6969
+26:01:2022	10:01:27	/employees	POST	undefined
+26:01:2022	10:01:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:01:27	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:01:27	Starting Application...
+26:01:2022	10:01:27	Application running on port 6969
+26:01:2022	10:01:30	/employees	POST	undefined
+26:01:2022	10:01:30	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:05:47	Starting Application...
+26:01:2022	10:05:47	Application running on port 6969
+26:01:2022	10:05:49	/employees	POST	undefined
+26:01:2022	10:05:49	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:06:17	/employees	GET	undefined
+26:01:2022	10:06:28	Starting Application...
+26:01:2022	10:06:28	Application running on port 6969
+26:01:2022	10:06:31	/employees	GET	undefined
+26:01:2022	10:07:39	Starting Application...
+26:01:2022	10:07:39	Application running on port 6969
+26:01:2022	10:07:45	/employees	GET	undefined
+26:01:2022	10:07:52	/employees/1	GET	undefined
+26:01:2022	10:07:52	{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]}
+26:01:2022	10:08:10	/employees	POST	undefined
+26:01:2022	10:08:10	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:08:10	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:08:11	Starting Application...
+26:01:2022	10:08:11	Application running on port 6969
+26:01:2022	10:09:02	Starting Application...
+26:01:2022	10:09:02	Application running on port 6969
+26:01:2022	10:09:14	Starting Application...
+26:01:2022	10:09:14	Application running on port 6969
+26:01:2022	10:09:18	/employees	GET	undefined
+26:01:2022	10:10:11	Starting Application...
+26:01:2022	10:10:11	Application running on port 6969
+26:01:2022	10:10:19	/employees	POST	undefined
+26:01:2022	10:10:19	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:10:19	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:10:21	/employees	GET	undefined
+26:01:2022	10:12:48	Starting Application...
+26:01:2022	10:12:48	Application running on port 6969
+26:01:2022	10:13:03	/employees	GET	undefined
+26:01:2022	10:13:06	/employees/1	GET	undefined
+26:01:2022	10:13:06	{"id":1,"firstname":"Shandeep","lastname":"Srinivas","groups":["mailRead","mailWrite"]}
+26:01:2022	10:13:18	/employees	POST	undefined
+26:01:2022	10:13:18	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:13:18	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:13:18	Starting Application...
+26:01:2022	10:13:18	Application running on port 6969
+26:01:2022	10:13:26	/employees	GET	undefined
+26:01:2022	10:18:32	Starting Application...
+26:01:2022	10:18:32	Application running on port 6969
+26:01:2022	10:18:55	Starting Application...
+26:01:2022	10:18:55	Application running on port 6969
+26:01:2022	10:18:59	/employees	GET	undefined
+26:01:2022	10:19:03	/employees	POST	undefined
+26:01:2022	10:19:03	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:19:03	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:19:04	Starting Application...
+26:01:2022	10:19:04	Application running on port 6969
+26:01:2022	10:19:07	/employees	GET	undefined
+26:01:2022	10:19:13	/employees/3	GET	undefined
+26:01:2022	10:19:13	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:35:15	Starting Application...
+26:01:2022	10:35:16	Application running on port 6969
+26:01:2022	10:35:17	/employees	POST	undefined
+26:01:2022	10:35:35	/employees	POST	undefined
+26:01:2022	10:35:35	Recieved body --> {"firstname":"","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:35:52	Starting Application...
+26:01:2022	10:35:52	Application running on port 6969
+26:01:2022	10:35:54	/employees	POST	undefined
+26:01:2022	10:35:54	Recieved body --> {"firstname":"","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:39:00	Starting Application...
+26:01:2022	10:39:00	Application running on port 6969
+26:01:2022	10:39:01	/employees	POST	undefined
+26:01:2022	10:39:01	Recieved body --> {"firstname":"","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:39:25	/employees	POST	undefined
+26:01:2022	10:39:25	Recieved body --> {}
+26:01:2022	10:39:25	Updated body --> {"id":4}
+26:01:2022	10:39:26	Starting Application...
+26:01:2022	10:39:26	Application running on port 6969
+26:01:2022	10:39:41	Starting Application...
+26:01:2022	10:39:41	Application running on port 6969
+26:01:2022	10:40:35	Starting Application...
+26:01:2022	10:40:36	Application running on port 6969
+26:01:2022	10:41:44	/employees	POST	undefined
+26:01:2022	10:41:44	Recieved body --> {"firstname":"","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:41:58	/employees	POST	undefined
+26:01:2022	10:41:58	Recieved body --> {}
+26:01:2022	10:55:24	Starting Application...
+26:01:2022	10:55:24	Application running on port 6969
+26:01:2022	10:55:28	/employees	GET	undefined
+26:01:2022	10:55:32	/employees	POST	undefined
+26:01:2022	10:55:32	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:55:32	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	10:55:32	Starting Application...
+26:01:2022	10:55:33	Application running on port 6969
+26:01:2022	10:56:35	/employees	PUT	undefined
+26:01:2022	10:56:35	Recieved body --> {"id":3,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:57:05	Starting Application...
+26:01:2022	10:57:05	Application running on port 6969
+26:01:2022	10:57:08	/employees	POST	undefined
+26:01:2022	10:57:08	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:57:08	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":4}
+26:01:2022	10:57:09	Starting Application...
+26:01:2022	10:57:09	Application running on port 6969
+26:01:2022	10:57:20	/employees	PUT	undefined
+26:01:2022	10:57:20	Recieved body --> {"id":3,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:57:20	Updated body --> {"id":5,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	10:57:20	Starting Application...
+26:01:2022	10:57:20	Application running on port 6969
+26:01:2022	10:57:26	/employees	GET	undefined
+26:01:2022	10:58:30	Starting Application...
+26:01:2022	10:58:30	Application running on port 6969
+26:01:2022	10:58:42	Starting Application...
+26:01:2022	10:58:42	Application running on port 6969
+26:01:2022	10:59:07	Starting Application...
+26:01:2022	10:59:07	Application running on port 6969
+26:01:2022	10:59:15	Starting Application...
+26:01:2022	10:59:16	Application running on port 6969
+26:01:2022	11:03:22	Starting Application...
+26:01:2022	11:03:22	Application running on port 6969
+26:01:2022	11:03:27	/employees/3	GET	undefined
+26:01:2022	11:03:27	undefined
+26:01:2022	11:03:34	/employees	PUT	undefined
+26:01:2022	11:03:34	Recieved body --> {"id":3,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:03:43	/employees	GET	undefined
+26:01:2022	11:03:45	/employees	POST	undefined
+26:01:2022	11:03:45	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:03:45	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:03:46	Starting Application...
+26:01:2022	11:03:46	Application running on port 6969
+26:01:2022	11:03:48	/employees/3	GET	undefined
+26:01:2022	11:03:48	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:03:50	/employees	PUT	undefined
+26:01:2022	11:03:50	Recieved body --> {"id":3,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:03:50	Updated body --> {"id":3,"firstname":"ram test","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:03:51	Starting Application...
+26:01:2022	11:03:51	Application running on port 6969
+26:01:2022	11:03:58	/employees	GET	undefined
+26:01:2022	11:04:08	/employees	PUT	undefined
+26:01:2022	11:04:08	Recieved body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:04:08	Updated body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:04:09	Starting Application...
+26:01:2022	11:04:09	Application running on port 6969
+26:01:2022	11:04:18	/employees/3	GET	undefined
+26:01:2022	11:04:18	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:04:20	/employees	PUT	undefined
+26:01:2022	11:04:20	Recieved body --> {"id":3,"firstname":"ram","lastname":"kumar"}
+26:01:2022	11:04:20	Updated body --> {"id":3,"firstname":"ram","lastname":"kumar"}
+26:01:2022	11:04:21	Starting Application...
+26:01:2022	11:04:21	Application running on port 6969
+26:01:2022	11:04:22	/employees/3	GET	undefined
+26:01:2022	11:04:22	{"firstname":"ram","lastname":"kumar","id":3}
+26:01:2022	11:04:26	/employees	PUT	undefined
+26:01:2022	11:04:26	Recieved body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:04:26	Updated body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:04:27	Starting Application...
+26:01:2022	11:04:27	Application running on port 6969
+26:01:2022	11:04:28	/employees/3	GET	undefined
+26:01:2022	11:04:28	{"firstname":"ram","lastname":"kumar","id":3,"groups":["mailRead","mailWrite"]}
+26:01:2022	11:08:25	Starting Application...
+26:01:2022	11:08:25	Application running on port 6969
+26:01:2022	11:10:56	Starting Application...
+26:01:2022	11:10:56	Application running on port 6969
+26:01:2022	11:16:21	Starting Application...
+26:01:2022	11:16:21	Application running on port 6969
+26:01:2022	11:16:25	/employees	POST	undefined
+26:01:2022	11:16:25	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:16:25	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":4}
+26:01:2022	11:16:26	Starting Application...
+26:01:2022	11:16:26	Application running on port 6969
+26:01:2022	11:16:53	Starting Application...
+26:01:2022	11:16:53	Application running on port 6969
+26:01:2022	11:17:00	/employees	GET	undefined
+26:01:2022	11:17:03	/employees/3	GET	undefined
+26:01:2022	11:17:03	undefined
+26:01:2022	11:17:06	/employees	POST	undefined
+26:01:2022	11:17:06	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:17:06	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:17:07	Starting Application...
+26:01:2022	11:17:07	Application running on port 6969
+26:01:2022	11:17:08	/employees	GET	undefined
+26:01:2022	11:17:22	/employees/3	PUT	undefined
+26:01:2022	11:17:22	Recieved body --> {"id":3,"firstname":"ram t","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:17:22	Updated body --> {"id":3,"firstname":"ram t","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:17:22	Starting Application...
+26:01:2022	11:17:22	Application running on port 6969
+26:01:2022	11:17:24	/employees	GET	undefined
+26:01:2022	11:17:28	/employees/3	GET	undefined
+26:01:2022	11:17:28	{"firstname":"ram t","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:17:32	/employees/3	PUT	undefined
+26:01:2022	11:17:32	Recieved body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:17:32	Updated body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:17:33	Starting Application...
+26:01:2022	11:17:33	Application running on port 6969
+26:01:2022	11:17:34	/employees/3	GET	undefined
+26:01:2022	11:17:34	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:17:35	/employees	GET	undefined
+26:01:2022	11:18:57	Starting Application...
+26:01:2022	11:18:57	Application running on port 6969
+26:01:2022	11:20:06	/employees/3	DELETE	undefined
+26:01:2022	11:20:30	Starting Application...
+26:01:2022	11:20:30	Application running on port 6969
+26:01:2022	11:38:07	Starting Application...
+26:01:2022	11:38:07	Application running on port 6969
+26:01:2022	11:38:15	/employees/3	DELETE	undefined
+26:01:2022	11:39:05	Starting Application...
+26:01:2022	11:39:05	Application running on port 6969
+26:01:2022	11:39:27	Starting Application...
+26:01:2022	11:39:27	Application running on port 6969
+26:01:2022	11:39:39	Starting Application...
+26:01:2022	11:39:39	Application running on port 6969
+26:01:2022	11:39:43	/employees/3	DELETE	undefined
+26:01:2022	11:40:44	Starting Application...
+26:01:2022	11:40:44	Application running on port 6969
+26:01:2022	11:40:48	/employees/3	DELETE	undefined
+26:01:2022	11:41:06	Starting Application...
+26:01:2022	11:41:06	Application running on port 6969
+26:01:2022	11:41:12	/employees/3	DELETE	undefined
+26:01:2022	11:41:12	Deleting user --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:43:21	Starting Application...
+26:01:2022	11:43:21	Application running on port 6969
+26:01:2022	11:43:27	/employees	GET	undefined
+26:01:2022	11:43:31	/employees	POST	undefined
+26:01:2022	11:43:31	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:43:31	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:43:34	/employees/3	GET	undefined
+26:01:2022	11:43:34	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:43:35	/employees	GET	undefined
+26:01:2022	11:43:40	/employees/3	DELETE	undefined
+26:01:2022	11:43:40	Deleting user --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:44:13	Starting Application...
+26:01:2022	11:44:13	Application running on port 6969
+26:01:2022	11:44:28	/employees/3	GET	undefined
+26:01:2022	11:44:28	undefined
+26:01:2022	11:44:36	/employees	POST	undefined
+26:01:2022	11:44:36	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	11:44:36	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:44:37	/employees/3	GET	undefined
+26:01:2022	11:44:37	{"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	11:44:43	/employees/3	DELETE	undefined
+26:01:2022	11:44:43	Deleting user --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	12:00:04	Starting Application...
+26:01:2022	12:00:04	Application running on port 6969
+26:01:2022	12:00:09	/employees	POST	undefined
+26:01:2022	12:00:09	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	12:00:09	Updated body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	12:00:57	Starting Application...
+26:01:2022	12:00:57	Application running on port 6969
+26:01:2022	12:01:00	/employees	POST	undefined
+26:01:2022	12:01:00	Recieved body --> {"firstname":"ram","lastname":"kumar","groups":["mailRead","mailWrite"]}
+26:01:2022	12:01:23	/employees	POST	undefined
+26:01:2022	12:01:23	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":["mailRead","mailWrite"]}
+26:01:2022	12:01:23	Updated body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":["mailRead","mailWrite"],"id":3}
+26:01:2022	12:10:28	Starting Application...
+26:01:2022	12:10:28	Application running on port 6969
+26:01:2022	12:10:37	Starting Application...
+26:01:2022	12:10:37	Application running on port 6969
+26:01:2022	12:10:41	Starting Application...
+26:01:2022	12:10:41	Application running on port 6969
+26:01:2022	12:10:50	Starting Application...
+26:01:2022	12:10:50	Application running on port 6969
+26:01:2022	12:10:53	Starting Application...
+26:01:2022	12:10:53	Application running on port 6969
+26:01:2022	12:11:06	Starting Application...
+26:01:2022	12:11:06	Application running on port 6969
+26:01:2022	12:11:15	Starting Application...
+26:01:2022	12:11:15	Application running on port 6969
+26:01:2022	12:12:30	Starting Application...
+26:01:2022	12:12:30	Application running on port 6969
+26:01:2022	12:12:34	Starting Application...
+26:01:2022	12:12:34	Application running on port 6969
+26:01:2022	12:16:33	Starting Application...
+26:01:2022	12:16:33	Application running on port 6969
+26:01:2022	12:20:54	Starting Application...
+26:01:2022	12:20:54	Application running on port 6969
+26:01:2022	12:21:05	/employees	POST	undefined
+26:01:2022	12:21:05	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":["mailRead","mailWrite"]}
+26:01:2022	12:22:14	Starting Application...
+26:01:2022	12:22:14	Application running on port 6969
+26:01:2022	12:22:21	/employees	POST	undefined
+26:01:2022	12:22:21	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":["mailRead","mailWrite"]}
+26:01:2022	12:22:44	/employees	POST	undefined
+26:01:2022	12:22:44	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[2,3]}
+26:01:2022	12:22:44	Updated body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[2,3],"id":3}
+26:01:2022	12:23:23	/employees/3	PUT	undefined
+26:01:2022	12:23:23	Recieved body --> {"id":3,"firstname":"ram","lastname":"kumar","groups":[]}
+26:01:2022	12:23:32	Starting Application...
+26:01:2022	12:23:32	Application running on port 6969
+26:01:2022	21:05:41	Starting Application...
+26:01:2022	21:05:42	Application running on port 6969
+26:01:2022	21:06:11	Starting Application...
+26:01:2022	21:06:11	Application running on port 6969
+26:01:2022	21:06:21	/employees	GET	undefined
+26:01:2022	21:06:47	/employees	POST	undefined
+26:01:2022	21:06:47	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:08:35	Starting Application...
+26:01:2022	21:08:35	Application running on port 6969
+26:01:2022	21:08:38	/employees	POST	undefined
+26:01:2022	21:08:38	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:09:13	Starting Application...
+26:01:2022	21:09:13	Application running on port 6969
+26:01:2022	21:09:14	/employees	POST	undefined
+26:01:2022	21:09:14	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:09:47	Starting Application...
+26:01:2022	21:09:47	Application running on port 6969
+26:01:2022	21:09:49	/employees	POST	undefined
+26:01:2022	21:09:49	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:10:11	Starting Application...
+26:01:2022	21:10:11	Application running on port 6969
+26:01:2022	21:10:14	/employees	POST	undefined
+26:01:2022	21:10:14	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:10:50	Starting Application...
+26:01:2022	21:10:50	Application running on port 6969
+26:01:2022	21:10:52	/employees	POST	undefined
+26:01:2022	21:10:52	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:11:54	/employees	POST	undefined
+26:01:2022	21:11:54	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1]}
+26:01:2022	21:12:00	Starting Application...
+26:01:2022	21:12:00	Application running on port 6969
+26:01:2022	21:12:02	/employees	POST	undefined
+26:01:2022	21:12:02	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1]}
+26:01:2022	21:12:54	Starting Application...
+26:01:2022	21:12:54	Application running on port 6969
+26:01:2022	21:12:55	/employees	POST	undefined
+26:01:2022	21:12:55	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1]}
+26:01:2022	21:14:15	Starting Application...
+26:01:2022	21:14:15	Application running on port 6969
+26:01:2022	21:14:16	/employees	POST	undefined
+26:01:2022	21:14:16	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1]}
+26:01:2022	21:14:27	/employees	POST	undefined
+26:01:2022	21:14:27	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:18:03	Starting Application...
+26:01:2022	21:18:03	Application running on port 6969
+26:01:2022	21:18:08	/employees	POST	undefined
+26:01:2022	21:18:08	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:18:41	Starting Application...
+26:01:2022	21:18:41	Application running on port 6969
+26:01:2022	21:18:43	/employees	POST	undefined
+26:01:2022	21:18:43	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:18:51	Starting Application...
+26:01:2022	21:18:51	Application running on port 6969
+26:01:2022	21:18:52	/employees	POST	undefined
+26:01:2022	21:18:52	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:19:12	Starting Application...
+26:01:2022	21:19:12	Application running on port 6969
+26:01:2022	21:19:14	/employees	POST	undefined
+26:01:2022	21:19:14	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:19:14	Updated body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:19:53	Starting Application...
+26:01:2022	21:19:53	Application running on port 6969
+26:01:2022	21:19:58	/employees/3	DELETE	undefined
+26:01:2022	21:19:58	Deleting user --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:20:26	/employees	POST	undefined
+26:01:2022	21:20:26	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:20:26	Updated body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:20:50	Starting Application...
+26:01:2022	21:20:51	Application running on port 6969
+26:01:2022	21:20:57	/employees/3	DELETE	undefined
+26:01:2022	21:20:57	Deleting user --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:21:00	/employees	POST	undefined
+26:01:2022	21:21:00	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:21:00	Updated body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:21:17	Starting Application...
+26:01:2022	21:21:17	Application running on port 6969
+26:01:2022	21:21:18	/employees/3	DELETE	undefined
+26:01:2022	21:21:18	Deleting user --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9],"id":3}
+26:01:2022	21:21:22	/employees	POST	undefined
+26:01:2022	21:21:22	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[9]}
+26:01:2022	21:21:32	/employees	POST	undefined
+26:01:2022	21:21:32	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1,9]}
+26:01:2022	21:21:37	/employees	POST	undefined
+26:01:2022	21:21:37	Recieved body --> {"firstname":"ram","lastname":"kumar","email":"ram.kumar@company.com","groups":[1,11]}
+26:01:2022	21:21:54	Starting Application...
+26:01:2022	21:21:54	Application running on port 6969
+26:01:2022	21:23:23	Starting Application...
+26:01:2022	21:23:23	Application running on port 6969
