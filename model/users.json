@@ -1,6 +1,7 @@
 [
     {
         "username": "test",
-        "password": "$2b$10$nKqba8RBxRn9YfAwm9Iuyu.Lwkz70NXrHeUOZHTNcioLET8Kd/mK2"
+        "password": "$2b$10$nKqba8RBxRn9YfAwm9Iuyu.Lwkz70NXrHeUOZHTNcioLET8Kd/mK2",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpYXQiOjE2NDMzODIwMjAsImV4cCI6MTY0MzQ2ODQyMH0.HKowLFDJQI3MKH6suOqW2NH2oG7KO24UkWPfg7505sU"
     }
 ]

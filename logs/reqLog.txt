@@ -1429,3 +1429,104 @@
 28:01:2022	18:59:53	Starting Application...
 28:01:2022	18:59:53	Setting authentication type as basicAuthentication
 28:01:2022	18:59:53	Application running on port 6969
+28:01:2022	19:31:49	Starting Application...
+28:01:2022	19:31:49	Setting authentication type as basicAuthentication
+28:01:2022	19:31:49	Application running on port 6969
+28:01:2022	19:32:02	Starting Application...
+28:01:2022	19:32:02	Setting authentication type as basicAuthentication
+28:01:2022	19:32:02	Application running on port 6969
+28:01:2022	19:33:19	Starting Application...
+28:01:2022	19:33:19	Setting authentication type as basicAuthentication
+28:01:2022	19:33:20	Application running on port 6969
+28:01:2022	19:36:20	Starting Application...
+28:01:2022	19:36:20	Setting authentication type as basicAuthentication
+28:01:2022	19:36:20	Application running on port 6969
+28:01:2022	19:36:21	/employees	GET	undefined
+28:01:2022	19:36:33	/auth	POST	undefined
+28:01:2022	19:36:33	Unauthorized ~~> basicAuthentication
+28:01:2022	19:36:55	/authreg	POST	undefined
+28:01:2022	19:36:55	Unauthorized ~~> basicAuthentication
+28:01:2022	19:38:19	Starting Application...
+28:01:2022	19:38:19	Setting authentication type as basicAuthentication
+28:01:2022	19:38:20	Application running on port 6969
+28:01:2022	19:38:25	/authreg	POST	undefined
+28:01:2022	19:38:28	/auth	POST	undefined
+28:01:2022	19:38:28	Unauthorized ~~> basicAuthentication
+28:01:2022	19:39:55	Starting Application...
+28:01:2022	19:39:55	Setting authentication type as JWT
+28:01:2022	19:39:55	Application running on port 6969
+28:01:2022	19:39:59	/authreg	POST	undefined
+28:01:2022	19:40:01	/auth	POST	undefined
+28:01:2022	19:40:30	/auth	POST	undefined
+28:01:2022	19:41:09	Starting Application...
+28:01:2022	19:41:09	Setting authentication type as basicAuthentication
+28:01:2022	19:41:09	Application running on port 6969
+28:01:2022	20:15:43	Starting Application...
+28:01:2022	20:15:43	Setting authentication type as basicAuthentication
+28:01:2022	20:15:43	Application running on port 6969
+28:01:2022	20:18:31	Starting Application...
+28:01:2022	20:18:31	Setting authentication type as basicAuthentication
+28:01:2022	20:18:31	Application running on port 6969
+28:01:2022	20:19:04	Starting Application...
+28:01:2022	20:19:04	Setting authentication type as basicAuthentication
+28:01:2022	20:19:05	Application running on port 6969
+28:01:2022	20:20:10	Starting Application...
+28:01:2022	20:20:10	Setting authentication type as basicAuthentication
+28:01:2022	20:20:10	Application running on port 6969
+28:01:2022	20:23:14	Starting Application...
+28:01:2022	20:23:14	Setting authentication type as basicAuthentication
+28:01:2022	20:23:14	Application running on port 6969
+28:01:2022	20:24:59	Starting Application...
+28:01:2022	20:24:59	Setting authentication type as basicAuthentication
+28:01:2022	20:24:59	Application running on port 6969
+28:01:2022	20:26:29	Starting Application...
+28:01:2022	20:26:29	Setting authentication type as basicAuthentication
+28:01:2022	20:26:29	Application running on port 6969
+28:01:2022	20:27:00	Starting Application...
+28:01:2022	20:27:00	Setting authentication type as basicAuthentication
+28:01:2022	20:27:00	Application running on port 6969
+28:01:2022	20:28:14	Starting Application...
+28:01:2022	20:28:14	Setting authentication type as basicAuthentication
+28:01:2022	20:28:14	Application running on port 6969
+28:01:2022	20:28:38	Starting Application...
+28:01:2022	20:28:38	Setting authentication type as basicAuthentication
+28:01:2022	20:28:38	Application running on port 6969
+28:01:2022	20:28:55	/authreg	POST	undefined
+28:01:2022	20:28:59	/employees	GET	undefined
+28:01:2022	20:29:09	/auth	POST	undefined
+28:01:2022	20:29:09	Unauthorized ~~> basicAuthentication
+28:01:2022	20:29:15	Starting Application...
+28:01:2022	20:29:15	Setting authentication type as JWT
+28:01:2022	20:29:15	Application running on port 6969
+28:01:2022	20:29:23	/employees	GET	undefined
+28:01:2022	20:29:40	/authreg	POST	undefined
+28:01:2022	20:29:45	/auth	POST	undefined
+28:01:2022	20:30:13	Starting Application...
+28:01:2022	20:30:13	Setting authentication type as JWT
+28:01:2022	20:30:14	Application running on port 6969
+28:01:2022	20:30:20	/auth	POST	undefined
+28:01:2022	20:30:33	/employees	GET	undefined
+28:01:2022	20:30:37	/employees	GET	undefined
+28:01:2022	20:30:40	/employees	GET	undefined
+28:01:2022	20:30:44	/employees	GET	undefined
+28:01:2022	20:30:45	/employees	GET	undefined
+28:01:2022	20:30:46	/employees	GET	undefined
+28:01:2022	20:30:47	/employees	GET	undefined
+28:01:2022	20:30:47	/employees	GET	undefined
+28:01:2022	20:30:48	/employees	GET	undefined
+28:01:2022	20:30:48	/employees	GET	undefined
+28:01:2022	20:30:50	/employees	GET	undefined
+28:01:2022	20:30:51	/employees	GET	undefined
+28:01:2022	20:30:52	/employees	GET	undefined
+28:01:2022	21:21:00	Starting Application...
+28:01:2022	21:21:00	Setting authentication type as JWT
+28:01:2022	21:21:01	Application running on port 6969
+28:01:2022	21:25:38	Starting Application...
+28:01:2022	21:25:38	Setting authentication type as JWT
+28:01:2022	21:25:38	Application running on port 6969
+28:01:2022	22:07:34	Starting Application...
+28:01:2022	22:07:34	Setting authentication type as JWT
+28:01:2022	22:07:34	Application running on port 6969
+28:01:2022	22:08:00	Starting Application...
+28:01:2022	22:08:00	Setting authentication type as JWT
+28:01:2022	22:08:01	Application running on port 6969
