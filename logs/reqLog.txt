@@ -625,3 +625,807 @@
 26:01:2022	21:21:54	Application running on port 6969
 26:01:2022	21:23:23	Starting Application...
 26:01:2022	21:23:23	Application running on port 6969
+27:01:2022	21:48:10	Starting Application...
+27:01:2022	21:48:10	Application running on port 6969
+27:01:2022	21:48:14	/employees	GET	undefined
+27:01:2022	21:48:58	Starting Application...
+27:01:2022	21:48:58	Application running on port 6969
+27:01:2022	21:49:01	/employees	GET	undefined
+27:01:2022	21:49:33	/employees	POST	undefined
+27:01:2022	21:49:33	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	21:49:33	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	21:50:39	/employees/3	PUT	undefined
+27:01:2022	21:50:39	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	21:52:41	Starting Application...
+27:01:2022	21:52:41	Application running on port 6969
+27:01:2022	21:52:44	/employees/3	PUT	undefined
+27:01:2022	21:52:44	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	21:53:14	Starting Application...
+27:01:2022	21:53:14	Application running on port 6969
+27:01:2022	21:53:16	/employees/3	PUT	undefined
+27:01:2022	21:53:16	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	21:54:48	Starting Application...
+27:01:2022	21:54:48	Application running on port 6969
+27:01:2022	21:54:50	/employees/3	PUT	undefined
+27:01:2022	21:54:50	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	21:54:50	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+27:01:2022	21:57:48	Starting Application...
+27:01:2022	21:57:48	Application running on port 6969
+27:01:2022	21:58:05	/employees/3	PUT	undefined
+27:01:2022	21:58:05	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	21:58:05	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	22:01:00	Starting Application...
+27:01:2022	22:01:00	Application running on port 6969
+27:01:2022	22:01:03	/employees/3	PUT	undefined
+27:01:2022	22:01:03	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	22:01:03	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	22:01:26	Starting Application...
+27:01:2022	22:01:27	Application running on port 6969
+27:01:2022	22:01:28	/employees/3	PUT	undefined
+27:01:2022	22:01:28	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	22:01:28	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	22:01:48	Starting Application...
+27:01:2022	22:01:48	Application running on port 6969
+27:01:2022	22:01:50	/employees/3	PUT	undefined
+27:01:2022	22:01:50	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	22:01:50	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	22:02:45	Starting Application...
+27:01:2022	22:02:45	Application running on port 6969
+27:01:2022	22:02:47	/employees/3	PUT	undefined
+27:01:2022	22:02:47	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+27:01:2022	22:02:47	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+27:01:2022	22:03:10	/employees/3	PUT	undefined
+27:01:2022	22:03:10	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	22:03:10	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+27:01:2022	22:05:54	Starting Application...
+27:01:2022	22:05:55	Application running on port 6969
+27:01:2022	22:06:16	Starting Application...
+27:01:2022	22:06:16	Application running on port 6969
+27:01:2022	22:06:20	/employees/3	PUT	undefined
+27:01:2022	22:06:20	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	22:06:20	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+27:01:2022	22:07:17	Starting Application...
+27:01:2022	22:07:17	Application running on port 6969
+27:01:2022	22:07:19	/employees/3	PUT	undefined
+27:01:2022	22:07:19	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	22:07:19	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+27:01:2022	22:12:22	Starting Application...
+27:01:2022	22:12:23	Application running on port 6969
+27:01:2022	22:12:25	/employees/3	PUT	undefined
+27:01:2022	22:12:25	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	22:12:25	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+27:01:2022	22:13:45	Starting Application...
+27:01:2022	22:13:45	Application running on port 6969
+27:01:2022	22:13:50	/employees/3	PUT	undefined
+27:01:2022	22:13:50	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+27:01:2022	22:13:50	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	10:05:09	Starting Application...
+28:01:2022	10:05:09	Application running on port 6969
+28:01:2022	10:06:01	/employees/3	PUT	undefined
+28:01:2022	10:06:01	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:06:01	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:06:23	/employees/3	PUT	undefined
+28:01:2022	10:06:23	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	10:06:23	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	10:06:52	/employees/3	PUT	undefined
+28:01:2022	10:06:52	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	10:06:52	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	10:07:07	/employees/3	PUT	undefined
+28:01:2022	10:07:07	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	10:07:07	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	10:07:14	/employees/3	PUT	undefined
+28:01:2022	10:07:14	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	10:07:14	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	10:07:31	/employees/3	PUT	undefined
+28:01:2022	10:07:31	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:07:31	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:20:21	Starting Application...
+28:01:2022	10:20:21	Application running on port 6969
+28:01:2022	10:21:02	Starting Application...
+28:01:2022	10:21:02	Application running on port 6969
+28:01:2022	10:21:05	/employees/3	PUT	undefined
+28:01:2022	10:21:05	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:21:05	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:22:16	Starting Application...
+28:01:2022	10:22:16	Application running on port 6969
+28:01:2022	10:22:18	/employees/3	PUT	undefined
+28:01:2022	10:22:18	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:22:18	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:22:31	Starting Application...
+28:01:2022	10:22:31	Application running on port 6969
+28:01:2022	10:22:38	/employees/3	PUT	undefined
+28:01:2022	10:22:38	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:22:38	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:22:48	Starting Application...
+28:01:2022	10:22:48	Application running on port 6969
+28:01:2022	10:23:28	/employees/3	PUT	undefined
+28:01:2022	10:23:28	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:23:28	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:24:46	Starting Application...
+28:01:2022	10:24:46	Application running on port 6969
+28:01:2022	10:24:55	Starting Application...
+28:01:2022	10:24:55	Application running on port 6969
+28:01:2022	10:24:57	/employees/3	PUT	undefined
+28:01:2022	10:24:57	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:24:57	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:28:57	Starting Application...
+28:01:2022	10:28:57	Application running on port 6969
+28:01:2022	10:29:03	/employees/3	PUT	undefined
+28:01:2022	10:29:03	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:29:03	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:29:32	Starting Application...
+28:01:2022	10:29:32	Application running on port 6969
+28:01:2022	10:29:36	/employees/3	PUT	undefined
+28:01:2022	10:29:36	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:29:36	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:30:11	Starting Application...
+28:01:2022	10:30:11	Application running on port 6969
+28:01:2022	10:30:12	/employees/3	PUT	undefined
+28:01:2022	10:30:12	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:30:12	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	10:30:49	Starting Application...
+28:01:2022	10:30:49	Application running on port 6969
+28:01:2022	10:30:51	Starting Application...
+28:01:2022	10:30:52	Application running on port 6969
+28:01:2022	10:30:53	/employees/3	PUT	undefined
+28:01:2022	10:30:53	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	10:30:53	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:21:00	Starting Application...
+28:01:2022	11:21:00	Application running on port 6969
+28:01:2022	11:21:02	/employees/3	PUT	undefined
+28:01:2022	11:21:02	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:21:02	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:24:12	Starting Application...
+28:01:2022	11:24:12	Application running on port 6969
+28:01:2022	11:24:23	/employees/3	PUT	undefined
+28:01:2022	11:24:23	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:24:23	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:24:46	Starting Application...
+28:01:2022	11:24:46	Application running on port 6969
+28:01:2022	11:24:59	Starting Application...
+28:01:2022	11:24:59	Application running on port 6969
+28:01:2022	11:25:00	/employees/3	PUT	undefined
+28:01:2022	11:25:00	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:25:00	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:25:53	/employees/3	PUT	undefined
+28:01:2022	11:25:53	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:25:53	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:26:04	Starting Application...
+28:01:2022	11:26:05	Application running on port 6969
+28:01:2022	11:26:06	/employees/3	PUT	undefined
+28:01:2022	11:26:06	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:26:06	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:26:15	Starting Application...
+28:01:2022	11:26:15	Application running on port 6969
+28:01:2022	11:26:19	/employees/3	PUT	undefined
+28:01:2022	11:26:19	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:26:19	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:28:16	Starting Application...
+28:01:2022	11:28:16	Application running on port 6969
+28:01:2022	11:31:35	Starting Application...
+28:01:2022	11:31:35	Application running on port 6969
+28:01:2022	11:31:50	Starting Application...
+28:01:2022	11:31:50	Application running on port 6969
+28:01:2022	11:31:55	/employees/3	PUT	undefined
+28:01:2022	11:31:55	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:31:55	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:32:05	Starting Application...
+28:01:2022	11:32:05	Application running on port 6969
+28:01:2022	11:32:06	/employees/3	PUT	undefined
+28:01:2022	11:32:06	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:32:06	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:32:20	Starting Application...
+28:01:2022	11:32:20	Application running on port 6969
+28:01:2022	11:32:32	/employees/3	PUT	undefined
+28:01:2022	11:32:32	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:32:32	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:32:45	Starting Application...
+28:01:2022	11:32:45	Application running on port 6969
+28:01:2022	11:32:46	/employees/3	PUT	undefined
+28:01:2022	11:32:46	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:32:47	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:33:51	Starting Application...
+28:01:2022	11:33:51	Application running on port 6969
+28:01:2022	11:33:59	Starting Application...
+28:01:2022	11:34:00	Application running on port 6969
+28:01:2022	11:34:02	/employees/3	PUT	undefined
+28:01:2022	11:34:02	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:34:02	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:35:25	Starting Application...
+28:01:2022	11:35:25	Application running on port 6969
+28:01:2022	11:35:28	/employees/3	PUT	undefined
+28:01:2022	11:35:28	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:35:28	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:37:43	Starting Application...
+28:01:2022	11:37:43	Application running on port 6969
+28:01:2022	11:38:07	/employees/3	PUT	undefined
+28:01:2022	11:38:07	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	11:38:07	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	11:40:18	Starting Application...
+28:01:2022	11:40:18	Application running on port 6969
+28:01:2022	11:40:36	/employees/3	PUT	undefined
+28:01:2022	11:40:36	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	11:40:36	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	11:40:46	/employees/3	PUT	undefined
+28:01:2022	11:40:46	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:40:46	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:41:03	/employees/3	PUT	undefined
+28:01:2022	11:41:03	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	11:41:03	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	11:41:17	/employees/3	PUT	undefined
+28:01:2022	11:41:17	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:41:17	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:45:06	Starting Application...
+28:01:2022	11:45:06	Application running on port 6969
+28:01:2022	11:45:14	/employees/3	PUT	undefined
+28:01:2022	11:45:14	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:45:14	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:45:29	/employees/3	PUT	undefined
+28:01:2022	11:45:29	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	11:45:29	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	11:45:41	/employees/3	PUT	undefined
+28:01:2022	11:45:41	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	11:45:41	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	11:45:51	/employees/3	PUT	undefined
+28:01:2022	11:45:51	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:45:51	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:46:01	/employees/3	PUT	undefined
+28:01:2022	11:46:01	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	11:46:01	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	11:46:08	/employees/3	PUT	undefined
+28:01:2022	11:46:08	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:46:08	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:48:33	Starting Application...
+28:01:2022	11:48:33	Application running on port 6969
+28:01:2022	11:57:49	Starting Application...
+28:01:2022	11:57:49	Application running on port 6969
+28:01:2022	11:58:38	/employees/3	PUT	undefined
+28:01:2022	11:58:38	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	11:58:38	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	11:58:47	/employees/3	PUT	undefined
+28:01:2022	11:58:47	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:58:47	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:58:47	Groups to grant --> 5
+28:01:2022	11:58:47	Groups to remove --> 
+28:01:2022	11:59:13	Starting Application...
+28:01:2022	11:59:13	Application running on port 6969
+28:01:2022	11:59:21	/employees/3	PUT	undefined
+28:01:2022	11:59:21	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	11:59:21	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	11:59:29	/employees/3	PUT	undefined
+28:01:2022	11:59:29	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	11:59:29	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	11:59:29	Groups to grant --> 5
+28:01:2022	11:59:29	Groups to remove --> 
+28:01:2022	12:02:14	Starting Application...
+28:01:2022	12:02:14	Application running on port 6969
+28:01:2022	12:02:29	/employees/3	PUT	undefined
+28:01:2022	12:02:29	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	12:02:29	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	12:02:40	Starting Application...
+28:01:2022	12:02:40	Application running on port 6969
+28:01:2022	12:02:44	/employees/3	PUT	undefined
+28:01:2022	12:02:44	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	12:02:44	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	12:03:10	/employees/3	PUT	undefined
+28:01:2022	12:03:10	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:03:10	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:03:10	Groups to grant --> 5
+28:01:2022	12:03:10	Groups to remove --> 
+28:01:2022	12:04:31	Starting Application...
+28:01:2022	12:04:31	Application running on port 6969
+28:01:2022	12:04:38	/employees/3	PUT	undefined
+28:01:2022	12:04:38	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	12:04:38	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	12:04:38	Groups to grant --> 5
+28:01:2022	12:04:38	Groups to remove --> 
+28:01:2022	12:06:22	Starting Application...
+28:01:2022	12:06:22	Application running on port 6969
+28:01:2022	12:12:44	Starting Application...
+28:01:2022	12:12:44	Application running on port 6969
+28:01:2022	12:12:58	/employees/3	PUT	undefined
+28:01:2022	12:12:58	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	12:12:58	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	12:12:58	Groups to grant --> 5,4,5
+28:01:2022	12:12:58	Groups to remove --> 
+28:01:2022	12:19:50	Starting Application...
+28:01:2022	12:19:51	Application running on port 6969
+28:01:2022	12:20:40	/employees/3	PUT	undefined
+28:01:2022	12:20:40	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:20:40	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:20:40	Groups to grant --> 4,4
+28:01:2022	12:20:40	Groups to remove --> 5
+28:01:2022	12:34:08	Starting Application...
+28:01:2022	12:34:08	Application running on port 6969
+28:01:2022	12:34:19	/employees/3	PUT	undefined
+28:01:2022	12:34:19	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:34:19	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:34:19	Groups to grant --> 4
+28:01:2022	12:34:19	Groups to remove --> 
+28:01:2022	12:34:52	/employees/3	PUT	undefined
+28:01:2022	12:34:52	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:34:52	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:34:52	Groups to grant --> 4
+28:01:2022	12:34:52	Groups to remove --> 
+28:01:2022	12:35:13	Starting Application...
+28:01:2022	12:35:13	Application running on port 6969
+28:01:2022	12:38:45	Starting Application...
+28:01:2022	12:38:46	Application running on port 6969
+28:01:2022	12:38:59	/employees/3	PUT	undefined
+28:01:2022	12:38:59	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:38:59	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:38:59	Groups to grant --> 4
+28:01:2022	12:38:59	Groups to remove --> 5
+28:01:2022	12:39:20	Starting Application...
+28:01:2022	12:39:21	Application running on port 6969
+28:01:2022	12:39:26	/employees/3	PUT	undefined
+28:01:2022	12:39:26	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:39:26	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:39:26	Groups to grant --> 4
+28:01:2022	12:39:26	Groups to remove --> 5
+28:01:2022	12:39:36	/employees/3	PUT	undefined
+28:01:2022	12:39:36	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:39:36	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:39:36	Groups to grant --> 4
+28:01:2022	12:39:36	Groups to remove --> 
+28:01:2022	12:39:44	/employees/3	PUT	undefined
+28:01:2022	12:39:44	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	12:39:44	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	12:39:44	Groups to grant --> 5,4
+28:01:2022	12:39:44	Groups to remove --> 
+28:01:2022	12:41:45	/employees/3	PUT	undefined
+28:01:2022	12:41:45	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:41:45	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:41:45	Groups to grant --> 5
+28:01:2022	12:41:45	Groups to remove --> 4
+28:01:2022	12:41:54	Starting Application...
+28:01:2022	12:41:54	Application running on port 6969
+28:01:2022	12:41:58	Starting Application...
+28:01:2022	12:41:59	Application running on port 6969
+28:01:2022	12:42:13	/employees/3	PUT	undefined
+28:01:2022	12:42:13	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:42:13	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:42:13	Groups to grant --> 5
+28:01:2022	12:42:13	Groups to remove --> 
+28:01:2022	12:42:30	Starting Application...
+28:01:2022	12:42:30	Application running on port 6969
+28:01:2022	12:42:37	/employees/3	PUT	undefined
+28:01:2022	12:42:37	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:42:37	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:42:37	Groups to grant --> 5
+28:01:2022	12:42:37	Groups to remove --> 4
+28:01:2022	12:43:01	Starting Application...
+28:01:2022	12:43:01	Application running on port 6969
+28:01:2022	12:43:05	/employees/3	PUT	undefined
+28:01:2022	12:43:05	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:43:05	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:43:05	Groups to grant --> 5
+28:01:2022	12:43:05	Groups to remove --> 
+28:01:2022	12:43:21	/employees/3	PUT	undefined
+28:01:2022	12:43:21	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com"}
+28:01:2022	12:43:21	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","id":3}
+28:01:2022	12:43:30	/employees/3	PUT	undefined
+28:01:2022	12:43:30	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+28:01:2022	12:43:30	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5],"id":3}
+28:01:2022	12:43:30	Groups to grant --> 5
+28:01:2022	12:43:30	Groups to remove --> 
+28:01:2022	12:43:47	/employees/3	PUT	undefined
+28:01:2022	12:43:47	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4]}
+28:01:2022	12:43:47	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5,4],"id":3}
+28:01:2022	12:43:47	Groups to grant --> 5,4
+28:01:2022	12:43:47	Groups to remove --> 
+28:01:2022	12:44:05	/employees/3	PUT	undefined
+28:01:2022	12:44:05	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:44:05	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:44:05	Groups to grant --> 4
+28:01:2022	12:44:05	Groups to remove --> 5
+28:01:2022	12:44:22	Starting Application...
+28:01:2022	12:44:22	Application running on port 6969
+28:01:2022	12:44:45	/employees/3	PUT	undefined
+28:01:2022	12:44:45	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:44:45	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:44:45	Groups to grant --> 4
+28:01:2022	12:44:45	Groups to remove --> 5
+28:01:2022	12:44:58	Starting Application...
+28:01:2022	12:44:58	Application running on port 6969
+28:01:2022	12:46:45	Starting Application...
+28:01:2022	12:46:45	Application running on port 6969
+28:01:2022	12:46:50	/employees/3	PUT	undefined
+28:01:2022	12:46:50	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:46:50	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:46:50	Groups to grant --> 4
+28:01:2022	12:46:50	Groups to remove --> 5
+28:01:2022	12:46:56	/employees/3	PUT	undefined
+28:01:2022	12:46:56	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4]}
+28:01:2022	12:46:56	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[4],"id":3}
+28:01:2022	12:46:56	Groups to grant --> 4
+28:01:2022	12:46:56	Groups to remove --> 
+28:01:2022	14:08:12	Starting Application...
+28:01:2022	14:08:12	Application running on port 6969
+28:01:2022	14:08:32	Starting Application...
+28:01:2022	14:08:33	Application running on port 6969
+28:01:2022	14:09:34	Starting Application...
+28:01:2022	14:09:34	Application running on port 6969
+28:01:2022	14:12:07	Starting Application...
+28:01:2022	14:12:07	Application running on port 6969
+28:01:2022	14:12:20	Starting Application...
+28:01:2022	14:12:20	Application running on port 6969
+28:01:2022	14:13:20	Starting Application...
+28:01:2022	14:13:21	Application running on port 6969
+28:01:2022	14:14:07	Starting Application...
+28:01:2022	14:14:07	Application running on port 6969
+28:01:2022	14:14:43	Starting Application...
+28:01:2022	14:14:43	Application running on port 6969
+28:01:2022	14:15:16	Starting Application...
+28:01:2022	14:15:16	Application running on port 6969
+28:01:2022	14:17:23	Starting Application...
+28:01:2022	14:17:23	Application running on port 6969
+28:01:2022	16:40:32	Starting Application...
+28:01:2022	16:40:32	Application running on port 6969
+28:01:2022	16:41:44	Starting Application...
+28:01:2022	16:41:44	Application running on port 6969
+28:01:2022	16:41:49	Starting Application...
+28:01:2022	16:41:49	Application running on port 6969
+28:01:2022	16:42:07	Starting Application...
+28:01:2022	16:42:07	Application running on port 6969
+28:01:2022	16:43:27	Starting Application...
+28:01:2022	16:43:27	Application running on port 6969
+28:01:2022	16:46:49	Starting Application...
+28:01:2022	16:46:49	Application running on port 6969
+28:01:2022	16:47:56	Starting Application...
+28:01:2022	16:47:56	Application running on port 6969
+28:01:2022	17:00:17	Starting Application...
+28:01:2022	17:00:17	Setting authentication type as [object Object]
+28:01:2022	17:00:17	Application running on port 6969
+28:01:2022	17:00:31	Starting Application...
+28:01:2022	17:00:31	Setting authentication type as noAuth
+28:01:2022	17:00:31	Application running on port 6969
+28:01:2022	17:02:37	/authreg	POST	undefined
+28:01:2022	17:02:37	Invaid request /authreg
+28:01:2022	17:04:17	/authreg	POST	undefined
+28:01:2022	17:04:17	Invaid request /authreg
+28:01:2022	17:05:26	Starting Application...
+28:01:2022	17:05:26	Setting authentication type as noAuth
+28:01:2022	17:05:26	Application running on port 6969
+28:01:2022	17:05:28	/authreg	POST	undefined
+28:01:2022	17:05:28	Invaid request /authreg
+28:01:2022	17:06:00	Starting Application...
+28:01:2022	17:06:00	Setting authentication type as noAuth
+28:01:2022	17:06:01	Application running on port 6969
+28:01:2022	17:06:03	/authreg	POST	undefined
+28:01:2022	17:06:03	Invaid request /authreg
+28:01:2022	17:08:49	Starting Application...
+28:01:2022	17:08:49	Setting authentication type as clientCredentials
+28:01:2022	17:08:49	Application running on port 6969
+28:01:2022	17:08:57	/authreg	POST	undefined
+28:01:2022	17:09:33	Starting Application...
+28:01:2022	17:09:33	Setting authentication type as clientCredentials
+28:01:2022	17:09:33	Application running on port 6969
+28:01:2022	17:10:44	Starting Application...
+28:01:2022	17:10:44	Setting authentication type as clientCredentials
+28:01:2022	17:10:44	Application running on port 6969
+28:01:2022	17:11:28	Starting Application...
+28:01:2022	17:11:28	Setting authentication type as clientCredentials
+28:01:2022	17:11:28	Application running on port 6969
+28:01:2022	17:11:39	/authreg	POST	undefined
+28:01:2022	17:12:56	Starting Application...
+28:01:2022	17:12:56	Setting authentication type as clientCredentials
+28:01:2022	17:12:56	Application running on port 6969
+28:01:2022	17:13:54	Starting Application...
+28:01:2022	17:13:54	Setting authentication type as clientCredentials
+28:01:2022	17:13:54	Application running on port 6969
+28:01:2022	17:13:55	/authreg	POST	undefined
+28:01:2022	17:17:57	Starting Application...
+28:01:2022	17:17:57	Setting authentication type as clientCredentials
+28:01:2022	17:17:57	Application running on port 6969
+28:01:2022	17:18:01	/authreg	POST	undefined
+28:01:2022	17:19:04	/auth	POST	undefined
+28:01:2022	17:19:54	Starting Application...
+28:01:2022	17:19:54	Setting authentication type as clientCredentials
+28:01:2022	17:19:55	Application running on port 6969
+28:01:2022	17:20:05	Starting Application...
+28:01:2022	17:20:06	Application running on port 6969
+28:01:2022	17:20:05	Setting authentication type as clientCredentials
+28:01:2022	17:21:17	Starting Application...
+28:01:2022	17:21:17	Setting authentication type as clientCredentials
+28:01:2022	17:21:17	Application running on port 6969
+28:01:2022	17:21:38	Starting Application...
+28:01:2022	17:21:38	Setting authentication type as clientCredentials
+28:01:2022	17:21:39	Application running on port 6969
+28:01:2022	17:21:53	/authreg	POST	undefined
+28:01:2022	17:21:56	/auth	POST	undefined
+28:01:2022	17:24:02	Starting Application...
+28:01:2022	17:24:02	Setting authentication type as clientCredentials
+28:01:2022	17:24:02	Application running on port 6969
+28:01:2022	17:24:05	/auth	POST	undefined
+28:01:2022	17:24:26	Starting Application...
+28:01:2022	17:24:26	Setting authentication type as clientCredentials
+28:01:2022	17:24:27	Application running on port 6969
+28:01:2022	17:24:27	/auth	POST	undefined
+28:01:2022	17:24:52	Starting Application...
+28:01:2022	17:24:52	Setting authentication type as clientCredentials
+28:01:2022	17:24:53	Application running on port 6969
+28:01:2022	17:24:56	/auth	POST	undefined
+28:01:2022	17:25:03	/auth	POST	undefined
+28:01:2022	17:25:11	Starting Application...
+28:01:2022	17:25:11	Setting authentication type as clientCredentials
+28:01:2022	17:25:11	Application running on port 6969
+28:01:2022	17:25:16	Starting Application...
+28:01:2022	17:25:16	Setting authentication type as clientCredentials
+28:01:2022	17:25:16	Application running on port 6969
+28:01:2022	17:32:17	Starting Application...
+28:01:2022	17:32:17	Setting authentication type as clientCredentials
+28:01:2022	17:32:17	Application running on port 6969
+28:01:2022	17:32:19	/employees	GET	undefined
+28:01:2022	17:48:53	Starting Application...
+28:01:2022	17:48:53	Setting authentication type as basicAuthentication
+28:01:2022	17:48:53	Application running on port 6969
+28:01:2022	17:49:00	Starting Application...
+28:01:2022	17:49:00	Setting authentication type as basicAuthentication
+28:01:2022	17:49:00	Application running on port 6969
+28:01:2022	17:49:03	/employees	GET	undefined
+28:01:2022	17:49:11	Starting Application...
+28:01:2022	17:49:11	Setting authentication type as basicAuthentication
+28:01:2022	17:49:11	Application running on port 6969
+28:01:2022	17:49:13	/employees	GET	undefined
+28:01:2022	17:49:53	Starting Application...
+28:01:2022	17:49:53	Setting authentication type as basicAuthentication
+28:01:2022	17:49:54	Application running on port 6969
+28:01:2022	17:49:57	/employees	GET	undefined
+28:01:2022	17:53:43	Starting Application...
+28:01:2022	17:53:43	Setting authentication type as basicAuthentication
+28:01:2022	17:53:43	Application running on port 6969
+28:01:2022	17:53:50	Starting Application...
+28:01:2022	17:53:50	Setting authentication type as basicAuthentication
+28:01:2022	17:53:50	Application running on port 6969
+28:01:2022	17:53:52	/employees	GET	undefined
+28:01:2022	17:55:37	Starting Application...
+28:01:2022	17:55:37	Setting authentication type as basicAuthentication
+28:01:2022	17:55:37	Application running on port 6969
+28:01:2022	17:55:39	/employees	GET	undefined
+28:01:2022	18:00:36	Starting Application...
+28:01:2022	18:00:36	Setting authentication type as basicAuthentication
+28:01:2022	18:00:36	Application running on port 6969
+28:01:2022	18:10:24	Starting Application...
+28:01:2022	18:10:24	Setting authentication type as basicAuthentication
+28:01:2022	18:10:25	Application running on port 6969
+28:01:2022	18:10:29	/employees	GET	undefined
+28:01:2022	18:11:29	Starting Application...
+28:01:2022	18:11:29	Setting authentication type as basicAuthentication
+28:01:2022	18:11:30	Application running on port 6969
+28:01:2022	18:11:31	/employees	GET	undefined
+28:01:2022	18:12:07	Starting Application...
+28:01:2022	18:12:07	Setting authentication type as basicAuthentication
+28:01:2022	18:12:07	Application running on port 6969
+28:01:2022	18:12:08	/employees	GET	undefined
+28:01:2022	18:13:00	Starting Application...
+28:01:2022	18:13:00	Setting authentication type as basicAuthentication
+28:01:2022	18:13:01	Application running on port 6969
+28:01:2022	18:13:07	/employees	GET	undefined
+28:01:2022	18:14:33	Starting Application...
+28:01:2022	18:14:33	Setting authentication type as basicAuthentication
+28:01:2022	18:14:34	Application running on port 6969
+28:01:2022	18:14:37	/employees	GET	undefined
+28:01:2022	18:15:18	Starting Application...
+28:01:2022	18:15:18	Setting authentication type as basicAuthentication
+28:01:2022	18:15:19	Application running on port 6969
+28:01:2022	18:15:21	/employees	GET	undefined
+28:01:2022	18:15:25	Starting Application...
+28:01:2022	18:15:25	Setting authentication type as basicAuthentication
+28:01:2022	18:15:25	Application running on port 6969
+28:01:2022	18:15:46	Starting Application...
+28:01:2022	18:15:46	Setting authentication type as basicAuthentication
+28:01:2022	18:15:46	Application running on port 6969
+28:01:2022	18:27:25	Starting Application...
+28:01:2022	18:27:25	Setting authentication type as basicAuthentication
+28:01:2022	18:27:25	Application running on port 6969
+28:01:2022	18:27:28	/employees	GET	undefined
+28:01:2022	18:27:42	/employees	GET	undefined
+28:01:2022	18:28:42	Starting Application...
+28:01:2022	18:28:42	Setting authentication type as basicAuthentication
+28:01:2022	18:28:43	Application running on port 6969
+28:01:2022	18:28:43	/employees	GET	undefined
+28:01:2022	18:29:03	Starting Application...
+28:01:2022	18:29:03	Setting authentication type as basicAuthentication
+28:01:2022	18:29:03	Application running on port 6969
+28:01:2022	18:29:04	/employees	GET	undefined
+28:01:2022	18:29:29	Starting Application...
+28:01:2022	18:29:29	Setting authentication type as basicAuthentication
+28:01:2022	18:29:29	Application running on port 6969
+28:01:2022	18:29:33	/employees	GET	undefined
+28:01:2022	18:30:11	Starting Application...
+28:01:2022	18:30:11	Setting authentication type as basicAuthentication
+28:01:2022	18:30:11	Application running on port 6969
+28:01:2022	18:30:11	/employees	GET	undefined
+28:01:2022	18:30:27	/employees	GET	undefined
+28:01:2022	18:31:41	Starting Application...
+28:01:2022	18:31:41	Setting authentication type as basicAuthentication
+28:01:2022	18:31:41	Application running on port 6969
+28:01:2022	18:31:43	/employees	GET	undefined
+28:01:2022	18:32:08	Starting Application...
+28:01:2022	18:32:08	Setting authentication type as basicAuthentication
+28:01:2022	18:32:08	Application running on port 6969
+28:01:2022	18:32:17	/employees	GET	undefined
+28:01:2022	18:32:40	Starting Application...
+28:01:2022	18:32:40	Setting authentication type as basicAuthentication
+28:01:2022	18:32:40	Application running on port 6969
+28:01:2022	18:32:41	/employees	GET	undefined
+28:01:2022	18:32:55	Starting Application...
+28:01:2022	18:32:55	Setting authentication type as basicAuthentication
+28:01:2022	18:32:55	Application running on port 6969
+28:01:2022	18:32:55	/employees	GET	undefined
+28:01:2022	18:37:56	Starting Application...
+28:01:2022	18:37:56	Setting authentication type as basicAuthentication
+28:01:2022	18:37:57	Application running on port 6969
+28:01:2022	18:38:30	/employees	GET	undefined
+28:01:2022	18:42:06	Starting Application...
+28:01:2022	18:42:06	Setting authentication type as basicAuthentication
+28:01:2022	18:42:06	Application running on port 6969
+28:01:2022	18:42:52	/employees	GET	undefined
+28:01:2022	18:43:08	Starting Application...
+28:01:2022	18:43:08	Setting authentication type as basicAuthentication
+28:01:2022	18:43:08	Application running on port 6969
+28:01:2022	18:43:09	/employees	GET	undefined
+28:01:2022	18:43:12	/employees	GET	undefined
+28:01:2022	18:43:28	Starting Application...
+28:01:2022	18:43:28	Setting authentication type as basicAuthentication
+28:01:2022	18:43:28	Application running on port 6969
+28:01:2022	18:43:30	/employees	GET	undefined
+28:01:2022	18:43:39	/employees	GET	undefined
+28:01:2022	18:43:58	Starting Application...
+28:01:2022	18:43:58	Setting authentication type as basicAuthentication
+28:01:2022	18:43:58	Application running on port 6969
+28:01:2022	18:44:00	/employees	GET	undefined
+28:01:2022	18:44:13	Starting Application...
+28:01:2022	18:44:13	Setting authentication type as basicAuthentication
+28:01:2022	18:44:14	Application running on port 6969
+28:01:2022	18:44:16	/employees	GET	undefined
+28:01:2022	18:44:39	Starting Application...
+28:01:2022	18:44:39	Setting authentication type as basicAuthentication
+28:01:2022	18:44:39	Application running on port 6969
+28:01:2022	18:44:40	/employees	GET	undefined
+28:01:2022	18:45:52	/employees	GET	undefined
+28:01:2022	18:46:02	Starting Application...
+28:01:2022	18:46:02	Setting authentication type as basicAuthentication
+28:01:2022	18:46:02	Application running on port 6969
+28:01:2022	18:46:08	/employees	GET	undefined
+28:01:2022	18:46:12	/employees	GET	undefined
+28:01:2022	18:46:17	/employees	GET	undefined
+28:01:2022	18:46:21	/employees	GET	undefined
+28:01:2022	18:46:23	/employees	GET	undefined
+28:01:2022	18:46:27	/employees	GET	undefined
+28:01:2022	18:46:32	/employees	GET	undefined
+28:01:2022	18:46:41	/employees	GET	undefined
+28:01:2022	18:46:42	/employees	GET	undefined
+28:01:2022	18:46:42	/employees	GET	undefined
+28:01:2022	18:46:42	/employees	GET	undefined
+28:01:2022	18:46:48	Starting Application...
+28:01:2022	18:46:48	Setting authentication type as basicAuthentication
+28:01:2022	18:46:49	Application running on port 6969
+28:01:2022	18:46:50	/employees	GET	undefined
+28:01:2022	18:46:56	/employees	GET	undefined
+28:01:2022	18:47:26	/employees	GET	undefined
+28:01:2022	18:47:30	/employees	GET	undefined
+28:01:2022	18:47:34	/employees	GET	undefined
+28:01:2022	18:47:35	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:36	/employees	GET	undefined
+28:01:2022	18:47:39	Starting Application...
+28:01:2022	18:47:39	Setting authentication type as basicAuthentication
+28:01:2022	18:47:39	Application running on port 6969
+28:01:2022	18:47:42	/employees	GET	undefined
+28:01:2022	18:48:52	/employees	GET	undefined
+28:01:2022	18:48:53	/employees	GET	undefined
+28:01:2022	18:48:53	/employees	GET	undefined
+28:01:2022	18:48:54	/employees	GET	undefined
+28:01:2022	18:48:54	/employees	GET	undefined
+28:01:2022	18:48:54	/employees	GET	undefined
+28:01:2022	18:48:54	/employees	GET	undefined
+28:01:2022	18:48:54	/employees	GET	undefined
+28:01:2022	18:48:55	/employees	GET	undefined
+28:01:2022	18:48:55	/employees	GET	undefined
+28:01:2022	18:48:55	/employees	GET	undefined
+28:01:2022	18:48:55	/employees	GET	undefined
+28:01:2022	18:48:58	Starting Application...
+28:01:2022	18:48:58	Setting authentication type as basicAuthentication
+28:01:2022	18:48:58	Application running on port 6969
+28:01:2022	18:48:59	/employees	GET	undefined
+28:01:2022	18:49:00	/employees	GET	undefined
+28:01:2022	18:49:00	/employees	GET	undefined
+28:01:2022	18:49:00	/employees	GET	undefined
+28:01:2022	18:49:00	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:01	/employees	GET	undefined
+28:01:2022	18:49:02	/employees	GET	undefined
+28:01:2022	18:49:04	/employees	GET	undefined
+28:01:2022	18:49:08	/employees	GET	undefined
+28:01:2022	18:49:33	Starting Application...
+28:01:2022	18:49:33	Setting authentication type as basicAuthentication
+28:01:2022	18:49:33	Application running on port 6969
+28:01:2022	18:49:36	/employees	GET	undefined
+28:01:2022	18:49:38	/employees	GET	undefined
+28:01:2022	18:49:53	Starting Application...
+28:01:2022	18:49:53	Setting authentication type as basicAuthentication
+28:01:2022	18:49:53	Application running on port 6969
+28:01:2022	18:50:10	Starting Application...
+28:01:2022	18:50:10	Setting authentication type as basicAuthentication
+28:01:2022	18:50:11	Application running on port 6969
+28:01:2022	18:50:13	/employees	GET	undefined
+28:01:2022	18:50:16	/employees	GET	undefined
+28:01:2022	18:50:50	/employees	GET	undefined
+28:01:2022	18:50:54	/employees	GET	undefined
+28:01:2022	18:51:22	Starting Application...
+28:01:2022	18:51:22	Setting authentication type as basicAuthentication
+28:01:2022	18:51:22	Application running on port 6969
+28:01:2022	18:51:26	/employees	GET	undefined
+28:01:2022	18:51:42	Starting Application...
+28:01:2022	18:51:42	Setting authentication type as basicAuthentication
+28:01:2022	18:51:43	Application running on port 6969
+28:01:2022	18:51:44	/employees	GET	undefined
+28:01:2022	18:51:49	/employees	GET	undefined
+28:01:2022	18:51:52	/employees	GET	undefined
+28:01:2022	18:52:50	Starting Application...
+28:01:2022	18:52:50	Setting authentication type as basicAuthentication
+28:01:2022	18:52:50	Application running on port 6969
+28:01:2022	18:52:55	Starting Application...
+28:01:2022	18:52:55	Setting authentication type as basicAuthentication
+28:01:2022	18:52:55	Application running on port 6969
+28:01:2022	18:52:57	/employees	GET	undefined
+28:01:2022	18:52:57	basicAuthentication - Unauthorized
+28:01:2022	18:53:05	/employees	GET	undefined
+28:01:2022	18:53:31	Starting Application...
+28:01:2022	18:53:31	Setting authentication type as basicAuthentication
+28:01:2022	18:53:31	Application running on port 6969
+28:01:2022	18:53:47	/employees	GET	undefined
+28:01:2022	18:53:49	/employees	GET	undefined
+28:01:2022	18:53:49	Unauthorized ~~> basicAuthentication
+28:01:2022	18:54:00	Starting Application...
+28:01:2022	18:54:00	Setting authentication type as noAuth
+28:01:2022	18:54:00	Application running on port 6969
+28:01:2022	18:54:02	/employees	GET	undefined
+28:01:2022	18:54:05	Starting Application...
+28:01:2022	18:54:05	Setting authentication type as basicAuthentication
+28:01:2022	18:54:05	Application running on port 6969
+28:01:2022	18:54:06	/employees	GET	undefined
+28:01:2022	18:54:06	Unauthorized ~~> basicAuthentication
+28:01:2022	18:54:09	/employees	GET	undefined
+28:01:2022	18:54:43	Starting Application...
+28:01:2022	18:54:43	Setting authentication type as basicAuthentication
+28:01:2022	18:54:43	Application running on port 6969
+28:01:2022	18:55:09	Starting Application...
+28:01:2022	18:55:09	Setting authentication type as basicAuthentication
+28:01:2022	18:55:09	Application running on port 6969
+28:01:2022	18:55:11	/employees	GET	undefined
+28:01:2022	18:55:33	Starting Application...
+28:01:2022	18:55:33	Setting authentication type as basicAuthentication
+28:01:2022	18:55:33	Application running on port 6969
+28:01:2022	18:57:28	Starting Application...
+28:01:2022	18:57:28	Setting authentication type as basicAuthentication
+28:01:2022	18:57:28	Application running on port 6969
+28:01:2022	18:57:30	/employees	GET	undefined
+28:01:2022	18:58:04	Starting Application...
+28:01:2022	18:58:04	Setting authentication type as basicAuthentication
+28:01:2022	18:58:04	Application running on port 6969
+28:01:2022	18:58:06	/employees	GET	undefined
+28:01:2022	18:58:08	/employees	GET	undefined
+28:01:2022	18:58:40	Starting Application...
+28:01:2022	18:58:40	Setting authentication type as basicAuthentication
+28:01:2022	18:58:40	Application running on port 6969
+28:01:2022	18:58:42	/employees	GET	undefined
+28:01:2022	18:59:39	Starting Application...
+28:01:2022	18:59:39	Setting authentication type as basicAuthentication
+28:01:2022	18:59:40	Application running on port 6969
+28:01:2022	18:59:44	/employees	GET	undefined
+28:01:2022	18:59:44	Unauthorized ~~> basicAuthentication
+28:01:2022	18:59:48	/employees	GET	undefined
+28:01:2022	18:59:53	Starting Application...
+28:01:2022	18:59:53	Setting authentication type as basicAuthentication
+28:01:2022	18:59:53	Application running on port 6969

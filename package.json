@@ -8,9 +8,11 @@
     "dev": "nodemon server"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "date-fns": "^2.28.0",
     "express": "^4.17.2",
+    "express-basic-auth": "^1.2.1",
     "joi": "^17.5.0",
     "uuid": "^8.3.2"
   },
@@ -18,7 +20,9 @@
     "nodemon": "^2.0.15"
   },
   "nodemonConfig": {
-    "ignore": ["./model/*.json"]
+    "ignore": [
+      "./model/*.json"
+    ]
   },
   "repository": {
     "type": "git",

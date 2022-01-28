@@ -1,18 +1,35 @@
 [
     {
         "id": 1,
-        "name": "mailRead"
+        "name": "mailRead",
+        "members": [
+            1
+        ]
     },
     {
         "id": 2,
-        "name": "mailWrite"
+        "name": "mailWrite",
+        "members": [
+            1
+        ]
     },
     {
         "id": 3,
-        "name": "payrollRead"
+        "name": "payrollRead",
+        "members": [
+            2
+        ]
     },
     {
         "id": 4,
-        "firstname": "payrollWrite"
+        "firstname": "payrollWrite",
+        "members": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 5,
+        "firstname": "payrollAdmin"
     }
 ]

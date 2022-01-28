@@ -1,1 +1,31 @@
-[{"id":1,"firstname":"Shandeep","lastname":"Srinivas","email":"shandeep.srinivas@company.com","groups":[1,2]},{"id":2,"firstname":"John","lastname":"Smith","email":"john.smith@company.com","groups":[3,4]}]
+[
+    {
+        "id": 1,
+        "firstname": "Shandeep",
+        "lastname": "Srinivas",
+        "email": "shandeep.srinivas@company.com",
+        "groups": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "firstname": "John",
+        "lastname": "Smith",
+        "email": "john.smith@company.com",
+        "groups": [
+            3,
+            4
+        ]
+    },
+    {
+        "firstname": "John",
+        "lastname": "Cena",
+        "email": "john.cena@company.com",
+        "id": 3,
+        "groups": [
+            4
+        ]
+    }
+]

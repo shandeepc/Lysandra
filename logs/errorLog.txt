@@ -169,3 +169,201 @@
     at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
     at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
     at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+27:01:2022	21:52:44	ERROR --> ReferenceError: newEmployee is not defined
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:89:40)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+27:01:2022	21:53:16	ERROR --> TypeError: groupArray is not iterable
+    at checkGroups (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:32:24)
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:89:28)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+27:01:2022	21:58:05	ERROR --> TypeError: 3 is not a function
+    at Array.find (<anonymous>)
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:103:81)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+27:01:2022	22:01:03	ERROR --> TypeError: 3 is not a function
+    at Array.find (<anonymous>)
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:104:81)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+27:01:2022	22:01:28	ERROR --> TypeError: 3 is not a function
+    at Array.find (<anonymous>)
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:104:81)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+27:01:2022	22:01:50	ERROR --> TypeError: 1 is not a function
+    at Array.find (<anonymous>)
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:103:89)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+28:01:2022	10:29:03	ERROR --> TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:115:96)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+28:01:2022	10:29:36	ERROR --> TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:115:100)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+28:01:2022	10:30:12	ERROR --> TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:115:100)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+28:01:2022	11:41:17	ERROR --> TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:102:52)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+28:01:2022	12:02:29	ERROR --> ReferenceError: delement is not defined
+    at updateEmployee (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\employeesController.js:129:41)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+28:01:2022	17:04:17	ERROR --> ReferenceError: req is not defined
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:38:12
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+28:01:2022	18:30:27	ERROR --> ReferenceError: bcrypt is not defined
+    at authorizer (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:33:41)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:61:18)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:18:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+28:01:2022	18:31:43	ERROR --> ReferenceError: v is not defined
+    at authorizer (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:34:66)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:61:18)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:19:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+28:01:2022	18:51:26	ERROR --> ReferenceError: un is not defined
+    at unauthorizedResponse (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:39:25)
+    at unauthorized (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:78:30)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:62:20)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:19:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+28:01:2022	18:57:30	ERROR --> ReferenceError: users is not defined
+    at authorizer (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\middleware\basicAuth.js:6:22)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:61:18)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:18:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+28:01:2022	18:58:08	ERROR --> ReferenceError: logger is not defined
+    at unauthorizedResponse (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\middleware\basicAuth.js:16:9)
+    at unauthorized (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:78:30)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:62:20)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+28:01:2022	18:58:42	ERROR --> ReferenceError: authOptions is not defined
+    at unauthorizedResponse (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\middleware\basicAuth.js:17:40)
+    at unauthorized (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:78:30)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express-basic-auth\index.js:62:20)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)

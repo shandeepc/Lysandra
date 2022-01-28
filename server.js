@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
+const authOptions = require('./config/authOptions');
 const logger = require('./middleware/logger');
-const path =  require('path');
+const basicAuth = require('./middleware/basicAuth');
+const path = require('path');
 
 logger.log('Starting Application...', 'reqLog.txt');
 
@@ -15,24 +17,34 @@ app.use((request, response, next) => {
     next();
 });
 
+logger.log(`Setting authentication type as ${authOptions.authType}`, 'reqLog.txt');
+
+if (authOptions.authType === 'basicAuthentication') {
+    app.use(basicAuth);
+}
 app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./routes/root'));
 app.use('/employees|/api/employees', require('./routes/api/employees'));
+app.use('/groups|/api/groups', require('./routes/api/groups'));
+if (authOptions.authType != 'noAuth') {
+    app.use('/authreg', require('./routes/authreg'));
+    app.use('/auth', require('./routes/auth'));
+}
 
 app.all('*', (request, response) => {//404 Handler
     logger.log(`Invaid request ${request.url}`, 'reqLog.txt');
     response.status(404);
     if (request.accepts('html')) {
         response.sendFile(path.join(__dirname, 'views', '404.html'));
-    } else if (req.accepts('json')) {
-        response.json({ "error": "404 Not Found" });
+    } else if (request.accepts('json')) {
+        response.json({ "error": "404 Oppsi UwU, pawge nwut fUwUnd" });
     }
 });
 
-app.use((error, request, response , next) => {//Error Handler
+app.use((error, request, response, next) => {//Error Handler
     logger.log(`ERROR --> ${error.stack}`, 'errorLog.txt');
     response.status(500).send(error.message);
 });
