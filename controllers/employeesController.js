@@ -13,8 +13,8 @@ const employeeSchema = Joi.object({
     firstname: Joi.string().min(1).max(30).required(),
     lastname: Joi.string().min(1).max(30).required(),
     email: Joi.string().email().required(),
-    active:Joi.boolean().required(),
-    groups:Joi.array().items(Joi.number()).min(1).optional()
+    active: Joi.boolean().required(),
+    groups: Joi.array().items(Joi.number()).min(1).optional()
 });
 
 async function updateData (dPath, content) {
@@ -87,8 +87,7 @@ const updateEmployee = (request, response) => {
     let validationResult = employeeSchema.validate(updtEmployee);
 
     if(validationResult.error) {
-        response.status(400);
-        response.json({ "error": validationResult.error.details[0].message });
+        response.status(400).json({ "error": validationResult.error.details[0].message });
     } else {
         let isGroupValid = checkGroups(updtEmployee.groups);
         if( isGroupValid != 'Okay') {
