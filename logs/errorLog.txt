@@ -367,3 +367,69 @@
     at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
     at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\server.js:17:5
     at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+29:01:2022	17:55:29	ERROR --> ReferenceError: groupArray is not defined
+    at checkMembers (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:32:28)
+    at createNewGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:56:29)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+29:01:2022	17:58:38	ERROR --> TypeError: 5 is not a function
+    at Array.find (<anonymous>)
+    at createNewGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:65:79)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+29:01:2022	18:01:28	ERROR --> TypeError: 5 is not a function
+    at Array.find (<anonymous>)
+    at createNewGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:66:79)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+29:01:2022	18:02:13	ERROR --> TypeError: 5 is not a function
+    at Array.find (<anonymous>)
+    at createNewGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:65:87)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+29:01:2022	18:03:59	ERROR --> TypeError: 5 is not a function
+    at Array.find (<anonymous>)
+    at createNewGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:66:79)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:275:10)
+29:01:2022	18:06:24	ERROR --> ReferenceError: checkGroups is not defined
+    at updateGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:91:29)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)

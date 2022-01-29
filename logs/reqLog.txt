@@ -1530,3 +1530,362 @@
 28:01:2022	22:08:00	Starting Application...
 28:01:2022	22:08:00	Setting authentication type as JWT
 28:01:2022	22:08:01	Application running on port 6969
+29:01:2022	13:02:08	Starting Application...
+29:01:2022	13:02:08	Setting authentication type as JWT
+29:01:2022	13:02:08	Application running on port 6969
+29:01:2022	13:02:37	Starting Application...
+29:01:2022	13:02:37	Setting authentication type as noAuth
+29:01:2022	13:02:37	Application running on port 6969
+29:01:2022	13:16:35	/	GET	undefined
+29:01:2022	13:19:20	Starting Application...
+29:01:2022	13:19:20	Setting authentication type as noAuth
+29:01:2022	13:19:20	Application running on port 6969
+29:01:2022	13:21:00	Starting Application...
+29:01:2022	13:21:00	Setting authentication type as noAuth
+29:01:2022	13:21:00	Application running on port 6969
+29:01:2022	13:42:41	/	GET	undefined
+29:01:2022	13:45:22	/	GET	undefined
+29:01:2022	15:21:29	Starting Application...
+29:01:2022	15:21:29	Setting authentication type as basicAuthentication
+29:01:2022	15:21:29	Application running on port 6969
+29:01:2022	15:22:32	/	GET	undefined
+29:01:2022	15:23:58	Starting Application...
+29:01:2022	15:23:58	Setting authentication type as basicAuthentication
+29:01:2022	15:23:58	Application running on port 6969
+29:01:2022	15:24:09	/	GET	undefined
+29:01:2022	15:24:49	/	GET	undefined
+29:01:2022	15:24:49	Unauthorized ~~> basicAuthentication
+29:01:2022	15:28:59	/	GET	undefined
+29:01:2022	15:28:59	Unauthorized ~~> basicAuthentication
+29:01:2022	15:40:31	Starting Application...
+29:01:2022	15:40:31	Setting authentication type as basicAuthentication
+29:01:2022	15:40:31	Application running on port 6969
+29:01:2022	15:50:11	Starting Application...
+29:01:2022	15:50:11	Setting authentication type as basicAuthentication
+29:01:2022	15:50:11	Application running on port 6969
+29:01:2022	15:50:47	Starting Application...
+29:01:2022	15:50:47	Setting authentication type as basicAuthentication
+29:01:2022	15:50:47	Application running on port 6969
+29:01:2022	15:53:00	Starting Application...
+29:01:2022	15:53:00	Setting authentication type as basicAuthentication
+29:01:2022	15:53:00	Application running on port 6969
+29:01:2022	15:53:56	Starting Application...
+29:01:2022	15:53:56	Setting authentication type as basicAuthentication
+29:01:2022	15:53:57	Application running on port 6969
+29:01:2022	15:54:02	Starting Application...
+29:01:2022	15:54:02	Setting authentication type as basicAuthentication
+29:01:2022	15:54:02	Application running on port 6969
+29:01:2022	15:54:52	/authreg	POST	undefined
+29:01:2022	15:55:03	/auth	POST	undefined
+29:01:2022	15:55:03	Unauthorized ~~> basicAuthentication
+29:01:2022	15:55:28	Starting Application...
+29:01:2022	15:55:28	Setting authentication type as APIAuth
+29:01:2022	15:55:28	Application running on port 6969
+29:01:2022	15:55:32	/auth	POST	undefined
+29:01:2022	15:55:44	/	GET	undefined
+29:01:2022	16:02:16	/	GET	undefined
+29:01:2022	16:03:02	Starting Application...
+29:01:2022	16:03:02	Setting authentication type as APIAuth
+29:01:2022	16:03:02	Application running on port 6969
+29:01:2022	16:03:20	/auth	POST	undefined
+29:01:2022	16:03:51	/	GET	undefined
+29:01:2022	16:04:54	Starting Application...
+29:01:2022	16:04:54	Setting authentication type as JWT
+29:01:2022	16:04:54	Application running on port 6969
+29:01:2022	16:04:57	/	GET	undefined
+29:01:2022	16:06:01	/authreg	POST	undefined
+29:01:2022	16:06:12	/auth	POST	undefined
+29:01:2022	16:06:36	/auth	POST	undefined
+29:01:2022	16:07:07	/auth	POST	undefined
+29:01:2022	16:07:49	/	GET	undefined
+29:01:2022	16:08:36	Starting Application...
+29:01:2022	16:08:36	Setting authentication type as JWT
+29:01:2022	16:08:37	Application running on port 6969
+29:01:2022	16:08:48	Starting Application...
+29:01:2022	16:08:48	Setting authentication type as JWT
+29:01:2022	16:08:48	Application running on port 6969
+29:01:2022	16:08:50	/auth	POST	undefined
+29:01:2022	16:09:22	Starting Application...
+29:01:2022	16:09:22	Setting authentication type as JWT
+29:01:2022	16:09:22	Application running on port 6969
+29:01:2022	16:10:54	Starting Application...
+29:01:2022	16:10:54	Setting authentication type as JWT
+29:01:2022	16:10:54	Application running on port 6969
+29:01:2022	16:16:34	Starting Application...
+29:01:2022	16:16:34	Setting authentication type as JWT
+29:01:2022	16:16:34	Application running on port 6969
+29:01:2022	16:17:44	Starting Application...
+29:01:2022	16:17:44	Setting authentication type as JWT
+29:01:2022	16:17:44	Application running on port 6969
+29:01:2022	16:17:52	Starting Application...
+29:01:2022	16:17:52	Setting authentication type as JWT
+29:01:2022	16:17:52	Application running on port 6969
+29:01:2022	16:19:47	Starting Application...
+29:01:2022	16:19:47	Setting authentication type as JWT
+29:01:2022	16:19:47	Application running on port 6969
+29:01:2022	16:20:16	Starting Application...
+29:01:2022	16:20:16	Setting authentication type as JWT
+29:01:2022	16:20:16	Application running on port 6969
+29:01:2022	16:25:40	Starting Application...
+29:01:2022	16:25:40	Setting authentication type as JWT
+29:01:2022	16:25:40	Application running on port 6969
+29:01:2022	16:28:09	Starting Application...
+29:01:2022	16:28:09	Setting authentication type as JWT
+29:01:2022	16:28:09	Application running on port 6969
+29:01:2022	16:28:12	/auth	POST	undefined
+29:01:2022	16:28:35	Starting Application...
+29:01:2022	16:28:35	Setting authentication type as JWT
+29:01:2022	16:28:35	Application running on port 6969
+29:01:2022	16:28:38	/auth	POST	undefined
+29:01:2022	16:28:59	Starting Application...
+29:01:2022	16:28:59	Setting authentication type as JWT
+29:01:2022	16:28:59	Application running on port 6969
+29:01:2022	16:29:01	/auth	POST	undefined
+29:01:2022	16:57:49	Starting Application...
+29:01:2022	16:57:49	Setting authentication type as JWT
+29:01:2022	16:57:49	Application running on port 6969
+29:01:2022	16:58:14	Starting Application...
+29:01:2022	16:58:15	Setting authentication type as JWT
+29:01:2022	16:58:15	Application running on port 6969
+29:01:2022	16:58:49	Starting Application...
+29:01:2022	16:58:49	Setting authentication type as JWT
+29:01:2022	16:58:50	Application running on port 6969
+29:01:2022	16:59:50	Starting Application...
+29:01:2022	16:59:50	Setting authentication type as JWT
+29:01:2022	16:59:50	Application running on port 6969
+29:01:2022	17:00:28	Starting Application...
+29:01:2022	17:00:28	Setting authentication type as JWT
+29:01:2022	17:00:28	Application running on port 6969
+29:01:2022	17:00:50	Starting Application...
+29:01:2022	17:00:50	Setting authentication type as APIAuth
+29:01:2022	17:00:50	Application running on port 6969
+29:01:2022	17:01:13	Starting Application...
+29:01:2022	17:01:13	Setting authentication type as APIAuth
+29:01:2022	17:01:14	Application running on port 6969
+29:01:2022	17:01:37	Starting Application...
+29:01:2022	17:01:37	Setting authentication type as APIAuth
+29:01:2022	17:01:38	Application running on port 6969
+29:01:2022	17:01:48	/	GET	undefined
+29:01:2022	17:02:23	Starting Application...
+29:01:2022	17:02:23	Setting authentication type as noAuth
+29:01:2022	17:02:23	Application running on port 6969
+29:01:2022	17:07:31	Starting Application...
+29:01:2022	17:07:31	Setting authentication type as noAuth
+29:01:2022	17:07:31	Application running on port 6969
+29:01:2022	17:10:15	/employees	GET	undefined
+29:01:2022	17:15:53	/employees	GET	undefined
+29:01:2022	17:16:43	/employees	GET	undefined
+29:01:2022	17:18:20	/employees	GET	undefined
+29:01:2022	17:19:37	/employees	GET	undefined
+29:01:2022	17:22:25	Starting Application...
+29:01:2022	17:22:25	Setting authentication type as noAuth
+29:01:2022	17:22:25	Application running on port 6969
+29:01:2022	17:22:41	Starting Application...
+29:01:2022	17:22:41	Setting authentication type as noAuth
+29:01:2022	17:22:41	Application running on port 6969
+29:01:2022	17:25:26	Starting Application...
+29:01:2022	17:25:26	Setting authentication type as noAuth
+29:01:2022	17:25:26	Application running on port 6969
+29:01:2022	17:25:29	Starting Application...
+29:01:2022	17:25:29	Setting authentication type as noAuth
+29:01:2022	17:25:30	Application running on port 6969
+29:01:2022	17:26:55	Starting Application...
+29:01:2022	17:26:55	Setting authentication type as noAuth
+29:01:2022	17:26:55	Application running on port 6969
+29:01:2022	17:43:35	Starting Application...
+29:01:2022	17:43:35	Setting authentication type as noAuth
+29:01:2022	17:43:35	Application running on port 6969
+29:01:2022	17:44:37	Starting Application...
+29:01:2022	17:44:37	Setting authentication type as noAuth
+29:01:2022	17:44:37	Application running on port 6969
+29:01:2022	17:49:27	Starting Application...
+29:01:2022	17:49:27	Setting authentication type as noAuth
+29:01:2022	17:49:27	Application running on port 6969
+29:01:2022	17:50:44	Starting Application...
+29:01:2022	17:50:44	Setting authentication type as noAuth
+29:01:2022	17:50:44	Application running on port 6969
+29:01:2022	17:50:49	Starting Application...
+29:01:2022	17:50:49	Setting authentication type as noAuth
+29:01:2022	17:50:49	Application running on port 6969
+29:01:2022	17:52:48	/groups	GET	undefined
+29:01:2022	17:53:06	/groups/3	GET	undefined
+29:01:2022	17:53:06	{"id":3,"name":"payrollRead","description":"Provide read access to payroll","members":[2]}
+29:01:2022	17:53:09	/groups/5	GET	undefined
+29:01:2022	17:53:09	{"id":5,"firstname":"payrollAdmin","description":"Provide admin access to payroll"}
+29:01:2022	17:53:13	/groups/6	GET	undefined
+29:01:2022	17:53:13	undefined
+29:01:2022	17:53:24	/groups/5	GET	undefined
+29:01:2022	17:53:24	{"id":5,"firstname":"payrollAdmin","description":"Provide admin access to payroll"}
+29:01:2022	17:53:34	/groups/5	DELETE	undefined
+29:01:2022	17:53:34	Deleting user --> {"id":5,"firstname":"payrollAdmin","description":"Provide admin access to payroll"}
+29:01:2022	17:54:00	/groups/5	DELETE	undefined
+29:01:2022	17:54:18	Starting Application...
+29:01:2022	17:54:18	Setting authentication type as noAuth
+29:01:2022	17:54:19	Application running on port 6969
+29:01:2022	17:54:20	/groups/5	DELETE	undefined
+29:01:2022	17:54:37	/groups	POST	undefined
+29:01:2022	17:54:37	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@company.com","groups":[5]}
+29:01:2022	17:55:29	/groups	POST	undefined
+29:01:2022	17:55:29	Recieved body --> {"id":1,"name":"mailRead","description":"Provide read access to mail","members":[1]}
+29:01:2022	17:56:59	Starting Application...
+29:01:2022	17:56:59	Setting authentication type as noAuth
+29:01:2022	17:57:00	Application running on port 6969
+29:01:2022	17:58:05	/groups	POST	undefined
+29:01:2022	17:58:05	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[4]}
+29:01:2022	17:58:38	/groups	POST	undefined
+29:01:2022	17:58:38	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	17:58:38	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:01:25	Starting Application...
+29:01:2022	18:01:25	Setting authentication type as noAuth
+29:01:2022	18:01:25	Application running on port 6969
+29:01:2022	18:01:28	/groups	POST	undefined
+29:01:2022	18:01:28	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	18:01:28	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:02:06	Starting Application...
+29:01:2022	18:02:06	Setting authentication type as noAuth
+29:01:2022	18:02:06	Application running on port 6969
+29:01:2022	18:02:13	/groups	POST	undefined
+29:01:2022	18:02:13	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	18:02:13	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:03:56	Starting Application...
+29:01:2022	18:03:56	Setting authentication type as noAuth
+29:01:2022	18:03:56	Application running on port 6969
+29:01:2022	18:03:59	/groups	POST	undefined
+29:01:2022	18:03:59	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	18:03:59	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:04:08	Starting Application...
+29:01:2022	18:04:08	Setting authentication type as noAuth
+29:01:2022	18:04:08	Application running on port 6969
+29:01:2022	18:04:12	Starting Application...
+29:01:2022	18:04:12	Setting authentication type as noAuth
+29:01:2022	18:04:12	Application running on port 6969
+29:01:2022	18:04:16	Starting Application...
+29:01:2022	18:04:16	Setting authentication type as noAuth
+29:01:2022	18:04:16	Application running on port 6969
+29:01:2022	18:04:22	/groups	POST	undefined
+29:01:2022	18:04:22	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	18:04:22	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:06:24	/groups/5	PUT	undefined
+29:01:2022	18:06:24	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3,2]}
+29:01:2022	18:06:41	Starting Application...
+29:01:2022	18:06:41	Setting authentication type as noAuth
+29:01:2022	18:06:41	Application running on port 6969
+29:01:2022	18:06:42	/groups/5	PUT	undefined
+29:01:2022	18:06:42	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3,2]}
+29:01:2022	18:06:42	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3,2],"id":5}
+29:01:2022	18:06:42	Members to grant --> 3,2
+29:01:2022	18:06:42	Members to remove --> 
+29:01:2022	18:07:08	/groups/5	PUT	undefined
+29:01:2022	18:07:08	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[2]}
+29:01:2022	18:07:08	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[2],"id":5}
+29:01:2022	18:07:08	Members to grant --> 2
+29:01:2022	18:07:08	Members to remove --> 3
+29:01:2022	18:07:25	/groups/5	PUT	undefined
+29:01:2022	18:07:25	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll"}
+29:01:2022	18:07:25	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","id":5}
+29:01:2022	18:07:33	/groups/5	PUT	undefined
+29:01:2022	18:07:33	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[2]}
+29:01:2022	18:07:33	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[2],"id":5}
+29:01:2022	18:07:33	Members to grant --> 2
+29:01:2022	18:07:33	Members to remove --> 
+29:01:2022	18:08:31	/groups/5	DELETE	undefined
+29:01:2022	18:08:31	Deleting user --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[2],"id":5}
+29:01:2022	18:08:41	/groups	POST	undefined
+29:01:2022	18:08:41	Recieved body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3]}
+29:01:2022	18:08:41	Updated body --> {"name":"payrollAdmin","description":"Provide admin access to payroll","members":[3],"id":5}
+29:01:2022	18:13:04	/groups	GET	undefined
+29:01:2022	18:13:35	Starting Application...
+29:01:2022	18:13:35	Setting authentication type as noAuth
+29:01:2022	18:13:35	Application running on port 6969
+29:01:2022	18:13:40	/groups	GET	undefined
+29:01:2022	18:14:43	/groups	GET	undefined
+29:01:2022	18:17:15	Starting Application...
+29:01:2022	18:17:15	Setting authentication type as noAuth
+29:01:2022	18:17:15	Application running on port 6969
+29:01:2022	19:17:48	/api/employees	PUT	undefined
+29:01:2022	19:17:48	Invaid request /api/employees
+29:01:2022	19:19:09	/api/employees	GET	undefined
+29:01:2022	19:27:33	/api/employees	GET	undefined
+29:01:2022	19:33:06	/api/employees/1	PUT	undefined
+29:01:2022	19:33:06	Recieved body --> {}
+29:01:2022	19:39:54	/api/employees	GET	undefined
+29:01:2022	19:41:35	/api/employees/3	GET	undefined
+29:01:2022	19:41:35	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:41:41	/api/employees/3	PUT	undefined
+29:01:2022	19:41:41	Recieved body --> {"active":"true"}
+29:01:2022	19:41:42	/api/employees/3	GET	undefined
+29:01:2022	19:41:42	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:43:11	/api/employees/3	GET	undefined
+29:01:2022	19:43:11	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:43:35	/api/employees/3	PUT	undefined
+29:01:2022	19:43:35	Recieved body --> {"active":"true","groups":[4,5]}
+29:01:2022	19:43:36	/api/employees/3	GET	undefined
+29:01:2022	19:43:36	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:49:55	/api/employees	GET	undefined
+29:01:2022	19:50:33	/api/employees/3	GET	undefined
+29:01:2022	19:50:33	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:50:37	/api/employees/3	PUT	undefined
+29:01:2022	19:50:37	Recieved body --> {"active":"true"}
+29:01:2022	19:50:38	/api/employees/3	GET	undefined
+29:01:2022	19:50:38	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	19:57:24	/api/employees	GET	undefined
+29:01:2022	20:00:28	/api/employees/3	GET	undefined
+29:01:2022	20:00:28	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	20:00:33	/api/employees/3	PUT	undefined
+29:01:2022	20:00:33	Recieved body --> {"active":"false"}
+29:01:2022	20:00:34	/api/employees/3	GET	undefined
+29:01:2022	20:00:34	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	20:45:35	/api/employees	GET	undefined
+29:01:2022	21:06:48	/api/employees/1	GET	undefined
+29:01:2022	21:06:48	{"id":1,"firstname":"Bruce","lastname":"Wayne","email":"bruce.wayne@shandeep.com","active":true,"groups":[1,2]}
+29:01:2022	21:06:53	/api/employees/3	GET	undefined
+29:01:2022	21:06:53	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:06:59	/api/employees/3	GET	undefined
+29:01:2022	21:06:59	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:08:55	/api/employees/3	GET	undefined
+29:01:2022	21:08:55	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:09:44	/api/employees/3	PUT	undefined
+29:01:2022	21:09:44	Recieved body --> {}
+29:01:2022	21:09:45	/api/employees/3	GET	undefined
+29:01:2022	21:09:45	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:12:47	/api/employees/3	GET	undefined
+29:01:2022	21:12:47	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:13:05	/api/employees/3	PUT	undefined
+29:01:2022	21:13:05	Recieved body --> {}
+29:01:2022	21:13:06	/api/employees/3	GET	undefined
+29:01:2022	21:13:06	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:30:31	/api/employees/3	GET	undefined
+29:01:2022	21:30:31	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:30:36	/api/employees/3	GET	undefined
+29:01:2022	21:30:36	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[4,5]}
+29:01:2022	21:30:36	/api/employees/3	PUT	undefined
+29:01:2022	21:30:36	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"groups":[4,5]}
+29:01:2022	21:30:36	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"groups":[4,5],"id":3}
+29:01:2022	21:30:36	Groups to grant --> 4,5
+29:01:2022	21:30:36	Groups to remove --> 
+29:01:2022	21:30:37	/api/employees/3	GET	undefined
+29:01:2022	21:30:37	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:31:17	/api/employees	GET	undefined
+29:01:2022	21:31:25	/api/employees/3	GET	undefined
+29:01:2022	21:31:25	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:41:00	/api/employees/3	GET	undefined
+29:01:2022	21:41:00	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:41:05	/api/employees/3	GET	undefined
+29:01:2022	21:41:05	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:41:05	/api/employees/3	PUT	undefined
+29:01:2022	21:41:05	Recieved body --> {}
+29:01:2022	21:41:06	/api/employees/3	GET	undefined
+29:01:2022	21:41:06	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:43:03	/api/employees/3	GET	undefined
+29:01:2022	21:43:03	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":false,"id":3,"groups":[4,5]}
+29:01:2022	21:43:03	/api/employees/3	PUT	undefined
+29:01:2022	21:43:03	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true}
+29:01:2022	21:43:03	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+29:01:2022	21:43:05	/api/employees/3	GET	undefined
+29:01:2022	21:43:05	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+29:01:2022	21:43:44	/api/employees	GET	undefined
+29:01:2022	21:43:56	/api/employees/3	GET	undefined
+29:01:2022	21:43:56	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+29:01:2022	22:00:27	Starting Application...
+29:01:2022	22:00:27	Setting authentication type as noAuth
+29:01:2022	22:00:28	Application running on port 6969

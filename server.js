@@ -1,10 +1,11 @@
 //TODO
 //1. Add JWT Refresh via POST/cookies?
-//2. Simple API Auth
-//3. groups controller
-//4. more schemas attributes in employee object
+//2. Simple API Auth - Done
+//3. groups controller - Done
+//4. more schemas attributes in employee object - Done
 //5. Implement OAuth May be??
-//6. Proof check with IIQ's web services connector.
+//6. Proof check with IIQ's web services connector - InProgress
+//7. Fix cross auth bug.
 
 const express = require('express');
 const cors = require('cors');
@@ -13,6 +14,7 @@ const authOptions = require('./config/authOptions');
 const logger = require('./middleware/logger');
 const basicAuth = require('./middleware/basicAuth');
 const jwtAuth = require('./middleware/jwtAuth');
+const apiAuth = require('./middleware/apiAuth');
 const path = require('path');
 require('dotenv').config();
 
@@ -23,6 +25,7 @@ const SERVER_PORT = process.env.PORT;
 
 //Entry point logger
 app.use((request, response, next) => {
+    console.log(request.headers.authorization);
     logger.log(`${request.url}\t${request.method}\t${request.headers.origin}`, 'reqLog.txt');
     next();
 });
@@ -36,6 +39,10 @@ app.use(express.json());
 if (authOptions.authType === 'basicAuthentication') {
     app.use('/authreg', require('./routes/authreg'));
     app.use(basicAuth);
+} else if (authOptions.authType === 'APIAuth') {
+    app.use('/authreg', require('./routes/authreg'));
+    app.use('/auth', require('./routes/auth'));
+    app.use(apiAuth);
 } else if (authOptions.authType === 'JWT') {
     app.use('/authreg', require('./routes/authreg'));
     app.use('/auth', require('./routes/auth'));

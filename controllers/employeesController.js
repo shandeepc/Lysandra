@@ -13,6 +13,7 @@ const employeeSchema = Joi.object({
     firstname: Joi.string().min(1).max(30).required(),
     lastname: Joi.string().min(1).max(30).required(),
     email: Joi.string().email().required(),
+    active:Joi.boolean().required(),
     groups:Joi.array().items(Joi.number()).min(1).optional()
 });
 
@@ -63,7 +64,7 @@ const createNewEmployee = (request, response) => {
             if(newEmployee.groups) {
                 for(let element of newEmployee.groups) {
                     if(data.groups.find(g => g.id === element).members) {
-                        if(!data.groups.find(g => g.id === element).members.find(newEmployee.id)) {
+                        if(!data.groups.find(g => g.id === element).members.includes(newEmployee.id)) {
                             data.groups.find(g => g.id === element).members.push(newEmployee.id);
                         }
                     } else {
@@ -96,6 +97,8 @@ const updateEmployee = (request, response) => {
             if(data.employees.find(e => e.id === updtEmployee.id)) {
                 data.employees.find(e => e.id === updtEmployee.id).firstname = updtEmployee.firstname;
                 data.employees.find(e => e.id === updtEmployee.id).lastname = updtEmployee.lastname;
+                data.employees.find(e => e.id === updtEmployee.id).email = updtEmployee.email;
+                data.employees.find(e => e.id === updtEmployee.id).active = updtEmployee.active;
                 let oldGroups = data.employees.find(e => e.id === updtEmployee.id).groups;
                 data.employees.find(e => e.id === updtEmployee.id).groups = updtEmployee.groups;
                 logger.log(`Updated body --> ${JSON.stringify(updtEmployee)}`, 'reqLog.txt');
@@ -151,8 +154,11 @@ const deleteEmployee = (request, response) => {
         logger.log(`Deleting user --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`, 'reqLog.txt');
         data.employees.pop(data.employees.find(e => e.id === parseInt(request.params.id)));
         for(let element of data.groups) {
-            if(element.members)
-                element.members.pop(parseInt(request.params.id));
+            if(element.members && element.members.indexOf(parseInt(request.params.id)) != -1) {
+                element.members.splice(element.members.indexOf(parseInt(request.params.id)),1);
+                if(element.members.length == 0)
+                    delete element['members'];
+            }
         }
         updateData('employees.json',data.employees);
         updateData('groups.json',data.groups);

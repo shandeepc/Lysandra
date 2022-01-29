@@ -5,22 +5,17 @@ const usersDB = {
 const bcrypt = require('bcrypt');
 const Joi = require('joi');
 const jwt = require('jsonwebtoken');
-const fsPromises = require('fs').promises;
-const path = require('path');
-require('dotenv').config();
-const authOptions = require('../config/authOptions');
 
 const userSchema = Joi.object({
     username: Joi.string().min(1).max(30).required(),
     password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required()
 });
 
-async function auth (request, response) {
-    //console.log(request.body);
+async function refreshToken (request, response) {
     let validationResult = userSchema.validate(request.body);
 
     if(validationResult.error) {
-        return response.status(400).json({ "error": validationResult.error.details[0].message });
+        response.status(400).json({ "error": validationResult.error.details[0].message });
     }
 
     let user = request.body.username;
@@ -58,4 +53,4 @@ async function auth (request, response) {
     }
 }
 
-module.exports = { auth };
+module.exports = { refreshToken };
