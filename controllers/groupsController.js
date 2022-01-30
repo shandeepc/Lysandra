@@ -147,8 +147,8 @@ const updateGroup = (request, response) => {
 
 const deleteGroup = (request, response) => {
     if(data.groups.find(g => g.id === parseInt(request.params.id))) {
-        logger.log(`Deleting user --> ${JSON.stringify(data.groups.find(g => g.id === parseInt(request.params.id)))}`, 'reqLog.txt');
-        data.groups.pop(data.groups.find(g => g.id === parseInt(request.params.id)));
+        logger.log(`Deleting group --> ${JSON.stringify(data.groups.find(g => g.id === parseInt(request.params.id)))}`, 'reqLog.txt');
+        data.groups.splice(data.groups.indexOf(data.groups.find(g => g.id === parseInt(request.params.id))),1);
         for(let element of data.employees) {
             if(element.groups && element.groups.indexOf(parseInt(request.params.id)) != -1) {
                 element.groups.splice(element.groups.indexOf(parseInt(request.params.id)),1);

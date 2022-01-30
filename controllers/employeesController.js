@@ -7,6 +7,7 @@ const Joi = require('joi');
 let data = [];
 data.employees = require('../model/employees.json');
 data.groups = require('../model/groups.json');
+data.employeesPassword = require('../model/employeesPassword.json');
 
 const employeeSchema = Joi.object({
     id: Joi.number().required(),
@@ -22,8 +23,10 @@ async function updateData (dPath, content) {
         await fsPromises.writeFile(path.join(__dirname,'..','model',dPath), JSON.stringify(content, null, 4));
         if(dPath === 'employees.json')
             data.employees = require(`../model/${dPath}`);
-        else
+        else if(dPath === 'groups.json')
             data.groups = require(`../model/${dPath}`);
+        else
+            data.employeesPassword = require(`../model/${dPath}`);
     } catch(error) {
         logger.log(`Caught Exception --> ${error}`, 'errorLog.txt');
     }
@@ -151,13 +154,17 @@ const updateEmployee = (request, response) => {
 const deleteEmployee = (request, response) => {
     if(data.employees.find(e => e.id === parseInt(request.params.id))) {
         logger.log(`Deleting user --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`, 'reqLog.txt');
-        data.employees.pop(data.employees.find(e => e.id === parseInt(request.params.id)));
+        data.employees.splice(data.employees.indexOf(data.employees.find(e => e.id === parseInt(request.params.id)),1));
         for(let element of data.groups) {
             if(element.members && element.members.indexOf(parseInt(request.params.id)) != -1) {
                 element.members.splice(element.members.indexOf(parseInt(request.params.id)),1);
                 if(element.members.length == 0)
                     delete element['members'];
             }
+        }
+        if(data.employeesPassword.find(e => e.id === parseInt(request.params.id))) {
+            data.employeesPassword.splice(data.employeesPassword.indexOf(data.employeesPassword.find(e => e.id === parseInt(request.params.id)),1));
+            updateData('employeesPassword.json',data.employeesPassword);
         }
         updateData('employees.json',data.employees);
         updateData('groups.json',data.groups);

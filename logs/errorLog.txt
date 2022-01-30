@@ -433,3 +433,24 @@
     at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
     at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)
     at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:416:3)
+30:01:2022	18:35:38	ERROR --> SyntaxError: Unexpected token } in JSON at position 117
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+30:01:2022	19:57:05	ERROR --> ReferenceError: element is not defined
+    at deleteGroup (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\controllers\groupsController.js:151:28)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\Node REST Api\node_modules\express\lib\router\index.js:371:14)

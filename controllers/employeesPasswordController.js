@@ -42,6 +42,8 @@ const setPassword = async (request, response) => {
                 if (match) {
                     return response.status(400).json({ "error": "New password cannot be same as old password" });
                 }
+            } else {
+                data.employeesPassword.push(newEmployeePassword);
             }
             logger.log(`Updated body --> ${JSON.stringify(newEmployeePassword)}`, 'reqLog.txt');
             let hashedPwd = await bcrypt.hash(newEmployeePassword.password, 10);

@@ -1983,3 +1983,166 @@
 29:01:2022	22:46:48	Starting Application...
 29:01:2022	22:46:48	Setting authentication type as noAuth
 29:01:2022	22:46:48	Application running on port 6969
+29:01:2022	22:49:08	Starting Application...
+29:01:2022	22:49:08	Setting authentication type as noAuth
+29:01:2022	22:49:08	Application running on port 6969
+30:01:2022	18:06:03	Starting Application...
+30:01:2022	18:06:03	Setting authentication type as noAuth
+30:01:2022	18:06:03	Application running on port 6969
+30:01:2022	18:34:10	/api/employees	POST	undefined
+30:01:2022	18:34:10	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com"}
+30:01:2022	18:35:38	/api/employees	POST	undefined
+30:01:2022	18:35:40	/api/employees/2	GET	undefined
+30:01:2022	18:35:40	{"id":2,"firstname":"Peter","lastname":"Parker","email":"peter.parker@shandeep.com","active":true,"groups":[3,4]}
+30:01:2022	18:37:02	/api/employees	POST	undefined
+30:01:2022	18:37:02	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	18:37:02	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	18:37:02	/api/employees/4	GET	undefined
+30:01:2022	18:37:02	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	18:37:25	/api/employees	GET	undefined
+30:01:2022	18:37:38	/api/employees/4	GET	undefined
+30:01:2022	18:37:38	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	18:40:09	/employeespassword/3	POST	undefined
+30:01:2022	18:40:09	Recieved body --> {"password":"pass1"}
+30:01:2022	18:40:09	Updated body --> {"password":"pass1","id":3}
+30:01:2022	18:41:59	/api/employees/4	GET	undefined
+30:01:2022	18:41:59	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:02:56	/api/employees/4	DELETE	undefined
+30:01:2022	19:02:56	Deleting user --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:03:51	/api/employees	GET	undefined
+30:01:2022	19:04:36	/api/employees	POST	undefined
+30:01:2022	19:04:36	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:04:36	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:04:36	/employeespassword/	POST	undefined
+30:01:2022	19:04:36	Invaid request /employeespassword/
+30:01:2022	19:07:01	Starting Application...
+30:01:2022	19:07:01	Setting authentication type as noAuth
+30:01:2022	19:07:01	Application running on port 6969
+30:01:2022	19:07:11	/api/employees	POST	undefined
+30:01:2022	19:07:11	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:07:11	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:07:11	/api/employeespassword/	POST	undefined
+30:01:2022	19:07:11	Invaid request /api/employeespassword/
+30:01:2022	19:22:10	Starting Application...
+30:01:2022	19:22:10	Setting authentication type as noAuth
+30:01:2022	19:22:10	Application running on port 6969
+30:01:2022	19:22:22	/api/employees	POST	undefined
+30:01:2022	19:22:22	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:22:22	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:23:46	/api/employees	POST	undefined
+30:01:2022	19:23:46	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:23:46	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":5}
+30:01:2022	19:26:25	Starting Application...
+30:01:2022	19:26:25	Setting authentication type as noAuth
+30:01:2022	19:26:25	Application running on port 6969
+30:01:2022	19:26:46	/api/employees	POST	undefined
+30:01:2022	19:26:46	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:26:46	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:29:38	Starting Application...
+30:01:2022	19:29:38	Setting authentication type as noAuth
+30:01:2022	19:29:38	Application running on port 6969
+30:01:2022	19:29:53	/api/employees	POST	undefined
+30:01:2022	19:29:53	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:29:53	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:29:53	/api/employeespassword/4	POST	undefined
+30:01:2022	19:29:53	Recieved body --> {"password":"#pass#","jsonMap":"q55K7x\\_+]XB%O8"}
+30:01:2022	19:31:22	Starting Application...
+30:01:2022	19:31:22	Setting authentication type as noAuth
+30:01:2022	19:31:22	Application running on port 6969
+30:01:2022	19:31:32	/api/employees	POST	undefined
+30:01:2022	19:31:32	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:31:32	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:31:32	/api/employeespassword/4	POST	undefined
+30:01:2022	19:31:32	Recieved body --> {"password":"[kG38eT\\JSt??6="}
+30:01:2022	19:31:32	Updated body --> {"password":"[kG38eT\\JSt??6=","id":4}
+30:01:2022	19:34:49	Starting Application...
+30:01:2022	19:34:49	Setting authentication type as noAuth
+30:01:2022	19:34:49	Application running on port 6969
+30:01:2022	19:35:34	Starting Application...
+30:01:2022	19:35:34	Setting authentication type as noAuth
+30:01:2022	19:35:34	Application running on port 6969
+30:01:2022	19:35:54	Starting Application...
+30:01:2022	19:35:54	Setting authentication type as noAuth
+30:01:2022	19:35:55	Application running on port 6969
+30:01:2022	19:36:07	/api/employees	POST	undefined
+30:01:2022	19:36:07	Recieved body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true}
+30:01:2022	19:36:07	Updated body --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:36:07	/api/employeespassword/4	POST	undefined
+30:01:2022	19:36:07	Recieved body --> {"password":"5y3EoPFI?7C0jy-"}
+30:01:2022	19:36:07	Updated body --> {"password":"5y3EoPFI?7C0jy-","id":4}
+30:01:2022	19:36:07	/api/employees/4	GET	undefined
+30:01:2022	19:36:07	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:36:29	/api/employees	GET	undefined
+30:01:2022	19:36:38	/api/employees/4	GET	undefined
+30:01:2022	19:36:38	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:39:07	/api/employees/4	GET	undefined
+30:01:2022	19:39:07	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:39:59	/api/employees/4	GET	undefined
+30:01:2022	19:39:59	{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	19:40:06	Starting Application...
+30:01:2022	19:40:06	Setting authentication type as noAuth
+30:01:2022	19:40:06	Application running on port 6969
+30:01:2022	19:40:14	Starting Application...
+30:01:2022	19:40:14	Setting authentication type as noAuth
+30:01:2022	19:40:14	Application running on port 6969
+30:01:2022	19:40:36	Starting Application...
+30:01:2022	19:40:36	Setting authentication type as noAuth
+30:01:2022	19:40:36	Application running on port 6969
+30:01:2022	19:41:44	Starting Application...
+30:01:2022	19:41:44	Setting authentication type as noAuth
+30:01:2022	19:41:44	Application running on port 6969
+30:01:2022	19:43:22	Starting Application...
+30:01:2022	19:43:22	Setting authentication type as noAuth
+30:01:2022	19:43:22	Application running on port 6969
+30:01:2022	19:43:47	Starting Application...
+30:01:2022	19:43:47	Setting authentication type as noAuth
+30:01:2022	19:43:47	Application running on port 6969
+30:01:2022	19:44:03	Starting Application...
+30:01:2022	19:44:03	Setting authentication type as noAuth
+30:01:2022	19:44:03	Application running on port 6969
+30:01:2022	19:56:42	Starting Application...
+30:01:2022	19:56:42	Setting authentication type as noAuth
+30:01:2022	19:56:42	Application running on port 6969
+30:01:2022	19:57:05	/groups/2	DELETE	undefined
+30:01:2022	19:57:05	Deleting user --> {"id":2,"name":"mailWrite","description":"Provide write access to mail","members":[1]}
+30:01:2022	19:58:06	Starting Application...
+30:01:2022	19:58:06	Setting authentication type as noAuth
+30:01:2022	19:58:06	Application running on port 6969
+30:01:2022	19:58:06	/groups/2	DELETE	undefined
+30:01:2022	19:58:06	Deleting group --> {"id":2,"name":"mailWrite","description":"Provide write access to mail","members":[1]}
+30:01:2022	19:58:15	Starting Application...
+30:01:2022	19:58:15	Setting authentication type as noAuth
+30:01:2022	19:58:16	Application running on port 6969
+30:01:2022	19:58:20	Starting Application...
+30:01:2022	19:58:20	Setting authentication type as noAuth
+30:01:2022	19:58:21	Application running on port 6969
+30:01:2022	19:58:42	Starting Application...
+30:01:2022	19:58:42	Setting authentication type as noAuth
+30:01:2022	19:58:42	Application running on port 6969
+30:01:2022	19:59:10	Starting Application...
+30:01:2022	19:59:10	Setting authentication type as noAuth
+30:01:2022	19:59:10	Application running on port 6969
+30:01:2022	19:59:50	Starting Application...
+30:01:2022	19:59:50	Setting authentication type as noAuth
+30:01:2022	19:59:50	Application running on port 6969
+30:01:2022	20:00:00	Starting Application...
+30:01:2022	20:00:00	Setting authentication type as noAuth
+30:01:2022	20:00:00	Application running on port 6969
+30:01:2022	20:01:18	Starting Application...
+30:01:2022	20:01:18	Setting authentication type as noAuth
+30:01:2022	20:01:18	Application running on port 6969
+30:01:2022	20:01:32	Starting Application...
+30:01:2022	20:01:32	Setting authentication type as noAuth
+30:01:2022	20:01:32	Application running on port 6969
+30:01:2022	20:01:56	Starting Application...
+30:01:2022	20:01:56	Setting authentication type as noAuth
+30:01:2022	20:01:56	Application running on port 6969
+30:01:2022	20:02:16	Starting Application...
+30:01:2022	20:02:16	Application running on port 6969
+30:01:2022	20:02:16	Setting authentication type as noAuth
+30:01:2022	20:03:27	/api/employees/4	DELETE	undefined
+30:01:2022	20:03:27	Deleting user --> {"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4}
+30:01:2022	20:03:50	/api/employees	GET	undefined
+30:01:2022	20:04:33	Starting Application...
+30:01:2022	20:04:33	Setting authentication type as noAuth
+30:01:2022	20:04:33	Application running on port 6969

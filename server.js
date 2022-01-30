@@ -4,8 +4,16 @@
 //3. groups controller - Done
 //4. more schemas attributes in employee object - Done
 //5. Implement OAuth May be??
-//6. Proof check with IIQ's web services connector - InProgress
+//6. Proof check with IIQ's web services connector -
+//      Working - 
+//           Employees - Read All, Create, Create with Password, Delete, Enable, Disable, Get
+//           Group - Read All, Get
+//      InProgress - 
+//           Employees - Add group, Remove group, Change Password, Update
+//           Group - Create, Delete, Update
 //7. Fix cross auth bug.
+//8. Password set/reset - Done
+//9. Implement paging
 
 const express = require('express');
 const cors = require('cors');
@@ -25,7 +33,6 @@ const SERVER_PORT = process.env.PORT;
 
 //Entry point logger
 app.use((request, response, next) => {
-    console.log(request.headers.authorization);
     logger.log(`${request.url}\t${request.method}\t${request.headers.origin}`, 'reqLog.txt');
     next();
 });
