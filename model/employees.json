@@ -26,6 +26,7 @@
         "lastname": "Cena",
         "email": "john.cena@shandeep.com",
         "active": true,
-        "id": 3
+        "id": 3,
+        "groups": []
     }
 ]

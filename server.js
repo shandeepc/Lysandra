@@ -6,14 +6,15 @@
 //5. Implement OAuth May be??
 //6. Proof check with IIQ's web services connector -
 //      Working - 
-//           Employees - Read All, Create, Create with Password, Delete, Enable, Disable, Get
+//           Employees - Read All, Create, Create with Password, Delete, Enable, Disable, Get, Change Password, Add group, Remove group
 //           Group - Read All, Get
 //      InProgress - 
-//           Employees - Add group, Remove group, Change Password, Update
+//           Employees - Create + Add group, Update
 //           Group - Create, Delete, Update
 //7. Fix cross auth bug.
 //8. Password set/reset - Done
 //9. Implement paging
+//10. Fix IIQ warnings
 
 const express = require('express');
 const cors = require('cors');

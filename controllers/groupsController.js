@@ -12,7 +12,7 @@ const groupSchema = Joi.object({
     id: Joi.number().required(),
     name: Joi.string().min(1).max(30).required(),
     description: Joi.string().min(1).max(50).required(),
-    members:Joi.array().items(Joi.number()).min(1).optional()
+    members:Joi.array().items(Joi.number()).optional()
 });
 
 async function updateData (dPath, content) {

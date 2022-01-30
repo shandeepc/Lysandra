@@ -15,7 +15,7 @@ const employeeSchema = Joi.object({
     lastname: Joi.string().min(1).max(30).required(),
     email: Joi.string().email().required(),
     active: Joi.boolean().required(),
-    groups: Joi.array().items(Joi.number()).min(1).optional()
+    groups: Joi.array().items(Joi.number()).optional()
 });
 
 async function updateData (dPath, content) {

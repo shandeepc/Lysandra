@@ -2146,3 +2146,157 @@
 30:01:2022	20:04:33	Starting Application...
 30:01:2022	20:04:33	Setting authentication type as noAuth
 30:01:2022	20:04:33	Application running on port 6969
+30:01:2022	20:10:29	/api/employeespassword/2	POST	undefined
+30:01:2022	20:10:29	Recieved body --> {"password":"$plan.password"}
+30:01:2022	20:10:29	Updated body --> {"password":"$plan.password","id":2}
+30:01:2022	20:11:26	/api/employeespassword/2	POST	undefined
+30:01:2022	20:11:26	Recieved body --> {"password":"=_v1Fol,Cg:x*[^"}
+30:01:2022	20:11:27	Updated body --> {"password":"=_v1Fol,Cg:x*[^","id":2}
+30:01:2022	20:12:05	Starting Application...
+30:01:2022	20:12:05	Setting authentication type as noAuth
+30:01:2022	20:12:05	Application running on port 6969
+30:01:2022	20:13:10	Starting Application...
+30:01:2022	20:13:10	Setting authentication type as noAuth
+30:01:2022	20:13:10	Application running on port 6969
+30:01:2022	20:20:18	/api/employees/3	PUT	undefined
+30:01:2022	20:20:18	Recieved body --> {"active":true,"groups":[5]}
+30:01:2022	20:20:45	/api/employees/2	GET	undefined
+30:01:2022	20:20:45	{"id":2,"firstname":"Peter","lastname":"Parker","email":"peter.parker@shandeep.com","active":true,"groups":[3,4]}
+30:01:2022	20:24:10	/api/employees	GET	undefined
+30:01:2022	20:24:54	/api/employees/3	PUT	undefined
+30:01:2022	20:24:54	Recieved body --> {"active":true,"groups":[5]}
+30:01:2022	20:26:09	/api/employees	GET	undefined
+30:01:2022	21:06:48	/api/employees	GET	undefined
+30:01:2022	21:06:55	/api/employees/3	GET	undefined
+30:01:2022	21:06:55	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+30:01:2022	21:07:24	/api/employees/3	GET	undefined
+30:01:2022	21:07:24	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+30:01:2022	21:10:55	/api/employees	GET	undefined
+30:01:2022	21:11:15	/api/employees/3	GET	undefined
+30:01:2022	21:11:15	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+30:01:2022	21:14:04	/api/employees	GET	undefined
+30:01:2022	21:14:28	/api/employees/3	GET	undefined
+30:01:2022	21:14:28	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+30:01:2022	21:14:28	/api/employees/3	PUT	undefined
+30:01:2022	21:14:28	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":["5"]}
+30:01:2022	21:15:18	/api/employees	GET	undefined
+30:01:2022	21:21:18	/api/employees/3	GET	undefined
+30:01:2022	21:21:18	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3}
+30:01:2022	21:21:18	/api/employees/3	PUT	undefined
+30:01:2022	21:21:18	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5]}
+30:01:2022	21:21:18	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5],"id":3}
+30:01:2022	21:21:18	Groups to grant --> 5
+30:01:2022	21:21:18	Groups to remove --> 
+30:01:2022	21:34:54	/api/employees	GET	undefined
+30:01:2022	21:35:00	/api/employees/3	GET	undefined
+30:01:2022	21:35:00	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5]}
+30:01:2022	21:36:11	/api/employees/3	GET	undefined
+30:01:2022	21:36:11	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5]}
+30:01:2022	21:36:12	/api/employees/3	PUT	undefined
+30:01:2022	21:36:12	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5,3]}
+30:01:2022	21:36:12	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5,3],"id":3}
+30:01:2022	21:36:12	Groups to grant --> 5,3
+30:01:2022	21:36:12	Groups to remove --> 
+30:01:2022	21:36:12	/api/employees/3	GET	undefined
+30:01:2022	21:36:12	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5,3]}
+30:01:2022	21:36:12	/api/employees/3	PUT	undefined
+30:01:2022	21:36:12	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5,3,3]}
+30:01:2022	21:36:12	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[5,3,3],"id":3}
+30:01:2022	21:36:12	Groups to grant --> 5,3
+30:01:2022	21:36:12	Groups to remove --> 
+30:01:2022	21:36:37	/api/employees	GET	undefined
+30:01:2022	21:36:45	/api/employees/3	GET	undefined
+30:01:2022	21:36:45	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5,3,3]}
+30:01:2022	21:54:31	Starting Application...
+30:01:2022	21:54:31	Setting authentication type as noAuth
+30:01:2022	21:54:31	Application running on port 6969
+30:01:2022	21:54:41	/api/employees	GET	undefined
+30:01:2022	21:54:50	/api/employees/3	GET	undefined
+30:01:2022	21:54:50	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5,4,3]}
+30:01:2022	21:59:31	/api/employees/3	GET	undefined
+30:01:2022	21:59:31	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[5,4,3]}
+30:01:2022	21:59:32	/api/employees/3	PUT	undefined
+30:01:2022	21:59:32	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4]}
+30:01:2022	21:59:32	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4],"id":3}
+30:01:2022	21:59:32	Groups to grant --> 3,4
+30:01:2022	21:59:32	Groups to remove --> 5
+30:01:2022	21:59:54	/api/employees	GET	undefined
+30:01:2022	22:01:47	/api/employees	GET	undefined
+30:01:2022	22:01:54	/api/employees/3	GET	undefined
+30:01:2022	22:01:54	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4]}
+30:01:2022	22:02:15	/api/employees/3	GET	undefined
+30:01:2022	22:02:15	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4]}
+30:01:2022	22:02:15	/api/employees/3	PUT	undefined
+30:01:2022	22:02:15	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3]}
+30:01:2022	22:02:15	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3],"id":3}
+30:01:2022	22:02:15	Groups to grant --> 3
+30:01:2022	22:02:15	Groups to remove --> 4
+30:01:2022	22:02:24	/api/employees	GET	undefined
+30:01:2022	22:02:30	/api/employees/3	GET	undefined
+30:01:2022	22:02:30	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3]}
+30:01:2022	22:04:34	/api/employees/3	GET	undefined
+30:01:2022	22:04:34	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3]}
+30:01:2022	22:04:35	/api/employees/3	PUT	undefined
+30:01:2022	22:04:35	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4,5]}
+30:01:2022	22:04:35	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4,5],"id":3}
+30:01:2022	22:04:35	Groups to grant --> 3,4,5
+30:01:2022	22:04:35	Groups to remove --> 
+30:01:2022	22:04:35	/api/employees/3	GET	undefined
+30:01:2022	22:04:35	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:04:35	/api/employees/3	PUT	undefined
+30:01:2022	22:04:35	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4,5]}
+30:01:2022	22:04:35	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[3,4,5],"id":3}
+30:01:2022	22:04:35	Groups to grant --> 3,4,5
+30:01:2022	22:04:35	Groups to remove --> 
+30:01:2022	22:04:56	/api/employees	GET	undefined
+30:01:2022	22:05:03	/api/employees/3	GET	undefined
+30:01:2022	22:05:03	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:07:32	/api/employees/3	GET	undefined
+30:01:2022	22:07:32	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:07:33	/api/employees/3	PUT	undefined
+30:01:2022	22:07:33	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:07:33	/api/employees/3	GET	undefined
+30:01:2022	22:07:33	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:07:33	/api/employees/3	PUT	undefined
+30:01:2022	22:07:33	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:07:33	/api/employees/3	GET	undefined
+30:01:2022	22:07:33	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:07:33	/api/employees/3	PUT	undefined
+30:01:2022	22:07:33	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:12:49	Starting Application...
+30:01:2022	22:12:49	Setting authentication type as noAuth
+30:01:2022	22:12:49	Application running on port 6969
+30:01:2022	22:13:10	Starting Application...
+30:01:2022	22:13:10	Setting authentication type as noAuth
+30:01:2022	22:13:10	Application running on port 6969
+30:01:2022	22:14:41	/api/employees	GET	undefined
+30:01:2022	22:15:19	/api/employees/3	GET	undefined
+30:01:2022	22:15:19	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[3,4,5]}
+30:01:2022	22:15:20	/api/employees/3	PUT	undefined
+30:01:2022	22:15:20	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:15:20	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[],"id":3}
+30:01:2022	22:15:20	Groups to remove --> 3,4,5
+30:01:2022	22:15:20	Groups to grant --> 
+30:01:2022	22:15:20	/api/employees/3	GET	undefined
+30:01:2022	22:15:20	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[]}
+30:01:2022	22:15:20	/api/employees/3	PUT	undefined
+30:01:2022	22:15:20	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:15:20	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[],"id":3}
+30:01:2022	22:15:20	Groups to grant --> 
+30:01:2022	22:15:20	Groups to remove --> 
+30:01:2022	22:15:20	/api/employees/3	GET	undefined
+30:01:2022	22:15:20	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[]}
+30:01:2022	22:15:20	/api/employees/3	PUT	undefined
+30:01:2022	22:15:20	Recieved body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[]}
+30:01:2022	22:15:20	Updated body --> {"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"groups":[],"id":3}
+30:01:2022	22:15:20	Groups to grant --> 
+30:01:2022	22:15:20	Groups to remove --> 
+30:01:2022	22:16:07	/api/employees	GET	undefined
+30:01:2022	22:16:14	/api/employees/3	GET	undefined
+30:01:2022	22:16:14	{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[]}
+30:01:2022	22:16:47	Starting Application...
+30:01:2022	22:16:47	Setting authentication type as noAuth
+30:01:2022	22:16:47	Application running on port 6969
+30:01:2022	22:17:11	Starting Application...
+30:01:2022	22:17:11	Setting authentication type as noAuth
+30:01:2022	22:17:11	Application running on port 6969
