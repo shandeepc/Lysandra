@@ -4,7 +4,8 @@
         "name": "mailRead",
         "description": "Provide read access to mail",
         "members": [
-            1
+            1,
+            4
         ]
     },
     {
@@ -12,7 +13,8 @@
         "name": "mailWrite",
         "description": "Provide write access to mail",
         "members": [
-            1
+            1,
+            4
         ]
     },
     {
@@ -20,7 +22,8 @@
         "name": "payrollRead",
         "description": "Provide read access to payroll",
         "members": [
-            2
+            2,
+            4
         ]
     },
     {
@@ -28,12 +31,16 @@
         "name": "payrollWrite",
         "description": "Provide write access to payroll",
         "members": [
-            2
+            2,
+            4
         ]
     },
     {
         "name": "payrollAdmin",
         "description": "Provide admin access to payroll",
-        "id": 5
+        "id": 5,
+        "members": [
+            4
+        ]
     }
 ]

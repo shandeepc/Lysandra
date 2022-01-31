@@ -28,5 +28,19 @@
         "active": true,
         "id": 3,
         "groups": []
+    },
+    {
+        "firstname": "Will",
+        "lastname": "Smith",
+        "email": "will.smith@shandeep.com",
+        "active": true,
+        "id": 4,
+        "groups": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
     }
 ]
