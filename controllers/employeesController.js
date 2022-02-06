@@ -44,8 +44,19 @@ function checkGroups (groupArray) {
 }
 
 const getAllEmployees = (request, response) => {
-    //console.log(request);
-    response.status(200).json(data.employees);
+    let result;
+    if(request.query.offset && request.query.limit) {
+        let offset = request.query.offset;
+        let limit = request.query.limit;
+        let startIndex = (offset -1);
+        let endIndex = parseInt(startIndex) + parseInt(limit);
+        console.log(startIndex);
+        console.log(endIndex);
+        result = data.employees.slice(startIndex, endIndex);
+    } else {
+        result = data.employees;
+    }
+    response.status(200).json(result);
 }
 
 const createNewEmployee = (request, response) => {

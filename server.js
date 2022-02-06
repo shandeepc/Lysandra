@@ -4,16 +4,10 @@
 //3. groups controller - Done
 //4. more schemas attributes in employee object - Done
 //5. Implement OAuth May be??
-//6. Proof check with IIQ's web services connector -
-//      Working - 
-//           Employees - Read All, Create, Create with Password, Delete, Enable, Disable, Get, Change Password, Add group, Remove group, Create + Add group + Set password
-//           Group - Read All, Get
-//      InProgress - 
-//           Employees - Update
-//           Group - Create, Delete, Update
+//6. Proof check with IIQ's web services connector - Done
 //7. Fix cross auth bug.
 //8. Password set/reset - Done
-//9. Implement paging
+//9. Implement paging - Done
 //10. Fix IIQ warnings
 //11. Implement PATCH Operation
 
