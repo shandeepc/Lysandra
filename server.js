@@ -1,10 +1,3 @@
-//TODO
-//1. Add JWT Refresh via POST?
-//2. Implement OAuth May be??
-//3. Fix cross auth bug.
-//4. Fix IIQ warnings
-//5. Implement PATCH Operation
-
 //Node Modules
 const express = require('express');
 const path = require('path');
