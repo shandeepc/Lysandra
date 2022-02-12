@@ -26,22 +26,14 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 
 * Mutiple Objects for managing(Employees & Groups)
 * Support mutiple authentication methods
-* No Authentication
-* UserName and Password based authentication
-* Permanant API Token based authentication
-* JWT Token based authentication(Refer Todo)
+    * No Authentication
+    * UserName and Password based authentication
+    * Permanant API Token based authentication
+    * JWT Token based authentication(Refer Todo)
 * Follows general public API standards
 * Strict schema validation
 * Supports pagging
 * Supports password set and reset
-
-## Todo
-
-- [ ] Add JWT Refresh via POST
-- [ ] Implement OAuth(Sort Of)
-- [ ] Fix cross auth bug(Secret..Sush)
-- [ ] Fix IDAM warnings
-- [ ] Implement PATCH Operation
 
 ## Getting Started
 
@@ -71,6 +63,7 @@ To get a local copy up and running follow these simple example steps.
    PORT = 6969
    ```
 5.  Update secret in `.env`(Optional)
+
     Generate secrets by executing below command in Node console
    ```sh
     require('crypto').randomBytes(64).toString('hex')
@@ -95,3 +88,11 @@ or
    ```sh
    node server
    ```
+
+## Todo
+
+- [ ] Add JWT Refresh via POST
+- [ ] Implement OAuth(Sort Of)
+- [ ] Fix cross auth bug(Secret..Sush)
+- [ ] Fix IDAM warnings
+- [ ] Implement PATCH Operation
