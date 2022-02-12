@@ -102,14 +102,22 @@ or
 
 ## Todo
 
-- [ ] Add JWT Refresh via POST
-- [ ] Implement OAuth(Sort Of)
-- [ ] Fix cross auth bug(Secret..Sush)
+- [x] Employees MVC
+- [x] Basic Authentication
+- [x] Simple API Authentication
+- [x] Employees Password MVC
+- [x] Groups MVC
+- [x] JWT Authentication
 - [ ] Fix IDAM warnings
 - [ ] Implement PATCH Operation
+- [ ] Support sorting and filtering
+- [ ] Fix cross auth bug(Secret..Sush)
+- [ ] Add JWT Refresh via POST
+- [ ] Implement OAuth(Sort Of)
 
 ## Roadmap
 
+- [ ] Simulate OAuth2.0 Authentication mechanism
 - [ ] Add GUI
 - [ ] Add Native app
 
