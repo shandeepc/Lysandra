@@ -91,7 +91,7 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 
 ### Usage
 
-Start the application be either typing
+Start the application by either typing
    ```sh
    npm start
    ```
