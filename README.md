@@ -1,3 +1,24 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<br />
+<div align="center">
+  <a href="https://github.com/shandeepc/KiPerFiB-REST-API/">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">KiPerFiB REST API</h3>
+
+  <p align="center">
+    Simple REST API for IDAM integration.
+  </p>
+</div>
+
+
 # KiPerFiB REST API
 Kinda Perfect File Based REST API
 
@@ -9,7 +30,7 @@ Uses JSON files for persistance storage.
 
 Primarily created to use as a Source/Target for IDAM Tools. But can be used for other things....
 
-### Built With
+## Built With
 
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
@@ -36,9 +57,6 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * Supports password set and reset
 
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -78,7 +96,7 @@ To get a local copy up and running follow these simple example steps.
       Example :-
       REFRESH_TOKEN_SECRET=2d9c69c1caa4611ecdee16b03953d98c05e55e31bbca503aae4fda8b931360ae390db579f58539065d551869487cce5e272e9b757f7166e7fd9b16583f140898
 
-## Usage
+### Usage
 
 Start the application be either typing
    ```sh
