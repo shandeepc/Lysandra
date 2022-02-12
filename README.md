@@ -68,14 +68,14 @@ To get a local copy up and running follow these simple example steps.
    ```sh
     require('crypto').randomBytes(64).toString('hex')
    ```
-   Copy the generated `SECRET` and place in `ACCESS_TOKEN_SECRET`
+    Copy the generated `SECRET` and place in `ACCESS_TOKEN_SECRET`
    
-   Example :-
+    Example :-
       ACCESS_TOKEN_SECRET=c11242e5719f3e42b46e50b7c13adcdb090bc148fdf94cd64418fc8d6e22e9ce09c58f5078b58bd6a6c52ed54ebb7c56ef93dd7fc9a7730420a0a24394322e6d
+    
+    Perform same above step again and place in `REFRESH_TOKEN_SECRET`
    
-   Perform same above step again and place in `REFRESH_TOKEN_SECRET`
-   
-   Example :-
+    Example :-
       REFRESH_TOKEN_SECRET=2d9c69c1caa4611ecdee16b03953d98c05e55e31bbca503aae4fda8b931360ae390db579f58539065d551869487cce5e272e9b757f7166e7fd9b16583f140898
 
 ## Usage
