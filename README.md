@@ -63,11 +63,10 @@ To get a local copy up and running follow these simple example steps.
    PORT = 6969
    ```
 5.  Update secret in `.env`(Optional)
-   
-   Generate secrets by executing below command in Node console
-   ```sh
-    require('crypto').randomBytes(64).toString('hex')
-   ```
+      Generate secrets by executing below command in Node console
+      ```sh
+         require('crypto').randomBytes(64).toString('hex')
+      ```
    Copy the generated `SECRET` and place in `ACCESS_TOKEN_SECRET`
    
    Example :-
