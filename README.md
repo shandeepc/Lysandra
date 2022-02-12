@@ -1,14 +1,7 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <br />
 <div align="center">
   <a href="https://github.com/shandeepc/KiPerFiB-REST-API/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">KiPerFiB REST API</h3>
