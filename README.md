@@ -9,21 +9,21 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 
 # Features
 
-1. Mutiple Objects for managing(Employees & Groups)
-2. Support mutiple authentication methods
-  1.  No Authentication
-  2.  UserName and Password based authentication
-  3.  Permanant API Token based authentication
-  4.  JWT Token based authentication(Refer TODO)
-3.  Follows general public API standards(Refer TODO)
-4.  Supports pagging
-5.  Supports password set and reset
+* Mutiple Objects for managing(Employees & Groups)
+* Support mutiple authentication methods
+* No Authentication
+* UserName and Password based authentication
+* Permanant API Token based authentication
+* JWT Token based authentication(Refer Todo)
+* Follows general public API standards(Refer Todo)
+* Supports pagging
+* Supports password set and reset
 
-# TODO
+# Todo
 
-1.  Add JWT Refresh via POST
-2.  Implement OAuth(Sort Of)
-3.  Fix cross auth bug(Secret..Sush)
-4.  Fix IDAM warnings
-5.  Implement PATCH Operation
+- [ ] Add JWT Refresh via POST
+- [ ] Implement OAuth(Sort Of)
+- [ ] Fix cross auth bug(Secret..Sush)
+- [ ] Fix IDAM warnings
+- [ ] Implement PATCH Operation
 
