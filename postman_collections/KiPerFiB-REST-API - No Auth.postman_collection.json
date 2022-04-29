@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "5c492e51-eeff-4079-98c0-9eebeb54edb5",
+		"name": "KiPerFiB-REST-API - No Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Employees",
+			"item": [
+				{
+					"name": "Get All Employees",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get An Employee",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create An Employee",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": true\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update An Employee",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": false\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employees/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get An Employee Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"105"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Employees Password",
+			"item": [
+				{
+					"name": "Set/Update An Employee Password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"NotASecurePassword\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employeespassword/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employeespassword",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Groups",
+			"item": [
+				{
+					"name": "Get All Groups",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/groups",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"groups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get A Group",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/groups/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"groups",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create A Group",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Maker\",\r\n    \"description\": \"Provide Maker Access\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/groups",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"groups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update A Group",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Maker New\",\r\n    \"description\": \"Provide Maker New Access\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/groups/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"groups",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete A Group",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/groups/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"groups",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Test Connection",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:6969",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6969"
+				}
+			},
+			"response": []
+		}
+	]
+}

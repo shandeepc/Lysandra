@@ -51,6 +51,7 @@ const getAllGroups = (request, response) => {
     } else {
         result = data.groups;
     }
+    logger.log(`Sending --> ${JSON.stringify(result)}`, 'reqLog.txt');
     response.status(200).json(result);
 }
 
@@ -83,6 +84,7 @@ const createNewGroup = (request, response) => {
             }
             updateData('groups.json',data.groups);
             updateData('employees.json',data.employees);
+            logger.log(`Sending --> ${JSON.stringify(newGroup)}`, 'reqLog.txt');
             response.status(201).json(newGroup);
         }
     }
@@ -104,8 +106,8 @@ const updateGroup = (request, response) => {
             response.status(400).json({ "error": `${isMemberValid}` });
         } else {
             if(data.groups.find(e => e.id === updtGroup.id)) {
-                data.groups.find(e => e.id === updtGroup.id).firstname = updtGroup.firstname;
-                data.groups.find(e => e.id === updtGroup.id).lastname = updtGroup.lastname;
+                data.groups.find(e => e.id === updtGroup.id).name = updtGroup.name;
+                data.groups.find(e => e.id === updtGroup.id).description = updtGroup.description;
                 let oldMembers = data.groups.find(e => e.id === updtGroup.id).members;
                 data.groups.find(e => e.id === updtGroup.id).members = updtGroup.members;
                 logger.log(`Updated body --> ${JSON.stringify(updtGroup)}`, 'reqLog.txt');
@@ -147,7 +149,8 @@ const updateGroup = (request, response) => {
                 }
                 updateData('groups.json',data.groups);
                 updateData('employees.json',data.employees);
-                response.status(201).json(updtGroup);
+                logger.log(`Sending --> ${JSON.stringify(updtGroup)}`, 'reqLog.txt');
+                response.status(200).json(updtGroup);
             } else {
                 response.status(404).json({ "error": `Cannot find an existing group with ID ${updtGroup.id}` });
             }
@@ -169,6 +172,7 @@ const deleteGroup = (request, response) => {
         }
         updateData('groups.json',data.groups);
         updateData('employees.json',data.employees);
+        logger.log(`Sending --> { "message": "Deleted group with ID ${request.params.id}"`, 'reqLog.txt');
         response.status(200).json({ "message": `Deleted group with ID ${request.params.id}` });
     } else {
         response.status(404).json({ "error": `Cannot find an group with ID ${request.params.id}` });
@@ -181,6 +185,7 @@ const getGroup = (request, response) => {
     if(!group) {
         response.status(404).json({ "error": `Group with Id ${request.params.id} Not Found` });
     } else {
+        logger.log(`Sending --> ${JSON.stringify(group)}`, 'reqLog.txt');
         response.status(200).json(group);
     }
 }

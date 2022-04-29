@@ -11,7 +11,7 @@ data.employeesPassword = require('../model/employeesPassword.json');
 
 const employeePasswordSchema = Joi.object({
     id: Joi.number().required(),
-    password: Joi.string().min(3).max(15).required()
+    password: Joi.string().min(3).max(100).required()
 });
 
 async function updateData(dPath, content) {
@@ -48,8 +48,9 @@ const setPassword = async (request, response) => {
             logger.log(`Updated body --> ${JSON.stringify(newEmployeePassword)}`, 'reqLog.txt');
             let hashedPwd = await bcrypt.hash(newEmployeePassword.password, 10);
             data.employeesPassword.find(e => e.id === newEmployeePassword.id).password = hashedPwd;
+            //console.log(data.employeesPassword.find(e => e.id === newEmployeePassword.id));
             updateData('employeesPassword.json', data.employeesPassword);
-            response.status(201).json(newEmployeePassword);
+            response.status(200).json(data.employeesPassword.find(e => e.id === newEmployeePassword.id));
         }
     }
 }

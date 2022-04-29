@@ -1,0 +1,48 @@
+29:04:2022	21:47:38	ERROR --> TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\routes\root.js:7:36
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:371:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:416:3)
+29:04:2022	21:48:09	ERROR --> ReferenceError: Type is not defined
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\routes\root.js:7:44
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:371:14)
+    at param (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:416:3)
+29:04:2022	21:56:39	ERROR --> Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:390:13)
+    at SendStream.send (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:617:10)
+    at onstat (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:729:10)
+    at FSReqCallback.oncomplete (node:fs:199:5)
+29:04:2022	21:57:05	ERROR --> Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:390:13)
+    at SendStream.send (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:617:10)
+    at onstat (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:729:10)
+    at FSReqCallback.oncomplete (node:fs:199:5)
+29:04:2022	21:57:14	ERROR --> Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:390:13)
+    at SendStream.send (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:617:10)
+    at onstat (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\send\index.js:729:10)
+    at FSReqCallback.oncomplete (node:fs:199:5)
+29:04:2022	22:18:05	ERROR --> ReferenceError: request is not defined
+    at unauthorizedResponse (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\middleware\basicAuth.js:18:9)
+    at unauthorized (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express-basic-auth\index.js:78:30)
+    at authMiddleware (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express-basic-auth\index.js:52:20)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\ShandeepSpade\Documents\Visual Studio Code Node.js\KiPerFiB REST API\node_modules\express\lib\router\layer.js:95:5)

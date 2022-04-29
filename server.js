@@ -22,7 +22,7 @@ logger.log(`Setting authentication type as ${authOptions.authType}`, 'reqLog.txt
 
 //Entry point logger
 app.use((request, response, next) => {
-    logger.log(`${request.url}\t${request.method}\t${request.headers.origin}`, 'reqLog.txt');
+    logger.log(`${request.url}\t${request.method}\t${request.headers.host}`, 'reqLog.txt');
     next();
 });
 
@@ -39,8 +39,10 @@ if (authOptions.authType === 'basicAuthentication') {
     app.use('/auth', require('./routes/auth'));
     app.use(apiAuth);
 } else if (authOptions.authType === 'JWT') {
+    logger.log(`JWT Authentication is Still in progress..`, 'reqLog.txt');
     app.use('/authreg', require('./routes/authreg'));
     app.use('/auth', require('./routes/auth'));
+    app.use('/refresh', require('./routes/refresh'));
     app.use(jwtAuth);
 }
 

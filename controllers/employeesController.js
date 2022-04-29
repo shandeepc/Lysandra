@@ -56,6 +56,7 @@ const getAllEmployees = (request, response) => {
     } else {
         result = data.employees;
     }
+    logger.log(`Sending --> ${JSON.stringify(result)}`, 'reqLog.txt');
     response.status(200).json(result);
 }
 
@@ -88,6 +89,7 @@ const createNewEmployee = (request, response) => {
             }
             updateData('employees.json',data.employees);
             updateData('groups.json',data.groups);
+            logger.log(`Sending --> ${JSON.stringify(newEmployee)}`, 'reqLog.txt');
             response.status(201).json(newEmployee);
         }
     }
@@ -153,7 +155,8 @@ const updateEmployee = (request, response) => {
                 }
                 updateData('employees.json',data.employees);
                 updateData('groups.json',data.groups);
-                response.status(201).json(updtEmployee);
+                logger.log(`Sending --> ${JSON.stringify(updtEmployee)}`, 'reqLog.txt');
+                response.status(200).json(updtEmployee);
             } else {
                 response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
             }
@@ -179,6 +182,7 @@ const deleteEmployee = (request, response) => {
         }
         updateData('employees.json',data.employees);
         updateData('groups.json',data.groups);
+        logger.log(`Sending --> { "message": "Deleted user with ID ${request.params.id}" }`, 'reqLog.txt');
         response.status(200).json({ "message": `Deleted user with ID ${request.params.id}` });
     } else {
         response.status(404).json({ "error": `Cannot find an employee with ID ${request.params.id}` });
@@ -187,10 +191,10 @@ const deleteEmployee = (request, response) => {
 
 const getEmployee = (request, response) => {
     let employee = data.employees.find(e => e.id === parseInt(request.params.id));
-    logger.log(JSON.stringify(employee), 'reqLog.txt');
     if(!employee) {
         response.status(404).json({ "error": `Employee with Id ${request.params.id} Not Found` });
     } else {
+        logger.log(`Sending --> ${JSON.stringify(employee)}`, 'reqLog.txt');
         response.status(200).json(employee);
     }
 }
