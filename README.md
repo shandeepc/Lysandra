@@ -47,7 +47,8 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
     * No Authentication
     * UserName and Password based authentication
     * Permanant API Token based authentication
-    * JWT Token based authentication(depreciated)
+    * JWT Token based authentication(Deprecated)
+    * OAuth2.0(Client Credentials)
 * Follows general public API standards
 * Strict schema validation
 * Supports pagging
@@ -111,12 +112,12 @@ or
 - [x] Simple API Authentication
 - [x] Employees Password MVC
 - [x] Groups MVC
-- [x] JWT Authentication(depreciated)
+- [x] JWT Authentication(Deprecated)
 - [x] Fix IDAM warnings
 - [ ] Implement PATCH Operation
 - [ ] Support sorting and filtering
 - [ ] Fix cross auth bug(Secret..Sush)
-- [x] Add JWT Refresh via POST(depreciated)
+- [x] Add JWT Refresh via POST(Deprecated)
 - [ ] Implement OAuth(Sort Of)
 
 ## Roadmap
