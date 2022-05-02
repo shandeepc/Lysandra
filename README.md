@@ -39,10 +39,10 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * [body-parser](https://www.npmjs.com/package/body-parser)
 
 ## Features
-# New ------------------------------------
-* OAuth2.0 Client Credentials Added      |
-* Added PostMan Collections with Examples|
-# New ------------------------------------
+# New
+* OAuth2.0 Client Credentials Added
+* Added PostMan Collections with Examples
+
 * Mutiple Objects for managing(Employees & Groups)
 * Support mutiple authentication methods
     * No Authentication
