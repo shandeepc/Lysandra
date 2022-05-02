@@ -2,27 +2,36 @@
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
+const OAuth2Server = require('@node-oauth/oauth2-server');
+const bodyParser = require('body-parser');
 require('dotenv').config();
 
 //Configs
 const corsOptions = require('./config/corsOptions');
-const authOptions = require('./config/authOptions');
 
 //Middlewares
 const logger = require('./middleware/logger');
 const basicAuth = require('./middleware/basicAuth');
 const jwtAuth = require('./middleware/jwtAuth');
 const apiAuth = require('./middleware/apiAuth');
+const oAuthAuth = require('./middleware/oAuthAuth');
+const oAuthController = require('./controllers/oAuthController');
 
 logger.log('Starting Application...', 'reqLog.txt');
 
 const app = express();
 const SERVER_PORT = process.env.PORT;
-logger.log(`Setting authentication type as ${authOptions.authType}`, 'reqLog.txt');
+logger.log(`Setting authentication type as ${process.env.AUTH_TYPE}`, 'reqLog.txt');
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(bodyParser.json());
 
 //Entry point logger
 app.use((request, response, next) => {
     logger.log(`${request.url}\t${request.method}\t${request.headers.host}`, 'reqLog.txt');
+    //console.log(request.body);
+    //console.log(request.headers);
     next();
 });
 
@@ -31,19 +40,36 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //Setting authentication type and endpoint access based on authOptions
-if (authOptions.authType === 'basicAuthentication') {
+if (process.env.AUTH_TYPE === 'basicAuthentication') {
     app.use('/authreg', require('./routes/authreg'));
     app.use(basicAuth);
-} else if (authOptions.authType === 'APIAuth') {
+} else if (process.env.AUTH_TYPE === 'APIAuth') {
     app.use('/authreg', require('./routes/authreg'));
     app.use('/auth', require('./routes/auth'));
     app.use(apiAuth);
-} else if (authOptions.authType === 'JWT') {
+} else if (process.env.AUTH_TYPE === 'JWT') {
     logger.log(`JWT Authentication is Still in progress..`, 'reqLog.txt');
     app.use('/authreg', require('./routes/authreg'));
     app.use('/auth', require('./routes/auth'));
     app.use('/refresh', require('./routes/refresh'));
     app.use(jwtAuth);
+} else if (process.env.AUTH_TYPE.startsWith("OAuth2.0")) {
+    logger.log(`Setting Up..OAuth2.0`, 'reqLog.txt');
+    logger.log(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase())}`, 'reqLog.txt');
+    logger.log(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())}`, 'reqLog.txt');
+    if(JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase()))
+        oAuthController.updateData(JSON.parse('{"tokens":[]}'));
+    app.oauth = new OAuth2Server({
+        model: require('./controllers/oAuthController'),
+        refreshTokenLifetime: process.env.REFRESH_TOKEN_LIFE_TIME,
+        accessTokenLifetime: process.env.ACCESS_TOKEN_LIFE_TIME,
+        allowBearerTokensInQueryString: true
+    });
+    if (process.env.AUTH_TYPE.includes("Client Credentials")) {
+        logger.log(`Setting grant type as Client Credentials`, 'reqLog.txt');
+        app.use('/oauth/token', require('./routes/oauth/token'));
+    }
+    app.use(oAuthAuth);
 }
 
 //Assigning routes

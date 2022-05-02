@@ -735,3 +735,1590 @@
 29:04:2022	23:17:04	Starting Application...
 29:04:2022	23:17:04	Setting authentication type as noAuth
 29:04:2022	23:17:04	Application running on port 6969
+02:05:2022	13:27:32	Starting Application...
+02:05:2022	13:27:32	Application running on port 6969
+02:05:2022	13:27:32	Setting authentication type as noAuth
+02:05:2022	13:27:51	/	GET	localhost:6969
+02:05:2022	13:33:19	/	GET	localhost:6969
+02:05:2022	14:35:59	Starting Application...
+02:05:2022	14:35:59	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:36:00	Application running on port 6969
+02:05:2022	14:37:57	Starting Application...
+02:05:2022	14:37:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:37:57	JWT Authentication is Still in progress..
+02:05:2022	14:37:57	Application running on port 6969
+02:05:2022	14:38:33	Starting Application...
+02:05:2022	14:38:33	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:38:33	Application running on port 6969
+02:05:2022	14:39:36	Starting Application...
+02:05:2022	14:39:36	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:39:36	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:39:36	Application running on port 6969
+02:05:2022	14:41:22	Starting Application...
+02:05:2022	14:41:22	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:41:22	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:41:22	Application running on port 6969
+02:05:2022	14:41:58	Starting Application...
+02:05:2022	14:41:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:41:58	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:41:58	Application running on port 6969
+02:05:2022	14:43:00	Starting Application...
+02:05:2022	14:43:00	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:43:00	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:43:00	Application running on port 6969
+02:05:2022	14:44:21	Starting Application...
+02:05:2022	14:44:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:44:21	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:44:21	Application running on port 6969
+02:05:2022	14:45:41	Starting Application...
+02:05:2022	14:45:41	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:45:41	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:45:41	Application running on port 6969
+02:05:2022	14:50:40	Starting Application...
+02:05:2022	14:50:40	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	14:50:40	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	14:50:40	Application running on port 6969
+02:05:2022	15:01:43	Starting Application...
+02:05:2022	15:01:43	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:01:43	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:01:43	Application running on port 6969
+02:05:2022	15:02:35	/oauth/token	GET	localhost:6969
+02:05:2022	15:02:35	/favicon.ico	GET	localhost:6969
+02:05:2022	15:03:41	Starting Application...
+02:05:2022	15:03:41	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:03:41	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:03:41	Application running on port 6969
+02:05:2022	15:03:47	Starting Application...
+02:05:2022	15:03:47	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:03:47	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:03:48	Application running on port 6969
+02:05:2022	15:03:50	/oauth/token	GET	localhost:6969
+02:05:2022	15:03:50	/favicon.ico	GET	localhost:6969
+02:05:2022	15:04:23	Starting Application...
+02:05:2022	15:04:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:04:23	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:04:23	Application running on port 6969
+02:05:2022	15:04:25	/oauth/token	GET	localhost:6969
+02:05:2022	15:04:25	/favicon.ico	GET	localhost:6969
+02:05:2022	15:04:44	Starting Application...
+02:05:2022	15:04:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:04:44	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:04:44	Application running on port 6969
+02:05:2022	15:04:45	/oauth/token	GET	localhost:6969
+02:05:2022	15:04:45	/favicon.ico	GET	localhost:6969
+02:05:2022	15:05:44	Starting Application...
+02:05:2022	15:05:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:05:44	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:05:44	Application running on port 6969
+02:05:2022	15:06:16	Starting Application...
+02:05:2022	15:06:16	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:06:16	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:06:16	Application running on port 6969
+02:05:2022	15:06:50	Starting Application...
+02:05:2022	15:06:50	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:06:50	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:06:51	Application running on port 6969
+02:05:2022	15:06:53	/oauth/token	GET	localhost:6969
+02:05:2022	15:06:53	/favicon.ico	GET	localhost:6969
+02:05:2022	15:11:05	Starting Application...
+02:05:2022	15:11:05	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:11:05	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:11:05	Application running on port 6969
+02:05:2022	15:11:09	/oauth/token	GET	localhost:6969
+02:05:2022	15:11:09	/favicon.ico	GET	localhost:6969
+02:05:2022	15:11:09	Invaid request /favicon.ico
+02:05:2022	15:13:30	Starting Application...
+02:05:2022	15:13:30	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:13:30	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:13:30	Application running on port 6969
+02:05:2022	15:13:32	/oauth/token	GET	localhost:6969
+02:05:2022	15:13:52	Starting Application...
+02:05:2022	15:13:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:13:52	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:13:52	Application running on port 6969
+02:05:2022	15:13:53	/oauth/token	GET	localhost:6969
+02:05:2022	15:14:58	Starting Application...
+02:05:2022	15:14:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:14:58	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:14:58	Application running on port 6969
+02:05:2022	15:15:07	Starting Application...
+02:05:2022	15:15:07	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:15:07	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:15:07	Application running on port 6969
+02:05:2022	15:15:17	Starting Application...
+02:05:2022	15:15:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:15:17	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:15:17	Application running on port 6969
+02:05:2022	15:15:24	/oauth/token	GET	localhost:6969
+02:05:2022	15:16:58	Starting Application...
+02:05:2022	15:16:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:16:58	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:16:58	Application running on port 6969
+02:05:2022	15:17:05	/oauth/token	GET	localhost:6969
+02:05:2022	15:17:17	Starting Application...
+02:05:2022	15:17:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:17:17	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:17:17	Application running on port 6969
+02:05:2022	15:17:20	Starting Application...
+02:05:2022	15:17:20	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:17:20	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:17:20	Application running on port 6969
+02:05:2022	15:17:24	/oauth/token	GET	localhost:6969
+02:05:2022	15:18:14	Starting Application...
+02:05:2022	15:18:15	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:18:15	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:18:15	Application running on port 6969
+02:05:2022	15:18:15	/oauth/token	GET	localhost:6969
+02:05:2022	15:18:15	invalid_request: Invalid request: method must be POST
+02:05:2022	15:18:16	/oauth/token	GET	localhost:6969
+02:05:2022	15:18:16	invalid_request: Invalid request: method must be POST
+02:05:2022	15:19:25	Starting Application...
+02:05:2022	15:19:25	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:19:25	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:19:25	Application running on port 6969
+02:05:2022	15:19:42	Starting Application...
+02:05:2022	15:19:42	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:19:42	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:19:42	Application running on port 6969
+02:05:2022	15:20:00	Starting Application...
+02:05:2022	15:20:00	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:20:00	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:20:00	Application running on port 6969
+02:05:2022	15:20:33	Starting Application...
+02:05:2022	15:20:33	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:20:33	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:20:33	Application running on port 6969
+02:05:2022	15:21:13	Starting Application...
+02:05:2022	15:21:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:21:13	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:21:13	Application running on port 6969
+02:05:2022	15:21:35	Starting Application...
+02:05:2022	15:21:35	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:21:35	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:21:35	Application running on port 6969
+02:05:2022	15:21:54	Starting Application...
+02:05:2022	15:21:54	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:21:54	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:21:54	Application running on port 6969
+02:05:2022	15:21:58	Starting Application...
+02:05:2022	15:21:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:21:58	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:21:58	Application running on port 6969
+02:05:2022	15:22:02	/oauth/token	GET	localhost:6969
+02:05:2022	15:22:02	invalid_request: Invalid request: method must be POST
+02:05:2022	15:27:54	Starting Application...
+02:05:2022	15:27:54	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:27:54	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:27:54	Application running on port 6969
+02:05:2022	15:27:59	Starting Application...
+02:05:2022	15:27:59	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:27:59	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:27:59	Application running on port 6969
+02:05:2022	15:28:59	/oauth/token	POST	localhost:6969
+02:05:2022	15:28:59	unauthorized_client: Unauthorized client: `grant_type` is invalid
+02:05:2022	15:29:56	Starting Application...
+02:05:2022	15:29:56	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:29:56	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:29:56	Application running on port 6969
+02:05:2022	15:29:59	/oauth/token	POST	localhost:6969
+02:05:2022	15:29:59	server_error: Cannot read properties of undefined (reading 'filter')
+02:05:2022	15:31:12	Starting Application...
+02:05:2022	15:31:12	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:31:12	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:31:12	Application running on port 6969
+02:05:2022	15:31:14	/oauth/token	POST	localhost:6969
+02:05:2022	15:31:14	server_error: Cannot read properties of undefined (reading 'filter')
+02:05:2022	15:33:04	Starting Application...
+02:05:2022	15:33:04	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:33:04	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:33:04	Application running on port 6969
+02:05:2022	15:33:09	Starting Application...
+02:05:2022	15:33:09	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:33:09	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:33:09	Application running on port 6969
+02:05:2022	15:33:11	/oauth/token	POST	localhost:6969
+02:05:2022	15:33:11	server_error: Cannot read properties of undefined (reading 'filter')
+02:05:2022	15:33:28	Starting Application...
+02:05:2022	15:33:28	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:33:28	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:33:28	Application running on port 6969
+02:05:2022	15:33:29	/oauth/token	POST	localhost:6969
+02:05:2022	15:33:30	server_error: Cannot read properties of undefined (reading 'filter')
+02:05:2022	15:34:22	Starting Application...
+02:05:2022	15:34:22	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:34:22	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:34:22	Application running on port 6969
+02:05:2022	15:34:31	/oauth/token	POST	localhost:6969
+02:05:2022	15:34:31	server_error: Cannot read properties of undefined (reading 'filter')
+02:05:2022	15:35:23	Starting Application...
+02:05:2022	15:35:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:35:23	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:35:23	Application running on port 6969
+02:05:2022	15:35:25	/oauth/token	POST	localhost:6969
+02:05:2022	15:35:37	/	GET	localhost:6969
+02:05:2022	15:36:03	/	GET	localhost:6969
+02:05:2022	15:36:08	/api/employees	GET	localhost:6969
+02:05:2022	15:36:50	Starting Application...
+02:05:2022	15:36:50	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:36:50	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:36:50	Application running on port 6969
+02:05:2022	15:37:13	/	GET	localhost:6969
+02:05:2022	15:37:37	Starting Application...
+02:05:2022	15:37:37	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:37:37	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:37:37	Application running on port 6969
+02:05:2022	15:37:39	/	GET	localhost:6969
+02:05:2022	15:37:57	/oauth/token	POST	localhost:6969
+02:05:2022	15:38:11	/	GET	localhost:6969
+02:05:2022	15:38:13	/	GET	localhost:6969
+02:05:2022	15:38:13	/	GET	localhost:6969
+02:05:2022	15:38:14	/	GET	localhost:6969
+02:05:2022	15:38:16	/	GET	localhost:6969
+02:05:2022	15:38:17	/	GET	localhost:6969
+02:05:2022	15:38:18	/	GET	localhost:6969
+02:05:2022	15:38:18	/	GET	localhost:6969
+02:05:2022	15:40:14	Starting Application...
+02:05:2022	15:40:14	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:40:14	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:40:14	Application running on port 6969
+02:05:2022	15:41:34	Starting Application...
+02:05:2022	15:41:34	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:41:34	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:41:34	Application running on port 6969
+02:05:2022	15:44:05	/	GET	localhost:6969
+02:05:2022	15:45:09	/	GET	localhost:6969
+02:05:2022	15:48:03	Starting Application...
+02:05:2022	15:48:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:48:03	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:48:03	Application running on port 6969
+02:05:2022	15:48:23	/oauth/token	POST	localhost:6969
+02:05:2022	15:49:12	/	GET	localhost:6969
+02:05:2022	15:49:54	Starting Application...
+02:05:2022	15:49:54	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:49:54	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:49:54	Application running on port 6969
+02:05:2022	15:50:15	/	GET	localhost:6969
+02:05:2022	15:56:31	Starting Application...
+02:05:2022	15:56:31	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:56:31	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:56:31	Application running on port 6969
+02:05:2022	15:57:44	Starting Application...
+02:05:2022	15:57:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	15:57:44	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	15:57:44	Application running on port 6969
+02:05:2022	15:57:51	/oauth/token	POST	localhost:6969
+02:05:2022	15:58:07	/	GET	localhost:6969
+02:05:2022	15:58:09	/	GET	localhost:6969
+02:05:2022	15:58:09	/	GET	localhost:6969
+02:05:2022	15:58:10	/	GET	localhost:6969
+02:05:2022	15:58:10	/	GET	localhost:6969
+02:05:2022	15:58:12	/	GET	localhost:6969
+02:05:2022	15:58:12	/	GET	localhost:6969
+02:05:2022	15:58:13	/	GET	localhost:6969
+02:05:2022	15:58:24	/	GET	localhost:6969
+02:05:2022	15:58:25	/	GET	localhost:6969
+02:05:2022	15:58:41	/	GET	localhost:6969
+02:05:2022	15:58:51	/	GET	localhost:6969
+02:05:2022	15:58:54	/	GET	localhost:6969
+02:05:2022	15:59:04	/	GET	localhost:6969
+02:05:2022	15:59:33	/	GET	localhost:6969
+02:05:2022	15:59:45	/oauth/token	POST	localhost:6969
+02:05:2022	15:59:58	/	GET	localhost:6969
+02:05:2022	16:00:30	Starting Application...
+02:05:2022	16:00:30	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:00:30	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:00:30	Application running on port 6969
+02:05:2022	16:00:32	/	GET	localhost:6969
+02:05:2022	16:00:34	/	GET	localhost:6969
+02:05:2022	16:00:34	/	GET	localhost:6969
+02:05:2022	16:00:35	/	GET	localhost:6969
+02:05:2022	16:00:37	/	GET	localhost:6969
+02:05:2022	16:00:37	/	GET	localhost:6969
+02:05:2022	16:00:38	/	GET	localhost:6969
+02:05:2022	16:01:12	/	GET	localhost:6969
+02:05:2022	16:01:38	Starting Application...
+02:05:2022	16:01:38	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:01:38	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:01:39	Application running on port 6969
+02:05:2022	16:01:40	/oauth/token	POST	localhost:6969
+02:05:2022	16:01:49	/	GET	localhost:6969
+02:05:2022	16:01:53	/oauth/token	POST	localhost:6969
+02:05:2022	16:01:55	/	GET	localhost:6969
+02:05:2022	16:01:55	/	GET	localhost:6969
+02:05:2022	16:02:05	/	GET	localhost:6969
+02:05:2022	16:02:09	/	GET	localhost:6969
+02:05:2022	16:02:23	/	GET	localhost:6969
+02:05:2022	16:02:29	/	GET	localhost:6969
+02:05:2022	16:02:34	/	GET	localhost:6969
+02:05:2022	16:02:37	/	GET	localhost:6969
+02:05:2022	16:02:39	/	GET	localhost:6969
+02:05:2022	16:02:42	/	GET	localhost:6969
+02:05:2022	16:33:22	/	GET	localhost:6969
+02:05:2022	16:35:20	Starting Application...
+02:05:2022	16:35:20	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:35:20	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:35:20	Application running on port 6969
+02:05:2022	16:35:23	/	GET	localhost:6969
+02:05:2022	16:37:21	Starting Application...
+02:05:2022	16:37:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:37:21	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:37:21	Application running on port 6969
+02:05:2022	16:37:24	/	GET	localhost:6969
+02:05:2022	16:37:39	Starting Application...
+02:05:2022	16:37:39	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:37:39	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:37:39	Application running on port 6969
+02:05:2022	16:37:40	/	GET	localhost:6969
+02:05:2022	16:40:44	Starting Application...
+02:05:2022	16:40:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:40:44	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:40:44	Application running on port 6969
+02:05:2022	16:40:47	/	GET	localhost:6969
+02:05:2022	16:40:59	Starting Application...
+02:05:2022	16:40:59	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:40:59	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:40:59	Application running on port 6969
+02:05:2022	16:41:01	/	GET	localhost:6969
+02:05:2022	16:41:16	Starting Application...
+02:05:2022	16:41:16	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:41:16	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:41:16	Application running on port 6969
+02:05:2022	16:41:17	/	GET	localhost:6969
+02:05:2022	16:41:41	Starting Application...
+02:05:2022	16:41:41	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:41:41	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:41:41	Application running on port 6969
+02:05:2022	16:41:42	/	GET	localhost:6969
+02:05:2022	16:41:51	Starting Application...
+02:05:2022	16:41:51	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:41:51	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:41:51	Application running on port 6969
+02:05:2022	16:41:53	/	GET	localhost:6969
+02:05:2022	16:41:57	Starting Application...
+02:05:2022	16:41:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:41:57	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:41:57	Application running on port 6969
+02:05:2022	16:43:51	Starting Application...
+02:05:2022	16:43:51	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:43:51	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:43:51	Application running on port 6969
+02:05:2022	16:43:53	/	GET	localhost:6969
+02:05:2022	16:44:45	Starting Application...
+02:05:2022	16:44:45	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:44:45	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:44:45	Application running on port 6969
+02:05:2022	16:44:46	/	GET	localhost:6969
+02:05:2022	16:44:55	Starting Application...
+02:05:2022	16:44:55	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	16:44:55	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	16:44:55	Application running on port 6969
+02:05:2022	16:44:56	/	GET	localhost:6969
+02:05:2022	18:53:29	Starting Application...
+02:05:2022	18:53:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:53:29	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:53:29	Application running on port 6969
+02:05:2022	18:53:46	Starting Application...
+02:05:2022	18:53:46	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:53:46	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:53:46	Application running on port 6969
+02:05:2022	18:53:56	/oauth/token	POST	localhost:6969
+02:05:2022	18:54:13	/	GET	localhost:6969
+02:05:2022	18:54:29	Starting Application...
+02:05:2022	18:54:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:54:29	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:54:29	Application running on port 6969
+02:05:2022	18:54:32	/	GET	localhost:6969
+02:05:2022	18:56:17	Starting Application...
+02:05:2022	18:56:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:56:17	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:56:18	Application running on port 6969
+02:05:2022	18:56:23	Starting Application...
+02:05:2022	18:56:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:56:23	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:56:23	Application running on port 6969
+02:05:2022	18:56:26	Starting Application...
+02:05:2022	18:56:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:56:26	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:56:26	Application running on port 6969
+02:05:2022	18:56:29	Starting Application...
+02:05:2022	18:56:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	18:56:29	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	18:56:29	Application running on port 6969
+02:05:2022	19:04:10	Starting Application...
+02:05:2022	19:04:10	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:04:10	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:04:10	Application running on port 6969
+02:05:2022	19:05:21	Starting Application...
+02:05:2022	19:05:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:05:21	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:05:21	Application running on port 6969
+02:05:2022	19:14:57	Starting Application...
+02:05:2022	19:14:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:14:57	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:14:57	Application running on port 6969
+02:05:2022	19:14:59	Starting Application...
+02:05:2022	19:14:59	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:14:59	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:14:59	Application running on port 6969
+02:05:2022	19:16:29	Starting Application...
+02:05:2022	19:16:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:16:29	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:16:29	Application running on port 6969
+02:05:2022	19:17:55	Starting Application...
+02:05:2022	19:17:55	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:17:55	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:17:55	Application running on port 6969
+02:05:2022	19:17:57	Starting Application...
+02:05:2022	19:17:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:17:57	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:17:57	Application running on port 6969
+02:05:2022	19:18:50	Starting Application...
+02:05:2022	19:18:50	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:18:50	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:18:50	Application running on port 6969
+02:05:2022	19:22:32	Starting Application...
+02:05:2022	19:22:32	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:22:32	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:22:32	Application running on port 6969
+02:05:2022	19:22:42	Starting Application...
+02:05:2022	19:22:42	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:22:42	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:22:42	Application running on port 6969
+02:05:2022	19:25:07	Starting Application...
+02:05:2022	19:25:07	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:25:07	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:25:07	Application running on port 6969
+02:05:2022	19:25:18	Starting Application...
+02:05:2022	19:25:18	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:25:18	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:25:18	Application running on port 6969
+02:05:2022	19:26:52	Starting Application...
+02:05:2022	19:26:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:26:52	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:26:53	Application running on port 6969
+02:05:2022	19:27:09	Starting Application...
+02:05:2022	19:27:09	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:27:09	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:27:09	Application running on port 6969
+02:05:2022	19:27:23	Starting Application...
+02:05:2022	19:27:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:27:23	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:27:23	Application running on port 6969
+02:05:2022	19:27:25	Starting Application...
+02:05:2022	19:27:25	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:27:25	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:27:25	Application running on port 6969
+02:05:2022	19:27:51	/oauth/token	POST	localhost:6969
+02:05:2022	19:28:01	/	GET	localhost:6969
+02:05:2022	19:28:25	/	GET	localhost:6969
+02:05:2022	19:28:34	/	GET	localhost:6969
+02:05:2022	19:28:39	/	GET	localhost:6969
+02:05:2022	19:28:41	/	GET	localhost:6969
+02:05:2022	19:28:45	/	GET	localhost:6969
+02:05:2022	19:28:49	/	GET	localhost:6969
+02:05:2022	19:28:52	/	GET	localhost:6969
+02:05:2022	19:29:17	Starting Application...
+02:05:2022	19:29:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:29:17	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:29:17	Application running on port 6969
+02:05:2022	19:29:35	/	GET	localhost:6969
+02:05:2022	19:30:02	/oauth/token	POST	localhost:6969
+02:05:2022	19:30:33	/oauth/token	POST	localhost:6969
+02:05:2022	19:30:36	/	GET	localhost:6969
+02:05:2022	19:30:47	Starting Application...
+02:05:2022	19:30:47	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:30:47	Setting Up..OAuth2.0 Client Credentials
+02:05:2022	19:30:47	Application running on port 6969
+02:05:2022	19:31:05	/	GET	localhost:6969
+02:05:2022	19:31:09	/oauth/token	POST	localhost:6969
+02:05:2022	19:33:03	Starting Application...
+02:05:2022	19:33:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:33:03	Setting Up..OAuth2.0
+02:05:2022	19:33:03	Setting CLEAR_GRANTS_ON_START as False
+02:05:2022	19:33:03	Setting grant type as Client Credentials
+02:05:2022	19:33:03	Application running on port 6969
+02:05:2022	19:36:46	Starting Application...
+02:05:2022	19:36:46	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:36:46	Setting Up..OAuth2.0
+02:05:2022	19:36:46	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:36:46	Setting grant type as Client Credentials
+02:05:2022	19:36:46	Application running on port 6969
+02:05:2022	19:37:21	Starting Application...
+02:05:2022	19:37:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:37:21	Setting Up..OAuth2.0
+02:05:2022	19:37:21	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:37:21	Setting grant type as Client Credentials
+02:05:2022	19:37:21	Application running on port 6969
+02:05:2022	19:37:29	Starting Application...
+02:05:2022	19:37:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:37:29	Setting Up..OAuth2.0
+02:05:2022	19:37:29	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:37:29	Setting grant type as Client Credentials
+02:05:2022	19:37:29	Application running on port 6969
+02:05:2022	19:37:39	/oauth/token	POST	localhost:6969
+02:05:2022	19:37:59	/	GET	localhost:6969
+02:05:2022	19:38:04	/	GET	localhost:6969
+02:05:2022	19:38:08	/	GET	localhost:6969
+02:05:2022	19:38:13	/	GET	localhost:6969
+02:05:2022	19:38:15	/	GET	localhost:6969
+02:05:2022	19:38:20	/	GET	localhost:6969
+02:05:2022	19:38:25	/	GET	localhost:6969
+02:05:2022	19:38:27	/	GET	localhost:6969
+02:05:2022	19:38:29	/	GET	localhost:6969
+02:05:2022	19:38:31	/	GET	localhost:6969
+02:05:2022	19:38:36	/	GET	localhost:6969
+02:05:2022	19:38:37	/	GET	localhost:6969
+02:05:2022	19:38:38	/	GET	localhost:6969
+02:05:2022	19:38:38	/	GET	localhost:6969
+02:05:2022	19:38:39	/	GET	localhost:6969
+02:05:2022	19:38:39	/	GET	localhost:6969
+02:05:2022	19:38:41	/	GET	localhost:6969
+02:05:2022	19:38:47	Starting Application...
+02:05:2022	19:38:47	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:38:47	Setting Up..OAuth2.0
+02:05:2022	19:38:47	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:38:47	Setting grant type as Client Credentials
+02:05:2022	19:38:47	Application running on port 6969
+02:05:2022	19:38:49	/	GET	localhost:6969
+02:05:2022	19:39:03	Starting Application...
+02:05:2022	19:39:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:39:03	Setting Up..OAuth2.0
+02:05:2022	19:39:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:39:03	Setting grant type as Client Credentials
+02:05:2022	19:39:03	Application running on port 6969
+02:05:2022	19:39:06	/	GET	localhost:6969
+02:05:2022	19:39:14	/	GET	localhost:6969
+02:05:2022	19:39:17	Starting Application...
+02:05:2022	19:39:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:39:17	Setting Up..OAuth2.0
+02:05:2022	19:39:17	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:39:17	Setting grant type as Client Credentials
+02:05:2022	19:39:18	Application running on port 6969
+02:05:2022	19:39:24	/	GET	localhost:6969
+02:05:2022	19:39:35	/	GET	localhost:6969
+02:05:2022	19:40:08	Starting Application...
+02:05:2022	19:40:08	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:40:08	Setting Up..OAuth2.0
+02:05:2022	19:40:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:40:08	Setting grant type as Client Credentials
+02:05:2022	19:40:08	Application running on port 6969
+02:05:2022	19:40:09	/	GET	localhost:6969
+02:05:2022	19:40:38	Starting Application...
+02:05:2022	19:40:38	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:40:38	Setting Up..OAuth2.0
+02:05:2022	19:40:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:40:38	Setting grant type as Client Credentials
+02:05:2022	19:40:38	Application running on port 6969
+02:05:2022	19:40:40	/	GET	localhost:6969
+02:05:2022	19:40:56	Starting Application...
+02:05:2022	19:40:56	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:40:56	Setting Up..OAuth2.0
+02:05:2022	19:40:56	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:40:56	Setting grant type as Client Credentials
+02:05:2022	19:40:56	Application running on port 6969
+02:05:2022	19:40:58	/	GET	localhost:6969
+02:05:2022	19:41:18	Starting Application...
+02:05:2022	19:41:18	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:41:18	Setting Up..OAuth2.0
+02:05:2022	19:41:18	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:41:18	Setting grant type as Client Credentials
+02:05:2022	19:41:18	Application running on port 6969
+02:05:2022	19:41:20	/	GET	localhost:6969
+02:05:2022	19:41:35	Starting Application...
+02:05:2022	19:41:35	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:41:35	Setting Up..OAuth2.0
+02:05:2022	19:41:35	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:41:35	Application running on port 6969
+02:05:2022	19:41:35	Setting grant type as Client Credentials
+02:05:2022	19:41:39	Starting Application...
+02:05:2022	19:41:39	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:41:39	Setting Up..OAuth2.0
+02:05:2022	19:41:39	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:41:39	Setting grant type as Client Credentials
+02:05:2022	19:41:39	Application running on port 6969
+02:05:2022	19:41:40	/	GET	localhost:6969
+02:05:2022	19:41:54	Starting Application...
+02:05:2022	19:41:54	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:41:54	Setting Up..OAuth2.0
+02:05:2022	19:41:54	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:41:54	Setting grant type as Client Credentials
+02:05:2022	19:41:54	Application running on port 6969
+02:05:2022	19:41:55	/	GET	localhost:6969
+02:05:2022	19:46:05	Starting Application...
+02:05:2022	19:46:05	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:46:05	Setting Up..OAuth2.0
+02:05:2022	19:46:05	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:46:05	Setting grant type as Client Credentials
+02:05:2022	19:46:06	Application running on port 6969
+02:05:2022	19:46:10	/	GET	localhost:6969
+02:05:2022	19:46:51	Starting Application...
+02:05:2022	19:46:51	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:46:51	Setting Up..OAuth2.0
+02:05:2022	19:46:51	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:46:51	Setting grant type as Client Credentials
+02:05:2022	19:46:51	Application running on port 6969
+02:05:2022	19:46:53	/	GET	localhost:6969
+02:05:2022	19:50:14	Starting Application...
+02:05:2022	19:50:14	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:50:14	Setting Up..OAuth2.0
+02:05:2022	19:50:14	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:50:14	Setting grant type as Client Credentials
+02:05:2022	19:50:14	Application running on port 6969
+02:05:2022	19:50:37	Starting Application...
+02:05:2022	19:50:37	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:50:37	Setting Up..OAuth2.0
+02:05:2022	19:50:37	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:50:37	Setting grant type as Client Credentials
+02:05:2022	19:50:37	Application running on port 6969
+02:05:2022	19:51:23	Starting Application...
+02:05:2022	19:51:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:51:23	Setting Up..OAuth2.0
+02:05:2022	19:51:23	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:51:23	Setting grant type as Client Credentials
+02:05:2022	19:51:23	Application running on port 6969
+02:05:2022	19:52:44	Starting Application...
+02:05:2022	19:52:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:52:44	Setting Up..OAuth2.0
+02:05:2022	19:52:44	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:52:44	Setting grant type as Client Credentials
+02:05:2022	19:52:44	Application running on port 6969
+02:05:2022	19:53:08	/oauth/token	POST	localhost:6969
+02:05:2022	19:53:31	Starting Application...
+02:05:2022	19:53:31	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:53:31	Setting Up..OAuth2.0
+02:05:2022	19:53:31	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:53:31	Setting grant type as Client Credentials
+02:05:2022	19:53:31	Application running on port 6969
+02:05:2022	19:53:50	/	GET	localhost:6969
+02:05:2022	19:54:05	/	GET	localhost:6969
+02:05:2022	19:54:17	/	GET	localhost:6969
+02:05:2022	19:54:51	Starting Application...
+02:05:2022	19:54:51	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:54:51	Setting Up..OAuth2.0
+02:05:2022	19:54:51	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:54:51	Setting grant type as Client Credentials
+02:05:2022	19:54:51	Application running on port 6969
+02:05:2022	19:55:36	Starting Application...
+02:05:2022	19:55:36	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:55:36	Setting Up..OAuth2.0
+02:05:2022	19:55:36	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:55:36	Setting grant type as Client Credentials
+02:05:2022	19:55:36	Application running on port 6969
+02:05:2022	19:56:04	Starting Application...
+02:05:2022	19:56:04	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:56:04	Setting Up..OAuth2.0
+02:05:2022	19:56:04	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:56:04	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:56:04	Setting grant type as Client Credentials
+02:05:2022	19:56:04	Application running on port 6969
+02:05:2022	19:56:16	Starting Application...
+02:05:2022	19:56:16	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	19:56:16	Setting Up..OAuth2.0
+02:05:2022	19:56:16	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	19:56:16	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	19:56:16	Setting grant type as Client Credentials
+02:05:2022	19:56:16	Application running on port 6969
+02:05:2022	19:56:18	/	GET	localhost:6969
+02:05:2022	20:05:56	Starting Application...
+02:05:2022	20:05:56	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:05:56	Setting Up..OAuth2.0
+02:05:2022	20:05:56	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:05:56	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:05:56	Setting grant type as Client Credentials
+02:05:2022	20:05:57	Application running on port 6969
+02:05:2022	20:05:59	/	GET	localhost:6969
+02:05:2022	20:05:59	Clearing token.. - [object Object]
+02:05:2022	20:06:39	Starting Application...
+02:05:2022	20:06:39	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:06:39	Setting Up..OAuth2.0
+02:05:2022	20:06:39	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:06:39	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:06:39	Setting grant type as Client Credentials
+02:05:2022	20:06:39	Application running on port 6969
+02:05:2022	20:06:47	/	GET	localhost:6969
+02:05:2022	20:06:47	Clearing token.. - undefined
+02:05:2022	20:07:09	Starting Application...
+02:05:2022	20:07:09	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:07:09	Setting Up..OAuth2.0
+02:05:2022	20:07:09	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:07:09	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:07:09	Setting grant type as Client Credentials
+02:05:2022	20:07:09	Application running on port 6969
+02:05:2022	20:07:11	/	GET	localhost:6969
+02:05:2022	20:07:11	Clearing token.. - [object Object]
+02:05:2022	20:08:03	Starting Application...
+02:05:2022	20:08:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:08:03	Setting Up..OAuth2.0
+02:05:2022	20:08:03	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:08:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:08:03	Setting grant type as Client Credentials
+02:05:2022	20:08:03	Application running on port 6969
+02:05:2022	20:08:34	Starting Application...
+02:05:2022	20:08:34	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:08:34	Setting Up..OAuth2.0
+02:05:2022	20:08:34	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:08:34	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:08:34	Setting grant type as Client Credentials
+02:05:2022	20:08:34	Application running on port 6969
+02:05:2022	20:08:36	/	GET	localhost:6969
+02:05:2022	20:09:06	Starting Application...
+02:05:2022	20:09:06	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:09:06	Setting Up..OAuth2.0
+02:05:2022	20:09:06	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:09:06	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:09:06	Setting grant type as Client Credentials
+02:05:2022	20:09:06	Application running on port 6969
+02:05:2022	20:09:08	/	GET	localhost:6969
+02:05:2022	20:09:40	Starting Application...
+02:05:2022	20:09:40	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:09:40	Setting Up..OAuth2.0
+02:05:2022	20:09:40	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:09:40	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:09:40	Setting grant type as Client Credentials
+02:05:2022	20:09:40	Application running on port 6969
+02:05:2022	20:09:41	/	GET	localhost:6969
+02:05:2022	20:11:49	Starting Application...
+02:05:2022	20:11:49	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:11:49	Setting Up..OAuth2.0
+02:05:2022	20:11:49	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:11:49	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:11:49	Setting grant type as Client Credentials
+02:05:2022	20:11:49	Application running on port 6969
+02:05:2022	20:11:53	/	GET	localhost:6969
+02:05:2022	20:11:53	Clearing token.. - undefined
+02:05:2022	20:12:19	Starting Application...
+02:05:2022	20:12:19	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:12:19	Setting Up..OAuth2.0
+02:05:2022	20:12:19	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:12:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:12:19	Setting grant type as Client Credentials
+02:05:2022	20:12:19	Application running on port 6969
+02:05:2022	20:12:22	/	GET	localhost:6969
+02:05:2022	20:12:22	Clearing token.. - undefined
+02:05:2022	20:12:37	Starting Application...
+02:05:2022	20:12:37	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:12:37	Setting Up..OAuth2.0
+02:05:2022	20:12:37	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:12:37	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:12:37	Setting grant type as Client Credentials
+02:05:2022	20:12:37	Application running on port 6969
+02:05:2022	20:12:39	/	GET	localhost:6969
+02:05:2022	20:12:39	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:12:53	Starting Application...
+02:05:2022	20:12:53	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:12:53	Setting Up..OAuth2.0
+02:05:2022	20:12:53	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:12:53	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:12:54	Setting grant type as Client Credentials
+02:05:2022	20:12:54	Application running on port 6969
+02:05:2022	20:14:21	Starting Application...
+02:05:2022	20:14:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:14:21	Setting Up..OAuth2.0
+02:05:2022	20:14:21	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:14:21	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:14:21	Setting grant type as Client Credentials
+02:05:2022	20:14:21	Application running on port 6969
+02:05:2022	20:14:23	/	GET	localhost:6969
+02:05:2022	20:14:23	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:14:34	Starting Application...
+02:05:2022	20:14:34	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:14:34	Setting Up..OAuth2.0
+02:05:2022	20:14:34	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:14:34	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:14:34	Setting grant type as Client Credentials
+02:05:2022	20:14:34	Application running on port 6969
+02:05:2022	20:14:36	/	GET	localhost:6969
+02:05:2022	20:14:36	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:14:48	Starting Application...
+02:05:2022	20:14:48	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:14:48	Setting Up..OAuth2.0
+02:05:2022	20:14:48	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:14:48	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:14:48	Setting grant type as Client Credentials
+02:05:2022	20:14:49	Application running on port 6969
+02:05:2022	20:14:55	/	GET	localhost:6969
+02:05:2022	20:14:55	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:15:12	Starting Application...
+02:05:2022	20:15:12	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:15:12	Setting Up..OAuth2.0
+02:05:2022	20:15:12	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:15:12	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:15:12	Setting grant type as Client Credentials
+02:05:2022	20:15:13	Application running on port 6969
+02:05:2022	20:15:15	/	GET	localhost:6969
+02:05:2022	20:15:15	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:15:26	Starting Application...
+02:05:2022	20:15:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:15:26	Setting Up..OAuth2.0
+02:05:2022	20:15:26	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:15:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:15:26	Setting grant type as Client Credentials
+02:05:2022	20:15:26	Application running on port 6969
+02:05:2022	20:15:28	/	GET	localhost:6969
+02:05:2022	20:15:28	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:15:36	Starting Application...
+02:05:2022	20:15:36	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:15:36	Setting Up..OAuth2.0
+02:05:2022	20:15:36	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:15:36	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:15:36	Setting grant type as Client Credentials
+02:05:2022	20:15:36	Application running on port 6969
+02:05:2022	20:15:37	/	GET	localhost:6969
+02:05:2022	20:15:37	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:15:42	Starting Application...
+02:05:2022	20:15:42	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:15:42	Setting Up..OAuth2.0
+02:05:2022	20:15:42	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:15:42	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:15:42	Setting grant type as Client Credentials
+02:05:2022	20:15:42	Application running on port 6969
+02:05:2022	20:15:42	/	GET	localhost:6969
+02:05:2022	20:15:42	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:15:57	Starting Application...
+02:05:2022	20:15:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:15:57	Setting Up..OAuth2.0
+02:05:2022	20:15:57	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:15:57	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:15:57	Setting grant type as Client Credentials
+02:05:2022	20:15:57	Application running on port 6969
+02:05:2022	20:15:58	/	GET	localhost:6969
+02:05:2022	20:15:58	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:16:26	Starting Application...
+02:05:2022	20:16:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:16:26	Setting Up..OAuth2.0
+02:05:2022	20:16:26	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:16:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:16:26	Setting grant type as Client Credentials
+02:05:2022	20:16:26	Application running on port 6969
+02:05:2022	20:16:27	/	GET	localhost:6969
+02:05:2022	20:16:27	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:16:41	Starting Application...
+02:05:2022	20:16:41	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:16:41	Setting Up..OAuth2.0
+02:05:2022	20:16:41	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:16:41	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:16:41	Setting grant type as Client Credentials
+02:05:2022	20:16:41	Application running on port 6969
+02:05:2022	20:16:42	/	GET	localhost:6969
+02:05:2022	20:16:42	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:17:20	Starting Application...
+02:05:2022	20:17:20	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:17:20	Setting Up..OAuth2.0
+02:05:2022	20:17:20	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:17:20	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:17:20	Setting grant type as Client Credentials
+02:05:2022	20:17:20	Application running on port 6969
+02:05:2022	20:20:36	Starting Application...
+02:05:2022	20:20:36	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:20:36	Setting Up..OAuth2.0
+02:05:2022	20:20:36	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:20:36	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:20:36	Setting grant type as Client Credentials
+02:05:2022	20:20:36	Application running on port 6969
+02:05:2022	20:20:38	/	GET	localhost:6969
+02:05:2022	20:20:38	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:20:49	Starting Application...
+02:05:2022	20:20:49	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:20:49	Setting Up..OAuth2.0
+02:05:2022	20:20:49	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:20:49	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:20:49	Setting grant type as Client Credentials
+02:05:2022	20:20:49	Application running on port 6969
+02:05:2022	20:20:53	/	GET	localhost:6969
+02:05:2022	20:20:53	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:21:06	Starting Application...
+02:05:2022	20:21:06	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:21:06	Setting Up..OAuth2.0
+02:05:2022	20:21:06	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:21:06	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:21:06	Setting grant type as Client Credentials
+02:05:2022	20:21:06	Application running on port 6969
+02:05:2022	20:21:07	/	GET	localhost:6969
+02:05:2022	20:21:07	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:21:33	Starting Application...
+02:05:2022	20:21:33	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:21:33	Setting Up..OAuth2.0
+02:05:2022	20:21:33	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:21:33	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:21:33	Setting grant type as Client Credentials
+02:05:2022	20:21:33	Application running on port 6969
+02:05:2022	20:21:35	/	GET	localhost:6969
+02:05:2022	20:21:35	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:21:49	/oauth/token	POST	localhost:6969
+02:05:2022	20:21:51	/	GET	localhost:6969
+02:05:2022	20:21:51	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:22:30	Starting Application...
+02:05:2022	20:22:30	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:22:30	Setting Up..OAuth2.0
+02:05:2022	20:22:30	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:22:30	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:22:30	Setting grant type as Client Credentials
+02:05:2022	20:22:30	Application running on port 6969
+02:05:2022	20:22:31	/	GET	localhost:6969
+02:05:2022	20:22:31	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:22:47	Starting Application...
+02:05:2022	20:22:47	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:22:47	Setting Up..OAuth2.0
+02:05:2022	20:22:47	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:22:47	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:22:47	Setting grant type as Client Credentials
+02:05:2022	20:22:47	Application running on port 6969
+02:05:2022	20:22:48	/	GET	localhost:6969
+02:05:2022	20:22:48	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:22:52	Starting Application...
+02:05:2022	20:22:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:22:52	Setting Up..OAuth2.0
+02:05:2022	20:22:52	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:22:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:22:52	Setting grant type as Client Credentials
+02:05:2022	20:22:52	Application running on port 6969
+02:05:2022	20:22:53	/	GET	localhost:6969
+02:05:2022	20:22:53	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:23:07	/	GET	localhost:6969
+02:05:2022	20:23:07	Clearing token.. - e7d381c8ac1c02e7868a0e29ac7d0f03580b1e8e771dda1b3336c149c6373a48
+02:05:2022	20:23:41	/	GET	localhost:6969
+02:05:2022	20:23:41	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:25:13	Starting Application...
+02:05:2022	20:25:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:25:13	Setting Up..OAuth2.0
+02:05:2022	20:25:13	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:25:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:25:13	Setting grant type as Client Credentials
+02:05:2022	20:25:13	Application running on port 6969
+02:05:2022	20:25:18	Starting Application...
+02:05:2022	20:25:18	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:25:18	Setting Up..OAuth2.0
+02:05:2022	20:25:18	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:25:18	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:25:18	Setting grant type as Client Credentials
+02:05:2022	20:25:18	Application running on port 6969
+02:05:2022	20:25:20	/	GET	localhost:6969
+02:05:2022	20:25:20	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:26:49	Starting Application...
+02:05:2022	20:26:49	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:26:49	Setting Up..OAuth2.0
+02:05:2022	20:26:49	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:26:49	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:26:49	Setting grant type as Client Credentials
+02:05:2022	20:26:49	Application running on port 6969
+02:05:2022	20:26:56	/	GET	localhost:6969
+02:05:2022	20:26:56	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:27:34	Starting Application...
+02:05:2022	20:27:34	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:27:34	Setting Up..OAuth2.0
+02:05:2022	20:27:34	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:27:34	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:27:34	Setting grant type as Client Credentials
+02:05:2022	20:27:34	Application running on port 6969
+02:05:2022	20:27:36	/	GET	localhost:6969
+02:05:2022	20:27:36	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:27:44	Starting Application...
+02:05:2022	20:27:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:27:44	Setting Up..OAuth2.0
+02:05:2022	20:27:44	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:27:44	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:27:44	Setting grant type as Client Credentials
+02:05:2022	20:27:45	Application running on port 6969
+02:05:2022	20:31:57	Starting Application...
+02:05:2022	20:31:57	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:31:57	Setting Up..OAuth2.0
+02:05:2022	20:31:57	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:31:57	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:31:57	Setting grant type as Client Credentials
+02:05:2022	20:31:57	Application running on port 6969
+02:05:2022	20:32:03	/	GET	localhost:6969
+02:05:2022	20:32:03	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:32:34	/	GET	localhost:6969
+02:05:2022	20:32:34	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:33:58	Starting Application...
+02:05:2022	20:33:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:33:58	Setting Up..OAuth2.0
+02:05:2022	20:33:58	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:33:58	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:33:58	Setting grant type as Client Credentials
+02:05:2022	20:33:59	Application running on port 6969
+02:05:2022	20:34:00	/	GET	localhost:6969
+02:05:2022	20:34:00	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:34:38	Starting Application...
+02:05:2022	20:34:38	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:34:38	Setting Up..OAuth2.0
+02:05:2022	20:34:38	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:34:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:34:38	Setting grant type as Client Credentials
+02:05:2022	20:34:38	Application running on port 6969
+02:05:2022	20:34:59	/	GET	localhost:6969
+02:05:2022	20:34:59	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:35:13	Starting Application...
+02:05:2022	20:35:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:35:13	Setting Up..OAuth2.0
+02:05:2022	20:35:13	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:35:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:35:13	Setting grant type as Client Credentials
+02:05:2022	20:35:14	Application running on port 6969
+02:05:2022	20:35:41	/oauth/token	POST	localhost:6969
+02:05:2022	20:35:51	/	GET	localhost:6969
+02:05:2022	20:35:51	Clearing token.. - e7d381c8ac1c02e7868a0e29ac7d0f03580b1e8e771dda1b3336c149c6373a48
+02:05:2022	20:36:19	Starting Application...
+02:05:2022	20:36:19	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:36:19	Setting Up..OAuth2.0
+02:05:2022	20:36:19	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:36:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:36:19	Setting grant type as Client Credentials
+02:05:2022	20:36:19	Application running on port 6969
+02:05:2022	20:39:55	/	GET	localhost:6969
+02:05:2022	20:39:55	Clearing token.. - e7d381c8ac1c02e7868a0e29ac7d0f03580b1e8e771dda1b3336c149c6373a48
+02:05:2022	20:40:06	/	GET	localhost:6969
+02:05:2022	20:40:06	Clearing token.. - 6fe682e6ce40f77797d0ab713fab581c66a5a6660e2d9c4272cd7d48eb670fe7
+02:05:2022	20:40:14	/	GET	localhost:6969
+02:05:2022	20:40:14	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:41:28	Starting Application...
+02:05:2022	20:41:28	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:41:28	Setting Up..OAuth2.0
+02:05:2022	20:41:28	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:41:28	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:41:28	Setting grant type as Client Credentials
+02:05:2022	20:41:28	Application running on port 6969
+02:05:2022	20:41:31	/	GET	localhost:6969
+02:05:2022	20:42:05	Starting Application...
+02:05:2022	20:42:05	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:42:05	Setting Up..OAuth2.0
+02:05:2022	20:42:05	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:42:05	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:42:05	Setting grant type as Client Credentials
+02:05:2022	20:42:05	Application running on port 6969
+02:05:2022	20:42:08	/	GET	localhost:6969
+02:05:2022	20:42:08	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:42:17	Starting Application...
+02:05:2022	20:42:17	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:42:17	Setting Up..OAuth2.0
+02:05:2022	20:42:17	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:42:17	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:42:17	Setting grant type as Client Credentials
+02:05:2022	20:42:18	Application running on port 6969
+02:05:2022	20:42:22	/	GET	localhost:6969
+02:05:2022	20:42:22	Clearing token.. - 5701c57704347a0c4cb39ab43e4ff570e01e55f23a8236c5438876342b30c623
+02:05:2022	20:42:36	/	GET	localhost:6969
+02:05:2022	20:42:36	Clearing token.. - 6fe682e6ce40f77797d0ab713fab581c66a5a6660e2d9c4272cd7d48eb670fe7
+02:05:2022	20:42:49	/	GET	localhost:6969
+02:05:2022	20:42:49	Clearing token.. - e7d381c8ac1c02e7868a0e29ac7d0f03580b1e8e771dda1b3336c149c6373a48
+02:05:2022	20:42:56	/	GET	localhost:6969
+02:05:2022	20:43:11	Starting Application...
+02:05:2022	20:43:11	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:43:11	Setting Up..OAuth2.0
+02:05:2022	20:43:11	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:43:11	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:43:11	Setting grant type as Client Credentials
+02:05:2022	20:43:11	Application running on port 6969
+02:05:2022	20:43:48	Starting Application...
+02:05:2022	20:43:48	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:43:48	Setting Up..OAuth2.0
+02:05:2022	20:43:48	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:43:48	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:43:48	Setting grant type as Client Credentials
+02:05:2022	20:43:48	Application running on port 6969
+02:05:2022	20:44:00	Starting Application...
+02:05:2022	20:44:00	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:44:00	Setting Up..OAuth2.0
+02:05:2022	20:44:00	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:44:00	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:44:00	Setting grant type as Client Credentials
+02:05:2022	20:44:00	Application running on port 6969
+02:05:2022	20:48:08	/	GET	localhost:6969
+02:05:2022	20:49:07	/oauth/token	POST	localhost:6969
+02:05:2022	20:49:07	/	GET	localhost:6969
+02:05:2022	20:49:35	Starting Application...
+02:05:2022	20:49:35	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:49:35	Setting Up..OAuth2.0
+02:05:2022	20:49:35	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:49:35	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:49:35	Setting grant type as Client Credentials
+02:05:2022	20:49:35	Application running on port 6969
+02:05:2022	20:49:50	/oauth/token	POST	localhost:6969
+02:05:2022	20:49:50	/	GET	localhost:6969
+02:05:2022	20:50:21	/oauth/token	POST	localhost:6969
+02:05:2022	20:50:21	/	GET	localhost:6969
+02:05:2022	20:52:06	Starting Application...
+02:05:2022	20:52:06	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:52:06	Setting Up..OAuth2.0
+02:05:2022	20:52:06	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	20:52:06	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:52:06	Setting grant type as Client Credentials
+02:05:2022	20:52:06	Application running on port 6969
+02:05:2022	20:52:19	Starting Application...
+02:05:2022	20:52:19	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:52:19	Setting Up..OAuth2.0
+02:05:2022	20:52:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:52:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:52:19	Setting grant type as Client Credentials
+02:05:2022	20:52:20	Application running on port 6969
+02:05:2022	20:52:29	/oauth/token	POST	localhost:6969
+02:05:2022	20:52:29	/	GET	localhost:6969
+02:05:2022	20:53:14	/oauth/token	POST	localhost:6969
+02:05:2022	20:54:41	Starting Application...
+02:05:2022	20:54:41	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:54:41	Setting Up..OAuth2.0
+02:05:2022	20:54:41	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:54:41	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:54:41	Setting grant type as Client Credentials
+02:05:2022	20:54:41	Application running on port 6969
+02:05:2022	20:54:52	/oauth/token	POST	localhost:6969
+02:05:2022	20:54:52	/	GET	localhost:6969
+02:05:2022	20:56:54	Starting Application...
+02:05:2022	20:56:54	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:56:54	Setting Up..OAuth2.0
+02:05:2022	20:56:54	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:56:54	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:56:54	Setting grant type as Client Credentials
+02:05:2022	20:56:54	Application running on port 6969
+02:05:2022	20:57:04	/oauth/token	POST	localhost:6969
+02:05:2022	20:58:24	Starting Application...
+02:05:2022	20:58:24	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	20:58:24	Setting Up..OAuth2.0
+02:05:2022	20:58:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:58:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	20:58:24	Setting grant type as Client Credentials
+02:05:2022	20:58:24	Application running on port 6969
+02:05:2022	20:58:27	/oauth/token	POST	localhost:6969
+02:05:2022	21:00:52	Starting Application...
+02:05:2022	21:00:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:00:52	Setting Up..OAuth2.0
+02:05:2022	21:00:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:00:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:00:52	Setting grant type as Client Credentials
+02:05:2022	21:00:52	Application running on port 6969
+02:05:2022	21:00:55	/oauth/token	POST	localhost:6969
+02:05:2022	21:01:03	Starting Application...
+02:05:2022	21:01:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:01:03	Setting Up..OAuth2.0
+02:05:2022	21:01:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:01:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:01:03	Setting grant type as Client Credentials
+02:05:2022	21:01:03	Application running on port 6969
+02:05:2022	21:02:01	Starting Application...
+02:05:2022	21:02:01	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:02:01	Setting Up..OAuth2.0
+02:05:2022	21:02:01	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:01	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:01	Setting grant type as Client Credentials
+02:05:2022	21:02:01	Application running on port 6969
+02:05:2022	21:02:04	/oauth/token	POST	localhost:6969
+02:05:2022	21:02:15	Starting Application...
+02:05:2022	21:02:15	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:02:15	Setting Up..OAuth2.0
+02:05:2022	21:02:15	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:15	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:15	Setting grant type as Client Credentials
+02:05:2022	21:02:15	Application running on port 6969
+02:05:2022	21:02:26	/oauth/token	POST	localhost:6969
+02:05:2022	21:02:26	/	GET	localhost:6969
+02:05:2022	21:02:45	Starting Application...
+02:05:2022	21:02:45	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:02:45	Setting Up..OAuth2.0
+02:05:2022	21:02:45	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:45	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:02:45	Setting grant type as Client Credentials
+02:05:2022	21:02:45	Application running on port 6969
+02:05:2022	21:03:13	Starting Application...
+02:05:2022	21:03:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:03:13	Setting Up..OAuth2.0
+02:05:2022	21:03:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:03:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:03:13	Setting grant type as Client Credentials
+02:05:2022	21:03:13	Application running on port 6969
+02:05:2022	21:03:35	/oauth/token	POST	localhost:6969
+02:05:2022	21:04:10	Starting Application...
+02:05:2022	21:04:10	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:04:10	Setting Up..OAuth2.0
+02:05:2022	21:04:10	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:04:10	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:04:10	Setting grant type as Client Credentials
+02:05:2022	21:04:10	Application running on port 6969
+02:05:2022	21:04:34	/oauth/token	POST	localhost:6969
+02:05:2022	21:04:34	/	GET	localhost:6969
+02:05:2022	21:06:31	Starting Application...
+02:05:2022	21:06:31	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:06:31	Setting Up..OAuth2.0
+02:05:2022	21:06:31	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:06:31	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:06:31	Setting grant type as Client Credentials
+02:05:2022	21:06:31	Application running on port 6969
+02:05:2022	21:06:36	/oauth/token	POST	localhost:6969
+02:05:2022	21:06:36	Sending token - [object Object]
+02:05:2022	21:06:36	/	GET	localhost:6969
+02:05:2022	21:06:52	Starting Application...
+02:05:2022	21:06:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:06:53	Setting Up..OAuth2.0
+02:05:2022	21:06:53	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:06:53	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:06:53	Setting grant type as Client Credentials
+02:05:2022	21:06:53	Application running on port 6969
+02:05:2022	21:06:54	/oauth/token	POST	localhost:6969
+02:05:2022	21:07:21	Starting Application...
+02:05:2022	21:07:21	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:07:21	Setting Up..OAuth2.0
+02:05:2022	21:07:21	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:07:21	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:07:21	Setting grant type as Client Credentials
+02:05:2022	21:07:21	Application running on port 6969
+02:05:2022	21:07:23	/oauth/token	POST	localhost:6969
+02:05:2022	21:07:23	Sending token - {"accessToken":"c8066116169aebc42bcdb95031e1992b6642c8a6e865fe4e9eb25c3c61aa10dd","accessTokenExpiresAt":"2022-05-02T17:08:23.379Z","client":{"id":"client1"},"user":{}}
+02:05:2022	21:07:23	/	GET	localhost:6969
+02:05:2022	21:09:25	Starting Application...
+02:05:2022	21:09:25	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:09:25	Setting Up..OAuth2.0
+02:05:2022	21:09:25	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:09:25	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:09:25	Setting grant type as Client Credentials
+02:05:2022	21:09:25	Application running on port 6969
+02:05:2022	21:09:28	/oauth/token	POST	localhost:6969
+02:05:2022	21:09:28	before token - {"accessToken":"959fc8c1f9b8362fe30ecd4b6f714b243b4fc77573d2377c670b1e67ca29eed8","accessTokenExpiresAt":"2022-05-02T17:10:28.266Z","client":{"id":"client1"},"user":{}}
+02:05:2022	21:09:28	Sending token - {"accessToken":"959fc8c1f9b8362fe30ecd4b6f714b243b4fc77573d2377c670b1e67ca29eed8","accessTokenExpiresAt":"2022-05-02T17:10:28.266Z","client":{"id":"client1"},"user":{},"access_token":"959fc8c1f9b8362fe30ecd4b6f714b243b4fc77573d2377c670b1e67ca29eed8"}
+02:05:2022	21:09:28	/	GET	localhost:6969
+02:05:2022	21:10:41	/oauth/token	POST	localhost:6969
+02:05:2022	21:10:41	before token - {"accessToken":"7aa03fc07fbb56abc98e34c988ff4706310e4a9b594d1ff0769d2b0d27924921","accessTokenExpiresAt":"2022-05-02T17:11:41.588Z","client":{"id":"client1"},"user":{}}
+02:05:2022	21:10:41	Sending token - {"accessToken":"7aa03fc07fbb56abc98e34c988ff4706310e4a9b594d1ff0769d2b0d27924921","accessTokenExpiresAt":"2022-05-02T17:11:41.588Z","client":{"id":"client1"},"user":{},"access_token":"7aa03fc07fbb56abc98e34c988ff4706310e4a9b594d1ff0769d2b0d27924921"}
+02:05:2022	21:10:41	/	GET	localhost:6969
+02:05:2022	21:10:46	/oauth/token	POST	localhost:6969
+02:05:2022	21:10:46	before token - {"accessToken":"9d9d24f0c860a617d6ef6d2e84b3f94c651100fee4ac4f78abb9a65d9654abb5","accessTokenExpiresAt":"2022-05-02T17:11:46.935Z","client":{"id":"client1"},"user":{}}
+02:05:2022	21:10:46	Sending token - {"accessToken":"9d9d24f0c860a617d6ef6d2e84b3f94c651100fee4ac4f78abb9a65d9654abb5","accessTokenExpiresAt":"2022-05-02T17:11:46.935Z","client":{"id":"client1"},"user":{},"access_token":"9d9d24f0c860a617d6ef6d2e84b3f94c651100fee4ac4f78abb9a65d9654abb5"}
+02:05:2022	21:10:46	/	GET	localhost:6969
+02:05:2022	21:11:16	Starting Application...
+02:05:2022	21:11:16	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:11:16	Setting Up..OAuth2.0
+02:05:2022	21:11:16	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:11:16	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:11:16	Setting grant type as Client Credentials
+02:05:2022	21:11:16	Application running on port 6969
+02:05:2022	21:11:26	Starting Application...
+02:05:2022	21:11:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:11:26	Setting Up..OAuth2.0
+02:05:2022	21:11:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:11:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:11:26	Setting grant type as Client Credentials
+02:05:2022	21:11:26	Application running on port 6969
+02:05:2022	21:13:36	/api/employees?offset=1&limit=5	GET	localhost:6969
+02:05:2022	21:13:36	/oauth/token	POST	localhost:6969
+02:05:2022	21:13:36	/api/employees?offset=1&limit=5	GET	localhost:6969
+02:05:2022	21:13:36	Sending --> [{"id":1,"firstname":"Bruce","lastname":"Wayne","email":"bruce.wayne@shandeep.com","active":true,"groups":[1,2]},{"id":2,"firstname":"Peter","lastname":"Parker","email":"peter.parker@shandeep.com","active":true,"groups":[3,4]},{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[]},{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4,"groups":[1,2,3,4,5]},{"id":5,"active":true,"firstname":"Ola","lastname":"Todd","email":"olatodd@shandeep.com"}]
+02:05:2022	21:13:36	/api/employees?offset=6&limit=5	GET	localhost:6969
+02:05:2022	21:13:36	Sending --> [{"id":6,"active":true,"firstname":"Huff","lastname":"Ryan","email":"huffryan@shandeep.com"},{"id":7,"active":true,"firstname":"Kasey","lastname":"Ortiz","email":"kaseyortiz@shandeep.com"},{"id":8,"active":false,"firstname":"Felecia","lastname":"Jensen","email":"feleciajensen@shandeep.com"},{"id":9,"active":false,"firstname":"Day","lastname":"Thornton","email":"daythornton@shandeep.com"},{"id":10,"active":false,"firstname":"Paulette","lastname":"Tucker","email":"paulettetucker@shandeep.com"}]
+02:05:2022	21:13:36	/api/employees?offset=11&limit=5	GET	localhost:6969
+02:05:2022	21:13:36	Sending --> [{"id":11,"active":false,"firstname":"Marion","lastname":"Fitzgerald","email":"marionfitzgerald@shandeep.com"},{"id":12,"active":true,"firstname":"Ortiz","lastname":"Barber","email":"ortizbarber@shandeep.com"},{"id":13,"active":true,"firstname":"Holcomb","lastname":"Key","email":"holcombkey@shandeep.com"},{"id":14,"active":true,"firstname":"Mcconnell","lastname":"Sosa","email":"mcconnellsosa@shandeep.com"},{"id":15,"active":true,"firstname":"Claudia","lastname":"Turner","email":"claudiaturner@shandeep.com"}]
+02:05:2022	21:14:01	Starting Application...
+02:05:2022	21:14:01	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:14:01	Setting Up..OAuth2.0
+02:05:2022	21:14:01	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:14:01	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:14:01	Setting grant type as Client Credentials
+02:05:2022	21:14:01	Application running on port 6969
+02:05:2022	21:14:07	/oauth/token	POST	localhost:6969
+02:05:2022	21:14:07	/	GET	localhost:6969
+02:05:2022	21:14:13	/oauth/token	POST	localhost:6969
+02:05:2022	21:14:13	/	GET	localhost:6969
+02:05:2022	21:14:19	Starting Application...
+02:05:2022	21:14:19	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:14:19	Setting Up..OAuth2.0
+02:05:2022	21:14:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:14:19	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:14:19	Setting grant type as Client Credentials
+02:05:2022	21:14:19	Application running on port 6969
+02:05:2022	21:14:29	/api/employees?offset=1&limit=5	GET	localhost:6969
+02:05:2022	21:14:29	/oauth/token	POST	localhost:6969
+02:05:2022	21:14:29	/api/employees?offset=1&limit=5	GET	localhost:6969
+02:05:2022	21:14:29	Sending --> [{"id":1,"firstname":"Bruce","lastname":"Wayne","email":"bruce.wayne@shandeep.com","active":true,"groups":[1,2]},{"id":2,"firstname":"Peter","lastname":"Parker","email":"peter.parker@shandeep.com","active":true,"groups":[3,4]},{"firstname":"John","lastname":"Cena","email":"john.cena@shandeep.com","active":true,"id":3,"groups":[]},{"firstname":"Will","lastname":"Smith","email":"will.smith@shandeep.com","active":true,"id":4,"groups":[1,2,3,4,5]},{"id":5,"active":true,"firstname":"Ola","lastname":"Todd","email":"olatodd@shandeep.com"}]
+02:05:2022	21:14:29	/api/employees?offset=6&limit=5	GET	localhost:6969
+02:05:2022	21:14:29	Sending --> [{"id":6,"active":true,"firstname":"Huff","lastname":"Ryan","email":"huffryan@shandeep.com"},{"id":7,"active":true,"firstname":"Kasey","lastname":"Ortiz","email":"kaseyortiz@shandeep.com"},{"id":8,"active":false,"firstname":"Felecia","lastname":"Jensen","email":"feleciajensen@shandeep.com"},{"id":9,"active":false,"firstname":"Day","lastname":"Thornton","email":"daythornton@shandeep.com"},{"id":10,"active":false,"firstname":"Paulette","lastname":"Tucker","email":"paulettetucker@shandeep.com"}]
+02:05:2022	21:14:29	/api/employees?offset=11&limit=5	GET	localhost:6969
+02:05:2022	21:14:29	Sending --> [{"id":11,"active":false,"firstname":"Marion","lastname":"Fitzgerald","email":"marionfitzgerald@shandeep.com"},{"id":12,"active":true,"firstname":"Ortiz","lastname":"Barber","email":"ortizbarber@shandeep.com"},{"id":13,"active":true,"firstname":"Holcomb","lastname":"Key","email":"holcombkey@shandeep.com"},{"id":14,"active":true,"firstname":"Mcconnell","lastname":"Sosa","email":"mcconnellsosa@shandeep.com"},{"id":15,"active":true,"firstname":"Claudia","lastname":"Turner","email":"claudiaturner@shandeep.com"}]
+02:05:2022	21:16:12	Starting Application...
+02:05:2022	21:16:12	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:16:12	Setting Up..OAuth2.0
+02:05:2022	21:16:12	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:12	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:12	Application running on port 6969
+02:05:2022	21:16:12	Setting grant type as Client Credentials
+02:05:2022	21:16:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:16:26	Starting Application...
+02:05:2022	21:16:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:16:26	Setting Up..OAuth2.0
+02:05:2022	21:16:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:26	Setting grant type as Client Credentials
+02:05:2022	21:16:26	Application running on port 6969
+02:05:2022	21:16:29	/oauth/token	POST	localhost:6969
+02:05:2022	21:16:58	Starting Application...
+02:05:2022	21:16:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:16:58	Setting Up..OAuth2.0
+02:05:2022	21:16:58	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:58	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:16:58	Setting grant type as Client Credentials
+02:05:2022	21:16:58	Application running on port 6969
+02:05:2022	21:17:52	Starting Application...
+02:05:2022	21:17:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:17:52	Setting Up..OAuth2.0
+02:05:2022	21:17:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:17:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:17:52	Setting grant type as Client Credentials
+02:05:2022	21:17:52	Application running on port 6969
+02:05:2022	21:18:13	Starting Application...
+02:05:2022	21:18:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:18:13	Setting Up..OAuth2.0
+02:05:2022	21:18:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:18:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:18:13	Setting grant type as Client Credentials
+02:05:2022	21:18:13	Application running on port 6969
+02:05:2022	21:18:31	/oauth/token	POST	localhost:6969
+02:05:2022	21:18:38	Starting Application...
+02:05:2022	21:18:38	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:18:38	Setting Up..OAuth2.0
+02:05:2022	21:18:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:18:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:18:38	Setting grant type as Client Credentials
+02:05:2022	21:18:38	Application running on port 6969
+02:05:2022	21:19:31	Starting Application...
+02:05:2022	21:19:31	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:19:31	Setting Up..OAuth2.0
+02:05:2022	21:19:31	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:19:31	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:19:31	Setting grant type as Client Credentials
+02:05:2022	21:19:31	Application running on port 6969
+02:05:2022	21:19:43	/oauth/token	POST	localhost:6969
+02:05:2022	21:19:52	Starting Application...
+02:05:2022	21:19:52	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:19:52	Setting Up..OAuth2.0
+02:05:2022	21:19:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:19:52	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:19:52	Setting grant type as Client Credentials
+02:05:2022	21:19:52	Application running on port 6969
+02:05:2022	21:19:57	/oauth/token	POST	localhost:6969
+02:05:2022	21:20:08	Starting Application...
+02:05:2022	21:20:08	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:20:08	Setting Up..OAuth2.0
+02:05:2022	21:20:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:20:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:20:08	Setting grant type as Client Credentials
+02:05:2022	21:20:08	Application running on port 6969
+02:05:2022	21:20:30	Starting Application...
+02:05:2022	21:20:30	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:20:30	Setting Up..OAuth2.0
+02:05:2022	21:20:30	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:20:30	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:20:30	Setting grant type as Client Credentials
+02:05:2022	21:20:30	Application running on port 6969
+02:05:2022	21:21:13	Starting Application...
+02:05:2022	21:21:13	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:21:13	Setting Up..OAuth2.0
+02:05:2022	21:21:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:21:13	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:21:13	Setting grant type as Client Credentials
+02:05:2022	21:21:13	Application running on port 6969
+02:05:2022	21:21:19	/oauth/token	POST	localhost:6969
+02:05:2022	21:21:25	Starting Application...
+02:05:2022	21:21:25	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:21:25	Setting Up..OAuth2.0
+02:05:2022	21:21:25	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:21:25	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:21:25	Setting grant type as Client Credentials
+02:05:2022	21:21:25	Application running on port 6969
+02:05:2022	21:21:43	/oauth/token	POST	localhost:6969
+02:05:2022	21:21:48	/oauth/token	POST	localhost:6969
+02:05:2022	21:23:25	/	GET	localhost:6969
+02:05:2022	21:23:25	Clearing token.. - 33462e3f4600364aeb37662bd41c701f606209e88213b65393b8edf1855f96ac
+02:05:2022	21:24:29	Starting Application...
+02:05:2022	21:24:29	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:24:29	Setting Up..OAuth2.0
+02:05:2022	21:24:29	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:24:29	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:24:29	Setting grant type as Client Credentials
+02:05:2022	21:24:29	Application running on port 6969
+02:05:2022	21:25:03	Starting Application...
+02:05:2022	21:25:03	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:25:03	Setting Up..OAuth2.0
+02:05:2022	21:25:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:25:03	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:25:03	Setting grant type as Client Credentials
+02:05:2022	21:25:03	Application running on port 6969
+02:05:2022	21:25:08	/oauth/token	POST	localhost:6969
+02:05:2022	21:25:31	/oauth/token	POST	localhost:6969
+02:05:2022	21:25:55	/	GET	localhost:6969
+02:05:2022	21:25:55	Clearing token.. - 8cc7e61335afbc8eaade2bd9eb91ecd780c25c722cf576241c05af2da52dbeb4
+02:05:2022	21:26:36	Starting Application...
+02:05:2022	21:26:36	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:26:36	Setting Up..OAuth2.0
+02:05:2022	21:26:36	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:26:36	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:26:36	Setting grant type as Client Credentials
+02:05:2022	21:26:36	Application running on port 6969
+02:05:2022	21:26:42	/oauth/token	POST	localhost:6969
+02:05:2022	21:26:42	/oauth/token	POST	localhost:6969
+02:05:2022	21:26:43	/oauth/token	POST	localhost:6969
+02:05:2022	21:27:23	/	GET	localhost:6969
+02:05:2022	21:27:23	Clearing token.. - 75f887783e08c382a7c174aa86a949859d8fd974bf7b2033e20ce614151aa395
+02:05:2022	21:29:08	Starting Application...
+02:05:2022	21:29:08	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:29:08	Setting Up..OAuth2.0
+02:05:2022	21:29:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:29:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:29:08	Setting grant type as Client Credentials
+02:05:2022	21:29:08	Application running on port 6969
+02:05:2022	21:29:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:29:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:29:18	/oauth/token	POST	localhost:6969
+02:05:2022	21:29:35	/	GET	localhost:6969
+02:05:2022	21:29:35	Clearing token.. - 375fa196576d26e5f7326560aa79e3369b202a93cc094e8ddabe3d1baaf939b4
+02:05:2022	21:30:14	Starting Application...
+02:05:2022	21:30:14	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:30:14	Setting Up..OAuth2.0
+02:05:2022	21:30:14	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:30:14	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:30:14	Setting grant type as Client Credentials
+02:05:2022	21:30:14	Application running on port 6969
+02:05:2022	21:30:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:30:18	/oauth/token	POST	localhost:6969
+02:05:2022	21:30:18	/oauth/token	POST	localhost:6969
+02:05:2022	21:31:31	/	GET	localhost:6969
+02:05:2022	21:31:31	Clearing token.. - d7bda6345fb5d2c19aa95e0dd7324aedba043912586bb13c1fc9694fe39653b8
+02:05:2022	21:32:24	Starting Application...
+02:05:2022	21:32:24	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:32:24	Setting Up..OAuth2.0
+02:05:2022	21:32:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:32:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:32:24	Setting grant type as Client Credentials
+02:05:2022	21:32:24	Application running on port 6969
+02:05:2022	21:32:26	Starting Application...
+02:05:2022	21:32:26	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:32:26	Setting Up..OAuth2.0
+02:05:2022	21:32:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:32:26	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:32:26	Setting grant type as Client Credentials
+02:05:2022	21:32:26	Application running on port 6969
+02:05:2022	21:32:30	/oauth/token	POST	localhost:6969
+02:05:2022	21:32:30	/oauth/token	POST	localhost:6969
+02:05:2022	21:32:31	/oauth/token	POST	localhost:6969
+02:05:2022	21:32:37	/	GET	localhost:6969
+02:05:2022	21:32:37	Clearing token.. - 2316c9e8e5de0768644923e903621f3308c371419603bd6ca9fc05f170c05231
+02:05:2022	21:34:58	Starting Application...
+02:05:2022	21:34:58	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:34:58	Setting Up..OAuth2.0
+02:05:2022	21:34:58	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:34:58	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:34:58	Setting grant type as Client Credentials
+02:05:2022	21:34:58	Application running on port 6969
+02:05:2022	21:35:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:35:17	/oauth/token	POST	localhost:6969
+02:05:2022	21:35:18	/oauth/token	POST	localhost:6969
+02:05:2022	21:35:31	/	GET	localhost:6969
+02:05:2022	21:35:31	Clearing token.. - 75bd88151f6de4eada734cc22560ddaadc4410ecc2d3e6c8e9bea3fbbb7b600d
+02:05:2022	21:35:42	Starting Application...
+02:05:2022	21:35:42	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:35:42	Setting Up..OAuth2.0
+02:05:2022	21:35:42	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:35:42	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:35:42	Setting grant type as Client Credentials
+02:05:2022	21:35:43	Application running on port 6969
+02:05:2022	21:35:47	/oauth/token	POST	localhost:6969
+02:05:2022	21:38:00	Starting Application...
+02:05:2022	21:38:00	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:38:00	Setting Up..OAuth2.0
+02:05:2022	21:38:00	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:38:00	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:38:00	Setting grant type as Client Credentials
+02:05:2022	21:38:00	Application running on port 6969
+02:05:2022	21:38:24	Starting Application...
+02:05:2022	21:38:24	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:38:24	Setting Up..OAuth2.0
+02:05:2022	21:38:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:38:24	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:38:24	Application running on port 6969
+02:05:2022	21:38:24	Setting grant type as Client Credentials
+02:05:2022	21:39:27	Starting Application...
+02:05:2022	21:39:27	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:39:27	Setting Up..OAuth2.0
+02:05:2022	21:39:27	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:39:27	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:39:27	Setting grant type as Client Credentials
+02:05:2022	21:39:27	Application running on port 6969
+02:05:2022	21:39:39	Starting Application...
+02:05:2022	21:39:39	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:39:39	Setting Up..OAuth2.0
+02:05:2022	21:39:39	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:39:39	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:39:39	Application running on port 6969
+02:05:2022	21:39:39	Setting grant type as Client Credentials
+02:05:2022	21:40:48	Starting Application...
+02:05:2022	21:40:48	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:40:48	Setting Up..OAuth2.0
+02:05:2022	21:40:48	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:40:48	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:40:48	Setting grant type as Client Credentials
+02:05:2022	21:40:48	Application running on port 6969
+02:05:2022	21:41:04	/oauth/token	POST	localhost:6969
+02:05:2022	21:41:04	/oauth/token	POST	localhost:6969
+02:05:2022	21:41:05	/oauth/token	POST	localhost:6969
+02:05:2022	21:41:26	/oauth/token	POST	localhost:6969
+02:05:2022	21:41:58	/	GET	localhost:6969
+02:05:2022	21:41:58	Clearing token.. - 039d65f1c37728ad3dce05bd8f7a3ac3d65d1ff34867027353027fc9dab308eb
+02:05:2022	21:42:08	Starting Application...
+02:05:2022	21:42:08	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:42:08	Setting Up..OAuth2.0
+02:05:2022	21:42:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:42:08	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:42:08	Setting grant type as Client Credentials
+02:05:2022	21:42:08	Application running on port 6969
+02:05:2022	21:42:44	/oauth/token	POST	localhost:6969
+02:05:2022	21:43:38	Starting Application...
+02:05:2022	21:43:38	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:43:38	Setting Up..OAuth2.0
+02:05:2022	21:43:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:43:38	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:43:38	Setting grant type as Client Credentials
+02:05:2022	21:43:38	Application running on port 6969
+02:05:2022	21:43:49	/oauth/token	POST	localhost:6969
+02:05:2022	21:43:49	/oauth/token	POST	localhost:6969
+02:05:2022	21:43:50	/oauth/token	POST	localhost:6969
+02:05:2022	21:44:02	/	GET	localhost:6969
+02:05:2022	21:44:02	Clearing token.. - 06154cea36b8750df41437d99b6f1256a94230856f9b288a068a25839d2c4f50
+02:05:2022	21:44:24	/	GET	localhost:6969
+02:05:2022	21:44:24	Clearing token.. - ba07b249f08842147c3141ca4ea44e03eab895955b5922d62893a5ece141435a
+02:05:2022	21:44:33	Starting Application...
+02:05:2022	21:44:33	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:44:33	Setting Up..OAuth2.0
+02:05:2022	21:44:33	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:44:33	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:44:33	Setting grant type as Client Credentials
+02:05:2022	21:44:33	Application running on port 6969
+02:05:2022	21:44:40	/oauth/token	POST	localhost:6969
+02:05:2022	21:45:32	Starting Application...
+02:05:2022	21:45:32	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:45:32	Setting Up..OAuth2.0
+02:05:2022	21:45:32	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:45:32	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:45:32	Setting grant type as Client Credentials
+02:05:2022	21:45:32	Application running on port 6969
+02:05:2022	21:52:27	Starting Application...
+02:05:2022	21:52:27	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:52:27	Setting Up..OAuth2.0
+02:05:2022	21:52:27	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:52:27	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:52:27	Setting grant type as Client Credentials
+02:05:2022	21:52:27	Application running on port 6969
+02:05:2022	21:52:44	Starting Application...
+02:05:2022	21:52:44	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:52:44	Setting Up..OAuth2.0
+02:05:2022	21:52:44	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:52:44	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:52:44	Setting grant type as Client Credentials
+02:05:2022	21:52:44	Application running on port 6969
+02:05:2022	21:53:12	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:12	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:15	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:16	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:16	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:18	/oauth/token	POST	localhost:6969
+02:05:2022	21:53:23	Starting Application...
+02:05:2022	21:53:23	Setting authentication type as OAuth2.0(Client Credentials)
+02:05:2022	21:53:23	Setting Up..OAuth2.0
+02:05:2022	21:53:23	Setting CLEAR_GRANTS_ON_START as false
+02:05:2022	21:53:23	Setting CLEAR_GRANTS_ON_START as true
+02:05:2022	21:53:23	Setting grant type as Client Credentials
+02:05:2022	21:53:23	Application running on port 6969
