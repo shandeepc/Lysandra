@@ -38,11 +38,10 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * [@node-oauth/oauth2-server](https://www.npmjs.com/package/@node-oauth/oauth2-server)
 * [body-parser](https://www.npmjs.com/package/body-parser)
 
-## Features
-# New
+# New Features
 * OAuth2.0 Client Credentials Added
 * Added PostMan Collections with Examples
-
+## Features
 * Mutiple Objects for managing(Employees & Groups)
 * Support mutiple authentication methods
     * No Authentication
