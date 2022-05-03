@@ -56,7 +56,7 @@ if (process.env.AUTH_TYPE === 'basicAuthentication') {
 } else if (process.env.AUTH_TYPE.startsWith("OAuth2.0")) {
     logger.log(`Setting Up..OAuth2.0`, 'reqLog.txt');
     logger.log(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase())}`, 'reqLog.txt');
-    logger.log(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())}`, 'reqLog.txt');
+    logger.log(`Setting CLEAR_GRANTS_ON_EXPIRE as ${JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())}`, 'reqLog.txt');
     if(JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase()))
         oAuthController.updateData(JSON.parse('{"tokens":[]}'));
     app.oauth = new OAuth2Server({

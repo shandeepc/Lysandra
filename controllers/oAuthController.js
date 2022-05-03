@@ -14,6 +14,8 @@ function obtainToken(req, res) {
 	return req.app.oauth.token(request, response)
 		.then(function (token) {
 			token.access_token = token.accessToken;
+			if(token.refreshToken)
+				token.refresh_token = token.refreshToken;
 			res.json(token);
 		}).catch(function (err) {
 			logger.log(err, 'errorLog.txt');
@@ -73,6 +75,7 @@ var getRefreshToken = function (refreshToken) {
 	if (!tokens.length) {
 		return;
 	}
+	tokens[0].refreshTokenExpiresAt = new Date(tokens[0].refreshTokenExpiresAt);
 	return tokens[0];
 };
 

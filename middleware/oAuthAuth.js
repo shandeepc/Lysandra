@@ -12,7 +12,7 @@ const oAuthAuth = (req, res, next) => {
             next();
         }).catch(function (err) {
             logger.log(err, 'errorLog.txt');
-            if(err.message.endsWith("access token has expired") && JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())) {
+            if(process.env.AUTH_TYPE.includes("Client Credentials") && err.message.endsWith("access token has expired") && JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())) {
                 var tokenToClear = req.headers.authorization.split(" ")[1];
                 logger.log(`Clearing token.. - ${tokenToClear}`, 'reqLog.txt');
                 grants.tokens.splice(grants.tokens.indexOf(grants.tokens.find(t => t.accessToken === tokenToClear)),1);

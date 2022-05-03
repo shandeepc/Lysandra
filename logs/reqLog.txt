@@ -2322,3 +2322,10 @@
 02:05:2022	21:53:23	Setting CLEAR_GRANTS_ON_START as true
 02:05:2022	21:53:23	Setting grant type as Client Credentials
 02:05:2022	21:53:23	Application running on port 6969
+03:05:2022	17:02:51	Starting Application...
+03:05:2022	17:02:51	Setting authentication type as OAuth2.0(Client Credentials)
+03:05:2022	17:02:51	Setting Up..OAuth2.0
+03:05:2022	17:02:51	Setting CLEAR_GRANTS_ON_START as true
+03:05:2022	17:02:51	Setting CLEAR_GRANTS_ON_EXPIRE as true
+03:05:2022	17:02:51	Setting grant type as Client Credentials
+03:05:2022	17:02:52	Application running on port 6969
