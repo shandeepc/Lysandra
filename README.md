@@ -35,15 +35,20 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * [Joi](https://www.npmjs.com/package/joi)
 * [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 * [Uuid](https://www.npmjs.com/package/uuid)
+* [@node-oauth/oauth2-server](https://www.npmjs.com/package/@node-oauth/oauth2-server)
+* [body-parser](https://www.npmjs.com/package/body-parser)
 
+# New Features
+* OAuth2.0 Client Credentials Added
+* Added PostMan Collections with Examples
 ## Features
-
 * Mutiple Objects for managing(Employees & Groups)
 * Support mutiple authentication methods
     * No Authentication
     * UserName and Password based authentication
     * Permanant API Token based authentication
-    * JWT Token based authentication(Refer Todo)
+    * JWT Token based authentication(Deprecated)
+    * OAuth2.0(Client Credentials)
 * Follows general public API standards
 * Strict schema validation
 * Supports pagging
@@ -107,17 +112,17 @@ or
 - [x] Simple API Authentication
 - [x] Employees Password MVC
 - [x] Groups MVC
-- [x] JWT Authentication
-- [ ] Fix IDAM warnings
+- [x] JWT Authentication(Deprecated)
+- [x] Fix IDAM warnings
 - [ ] Implement PATCH Operation
 - [ ] Support sorting and filtering
 - [ ] Fix cross auth bug(Secret..Sush)
-- [ ] Add JWT Refresh via POST
+- [x] Add JWT Refresh via POST(Deprecated)
 - [ ] Implement OAuth(Sort Of)
 
 ## Roadmap
 
-- [ ] Simulate OAuth2.0 Authentication mechanism
+- [x] Simulate OAuth2.0 Authentication mechanism
 - [ ] Add GUI
 - [ ] Add Native app
 
