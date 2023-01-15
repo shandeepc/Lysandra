@@ -1,3 +1,21 @@
 {
-    "tokens": []
+    "tokens": [
+        {
+            "accessToken": "1d50214902683d1bb0a9f4b3682fea0063360372e72c1ff0a9f44e7363b467f7",
+            "accessTokenExpiresAt": "2023-01-15T11:12:21.854Z",
+            "client": {
+                "id": "Admin"
+            },
+            "user": {},
+            "access_token": "1d50214902683d1bb0a9f4b3682fea0063360372e72c1ff0a9f44e7363b467f7"
+        },
+        {
+            "accessToken": "9ea5c76f4976274e5d1aa08ca3f8dd52421c708a62ed33eb5763c2aa0479f0f3",
+            "accessTokenExpiresAt": "2023-01-15T11:16:03.790Z",
+            "client": {
+                "id": "Admin"
+            },
+            "user": {}
+        }
+    ]
 }

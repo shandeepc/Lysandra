@@ -1,3 +1,10 @@
+/*
+Project Name - Kinda Perfect File Based REST API
+Version - 3.0.0
+Author - @shandeepc
+Website - www.shandeep.tk
+*/
+
 //Node Modules
 const express = require('express');
 const path = require('path');
@@ -17,11 +24,22 @@ const apiAuth = require('./middleware/apiAuth');
 const oAuthAuth = require('./middleware/oAuthAuth');
 const oAuthController = require('./controllers/oAuthController');
 
-logger.log('Starting Application...', 'reqLog.txt');
+logger.debug("  _  __  _   _____                  ______   _   ____      _____    ______    _____   _______                _____    _____ ");
+logger.debug(" | |/ / (_) |  __ \\                |  ____| (_) |  _ \\    |  __ \\  |  ____|  / ____| |__   __|       /\\     |  __ \\  |_   _|");
+logger.debug(" | ' /   _  | |__) |   ___   _ __  | |__     _  | |_) |   | |__) | | |__    | (___      | |         /  \\    | |__) |   | |  ");
+logger.debug(" |  <   | | |  ___/   / _ \\ | '__| |  __|   | | |  _ <    |  _  /  |  __|    \\___ \\     | |        / /\\ \\   |  ___/    | |  ");
+logger.debug(" | . \\  | | | |      |  __/ | |    | |      | | | |_) |   | | \\ \\  | |____   ____) |    | |       / ____ \\  | |       _| |_ ");
+logger.debug(" |_|\\_\\ |_| |_|       \\___| |_|    |_|      |_| |____/    |_|  \\_\\ |______| |_____/     |_|      /_/    \\_\\ |_|      |_____|");
+logger.debug("                                                                                                                            ");
+logger.debug('Kinda Perfect File Based REST API');
+logger.debug('Version - 3.0.0');
+logger.debug('By - Shandeep Srinivas - www.shandeep.tk\n');
+
+logger.debug('Starting Application...');
 
 const app = express();
 const SERVER_PORT = process.env.PORT;
-logger.log(`Setting authentication type as ${process.env.AUTH_TYPE}`, 'reqLog.txt');
+logger.debug(`Setting authentication type as ${process.env.AUTH_TYPE}`);
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -29,7 +47,7 @@ app.use(bodyParser.json());
 
 //Entry point logger
 app.use((request, response, next) => {
-    logger.log(`${request.url}\t${request.method}\t${request.headers.host}`, 'reqLog.txt');
+    logger.debug(`${request.url}\t${request.method}\t${request.headers.host}`);
     //console.log(request.body);
     //console.log(request.headers);
     next();
@@ -48,15 +66,15 @@ if (process.env.AUTH_TYPE === 'basicAuthentication') {
     app.use('/auth', require('./routes/auth'));
     app.use(apiAuth);
 } else if (process.env.AUTH_TYPE === 'JWT') {
-    logger.log(`JWT Authentication is Still in progress..`, 'reqLog.txt');
+    logger.debug(`JWT Authentication is Still in progress..`);
     app.use('/authreg', require('./routes/authreg'));
     app.use('/auth', require('./routes/auth'));
     app.use('/refresh', require('./routes/refresh'));
     app.use(jwtAuth);
 } else if (process.env.AUTH_TYPE.startsWith("OAuth2.0")) {
-    logger.log(`Setting Up..OAuth2.0`, 'reqLog.txt');
-    logger.log(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase())}`, 'reqLog.txt');
-    logger.log(`Setting CLEAR_GRANTS_ON_EXPIRE as ${JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())}`, 'reqLog.txt');
+    logger.debug(`Setting Up..OAuth2.0`);
+    logger.debug(`Setting CLEAR_GRANTS_ON_START as ${JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase())}`);
+    logger.debug(`Setting CLEAR_GRANTS_ON_EXPIRE as ${JSON.parse(process.env.CLEAR_GRANTS_ON_EXPIRE.toLowerCase())}`);
     if(JSON.parse(process.env.CLEAR_GRANTS_ON_START.toLowerCase()))
         oAuthController.updateData(JSON.parse('{"tokens":[]}'));
     app.oauth = new OAuth2Server({
@@ -66,7 +84,7 @@ if (process.env.AUTH_TYPE === 'basicAuthentication') {
         allowBearerTokensInQueryString: true
     });
     if (process.env.AUTH_TYPE.includes("Client Credentials")) {
-        logger.log(`Setting grant type as Client Credentials`, 'reqLog.txt');
+        logger.debug(`Setting grant type as Client Credentials`);
         app.use('/oauth/token', require('./routes/oauth/token'));
     }
     app.use(oAuthAuth);
@@ -81,7 +99,7 @@ app.use('/groups|/api/groups', require('./routes/api/groups'));
 
 //404 Handler
 app.all('*', (request, response) => {
-    logger.log(`Invaid request ${request.url}`, 'reqLog.txt');
+    logger.debug(`Invaid request ${request.url}`);
     response.status(404);
     if (request.accepts('html')) {
         response.sendFile(path.join(__dirname, 'views', '404.html'));
@@ -92,8 +110,14 @@ app.all('*', (request, response) => {
 
 //Uncaught exception handler
 app.use((error, request, response, next) => {
-    logger.log(`ERROR --> ${error.stack}`, 'errorLog.txt');
+    logger.error(`ERROR --> ${error.stack}`);
     response.status(500).send(error.message);
 });
 
-app.listen(SERVER_PORT, () => logger.log(`Application running on port ${SERVER_PORT}`, 'reqLog.txt'));
+app.listen(
+    SERVER_PORT, 
+    () => (
+        logger.debug(`Application running on port ${SERVER_PORT}`),
+        logger.debug(`Open your browser and visit http://localhost/${SERVER_PORT}`)
+        )
+    );

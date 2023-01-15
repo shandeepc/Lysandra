@@ -14,7 +14,7 @@ const basicAuth = expressBasicAuth({
         return 0;
     },
     unauthorizedResponse: (req) => {
-        logger.log(`Unauthorized ~~> basicAuthentication`, 'reqLog.txt');
+        logger.debug(`Unauthorized ~~> basicAuthentication`);
         return `Unauthorized.`;
     }
 });

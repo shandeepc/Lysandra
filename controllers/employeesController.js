@@ -28,7 +28,7 @@ async function updateData (dPath, content) {
         else
             data.employeesPassword = require(`../model/${dPath}`);
     } catch(error) {
-        logger.log(`Caught Exception --> ${error}`, 'errorLog.txt');
+        logger.error(`Caught Exception --> ${error}`);
     }
 }
 
@@ -56,13 +56,13 @@ const getAllEmployees = (request, response) => {
     } else {
         result = data.employees;
     }
-    logger.log(`Sending --> ${JSON.stringify(result)}`, 'reqLog.txt');
+    logger.debug(`Sending --> ${JSON.stringify(result)}`);
     response.status(200).json(result);
 }
 
 const createNewEmployee = (request, response) => {
     let newEmployee = request.body;
-    logger.log(`Recieved body --> ${JSON.stringify(newEmployee)}`, 'reqLog.txt');
+    logger.debug(`Recieved body --> ${JSON.stringify(newEmployee)}`);
     newEmployee.id = data.employees.at(-1).id + 1;
 
     let validationResult = employeeSchema.validate(newEmployee);
@@ -74,7 +74,7 @@ const createNewEmployee = (request, response) => {
         if( isGroupValid != 'Okay') {
             response.status(400).json({ "error": `${isGroupValid}` });
         } else {
-            logger.log(`Updated body --> ${JSON.stringify(newEmployee)}`, 'reqLog.txt');
+            logger.debug(`Updated body --> ${JSON.stringify(newEmployee)}`);
             data.employees.push(newEmployee);
             if(newEmployee.groups) {
                 for(let element of newEmployee.groups) {
@@ -89,15 +89,15 @@ const createNewEmployee = (request, response) => {
             }
             updateData('employees.json',data.employees);
             updateData('groups.json',data.groups);
-            logger.log(`Sending --> ${JSON.stringify(newEmployee)}`, 'reqLog.txt');
+            logger.debug(`Sending --> ${JSON.stringify(newEmployee)}`);
             response.status(201).json(newEmployee);
         }
     }
 }
 
-const updateEmployee = (request, response) => {
+const updateEmployeeOverwrite = (request, response) => {
     let updtEmployee = request.body;
-    logger.log(`Recieved body --> ${JSON.stringify(updtEmployee)}`, 'reqLog.txt');
+    logger.debug(`Recieved body --> ${JSON.stringify(updtEmployee)}`);
     updtEmployee.id = parseInt(request.params.id);
 
     let validationResult = employeeSchema.validate(updtEmployee);
@@ -116,7 +116,7 @@ const updateEmployee = (request, response) => {
                 data.employees.find(e => e.id === updtEmployee.id).active = updtEmployee.active;
                 let oldGroups = data.employees.find(e => e.id === updtEmployee.id).groups;
                 data.employees.find(e => e.id === updtEmployee.id).groups = updtEmployee.groups;
-                logger.log(`Updated body --> ${JSON.stringify(updtEmployee)}`, 'reqLog.txt');
+                logger.debug(`Updated body --> ${JSON.stringify(updtEmployee)}`);
                 if(updtEmployee.groups) {
                     let groupsToRemove = [];
                     let groupsToGrant = updtEmployee.groups;
@@ -128,8 +128,8 @@ const updateEmployee = (request, response) => {
                     groupsToGrant = Array.from(new Set(groupsToGrant)); 
                     groupsToRemove = Array.from(new Set(groupsToRemove));
 
-                    logger.log(`Groups to grant --> ${groupsToGrant}`, 'reqLog.txt');
-                    logger.log(`Groups to remove --> ${groupsToRemove}`, 'reqLog.txt');
+                    logger.debug(`Groups to grant --> ${groupsToGrant}`);
+                    logger.debug(`Groups to remove --> ${groupsToRemove}`);
                     //return;
                     for(let element of groupsToGrant) {
                         if(data.groups.find(g => g.id === element).members){
@@ -155,7 +155,7 @@ const updateEmployee = (request, response) => {
                 }
                 updateData('employees.json',data.employees);
                 updateData('groups.json',data.groups);
-                logger.log(`Sending --> ${JSON.stringify(updtEmployee)}`, 'reqLog.txt');
+                logger.debug(`Sending --> ${JSON.stringify(updtEmployee)}`);
                 response.status(200).json(updtEmployee);
             } else {
                 response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
@@ -167,7 +167,7 @@ const updateEmployee = (request, response) => {
 
 const deleteEmployee = (request, response) => {
     if(data.employees.find(e => e.id === parseInt(request.params.id))) {
-        logger.log(`Deleting user --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`, 'reqLog.txt');
+        logger.debug(`Deleting user --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
         data.employees.splice(data.employees.indexOf(data.employees.find(e => e.id === parseInt(request.params.id)),1));
         for(let element of data.groups) {
             if(element.members && element.members.indexOf(parseInt(request.params.id)) != -1) {
@@ -182,7 +182,7 @@ const deleteEmployee = (request, response) => {
         }
         updateData('employees.json',data.employees);
         updateData('groups.json',data.groups);
-        logger.log(`Sending --> { "message": "Deleted user with ID ${request.params.id}" }`, 'reqLog.txt');
+        logger.debug(`Sending --> { "message": "Deleted user with ID ${request.params.id}" }`);
         response.status(200).json({ "message": `Deleted user with ID ${request.params.id}` });
     } else {
         response.status(404).json({ "error": `Cannot find an employee with ID ${request.params.id}` });
@@ -194,9 +194,113 @@ const getEmployee = (request, response) => {
     if(!employee) {
         response.status(404).json({ "error": `Employee with Id ${request.params.id} Not Found` });
     } else {
-        logger.log(`Sending --> ${JSON.stringify(employee)}`, 'reqLog.txt');
+        logger.debug(`Sending --> ${JSON.stringify(employee)}`);
         response.status(200).json(employee);
     }
 }
 
-module.exports = { getAllEmployees, createNewEmployee, updateEmployee, deleteEmployee, getEmployee };
+const updateEmployeeAppend = (request, response) => {
+    let updtEmployee = request.body;
+    logger.debug(`Recieved body --> ${JSON.stringify(updtEmployee)}`);
+
+    if(Object.keys(updtEmployee).length === 0) {
+        response.status(400).json({ "error": "Missing Request Body" });
+    } else {
+        updtEmployee.id = parseInt(request.params.id);
+        let isGroupValid = checkGroups(updtEmployee.groups);
+        if( isGroupValid != 'Okay') {
+            response.status(400).json({ "error": `${isGroupValid}` });
+        } else {
+            if(data.employees.find(e => e.id === updtEmployee.id)) {
+                if(updtEmployee.firstname != null) {
+                    data.employees.find(e => e.id === updtEmployee.id).firstname = updtEmployee.firstname;
+                }
+                if(updtEmployee.lastname != null) {
+                    data.employees.find(e => e.id === updtEmployee.id).lastname = updtEmployee.lastname;
+                }
+                if(updtEmployee.email != null) {
+                    data.employees.find(e => e.id === updtEmployee.id).email = updtEmployee.email;
+                }
+                if(updtEmployee.active != null) {
+                    data.employees.find(e => e.id === updtEmployee.id).active = updtEmployee.active;
+                }
+                if(updtEmployee.groups) {
+                    let oldGroups = data.employees.find(e => e.id === updtEmployee.id).groups;
+                    data.employees.find(e => e.id === updtEmployee.id).groups = updtEmployee.groups;
+                    logger.debug(`Updated body --> ${JSON.stringify(updtEmployee)}`);
+                    if(updtEmployee.groups) {
+                        let groupsToRemove = [];
+                        let groupsToGrant = updtEmployee.groups;
+                        if(oldGroups) {
+                            groupsToRemove = oldGroups.filter( ( g ) => !updtEmployee.groups.includes( g ) );
+                            groupsToGrant = groupsToGrant.concat(oldGroups);
+                            groupsToGrant = groupsToGrant.filter( ( g ) => !groupsToRemove.includes( g ) );
+                        }
+                        groupsToGrant = Array.from(new Set(groupsToGrant)); 
+                        groupsToRemove = Array.from(new Set(groupsToRemove));
+
+                        logger.debug(`Groups to grant --> ${groupsToGrant}`);
+                        logger.debug(`Groups to remove --> ${groupsToRemove}`);
+                        //return;
+                        for(let element of groupsToGrant) {
+                            if(data.groups.find(g => g.id === element).members){
+                                if(!data.groups.find(g => g.id === element).members.includes(updtEmployee.id))
+                                    data.groups.find(g => g.id === element).members.push(updtEmployee.id);
+                            } else {
+                                data.groups.find(g => g.id === element).members = [ updtEmployee.id ];
+                            }
+                        }
+                        for(let element of groupsToRemove) {
+                            data.groups.find(g => g.id === element).members.splice(data.groups.find(g => g.id === element).members.indexOf(updtEmployee.id),1);
+                            if(data.groups.find(g => g.id === element).members.length == 0)
+                                delete data.groups.find(g => g.id === element)['members'];
+                        }
+                    } else {
+                        for(let element of data.groups) {
+                            if(element.members && element.members.indexOf(updtEmployee.id) != -1) {
+                                element.members.splice(element.members.indexOf(updtEmployee.id),1);
+                                if(element.members.length == 0)
+                                    delete element['members'];
+                            }
+                        }
+                    }
+                }
+                updateData('employees.json',data.employees);
+                updateData('groups.json',data.groups);
+                logger.debug(`Sending --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
+                response.status(200).json(data.employees.find(e => e.id === parseInt(request.params.id)));
+            } else {
+                response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
+            }
+        }
+        
+    }
+}
+
+const enableEmployee = (request, response) => {
+    logger.debug(`Recieved Enable Employee Request --> ${request.params.id}`);
+    if (data.employees.find(e => e.id === parseInt(request.params.id))) {
+        data.employees.find(e => e.id === parseInt(request.params.id)).active = true;
+        updateData('employees.json', data.employees);
+        updateData('groups.json', data.groups);
+        logger.debug(`Sending --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
+        response.status(200).json(data.employees.find(e => e.id === parseInt(request.params.id)));
+    } else {
+        response.status(404).json({ "error": `Cannot find an existing employee with ID ${request.params.id}` });
+    }    
+}
+
+const disableEmployee = (request, response) => {
+    logger.debug(`Recieved Disable Employee Request --> ${request.params.id}`);
+    if (data.employees.find(e => e.id === parseInt(request.params.id))) {
+        data.employees.find(e => e.id === parseInt(request.params.id)).active = false;
+        updateData('employees.json', data.employees);
+        updateData('groups.json', data.groups);
+        logger.debug(`Sending --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
+        response.status(200).json(data.employees.find(e => e.id === parseInt(request.params.id)));
+    } else {
+        response.status(404).json({ "error": `Cannot find an existing employee with ID ${request.params.id}` });
+    }    
+}
+
+module.exports = { getAllEmployees, createNewEmployee, updateEmployeeOverwrite, updateEmployeeAppend, deleteEmployee, getEmployee, enableEmployee, disableEmployee };

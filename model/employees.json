@@ -741,6 +741,9 @@
         "active": false,
         "firstname": "Hopper",
         "lastname": "Weeks",
-        "email": "hopperweeks@shandeep.com"
+        "email": "hopperweeks@shandeep.com",
+        "groups": [
+            1
+        ]
     }
 ]

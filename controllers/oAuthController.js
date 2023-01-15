@@ -18,7 +18,7 @@ function obtainToken(req, res) {
 				token.refresh_token = token.refreshToken;
 			res.json(token);
 		}).catch(function (err) {
-			logger.log(err, 'errorLog.txt');
+			logger.error(err);
 			res.status(err.code || 500).json(err);
 		});
 }
@@ -94,7 +94,7 @@ function updateData(content) {
 		fs.writeFileSync(path.join(__dirname, '..', 'model', 'grants.json'), JSON.stringify(content, null, 4));
 		grants = content;
 	} catch (error) {
-		logger.log(`Caught Exception --> ${error}`, 'errorLog.txt');
+		logger.error(`Caught Exception --> ${error}`);
 	}
 }
 

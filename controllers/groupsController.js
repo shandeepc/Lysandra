@@ -23,7 +23,7 @@ async function updateData (dPath, content) {
         else
             data.groups = require(`../model/${dPath}`);
     } catch(error) {
-        logger.log(`Caught Exception --> ${error}`, 'errorLog.txt');
+        logger.error(`Caught Exception --> ${error}`);
     }
 }
 
@@ -51,13 +51,13 @@ const getAllGroups = (request, response) => {
     } else {
         result = data.groups;
     }
-    logger.log(`Sending --> ${JSON.stringify(result)}`, 'reqLog.txt');
+    logger.debug(`Sending --> ${JSON.stringify(result)}`);
     response.status(200).json(result);
 }
 
 const createNewGroup = (request, response) => {
     let newGroup = request.body;
-    logger.log(`Recieved body --> ${JSON.stringify(newGroup)}`, 'reqLog.txt');
+    logger.debug(`Recieved body --> ${JSON.stringify(newGroup)}`);
     newGroup.id = data.groups.at(-1).id + 1;
 
     let validationResult = groupSchema.validate(newGroup);
@@ -69,7 +69,7 @@ const createNewGroup = (request, response) => {
         if( isMemberValid != 'Okay') {
             response.status(400).json({ "error": `${isMemberValid}` });
         } else {
-            logger.log(`Updated body --> ${JSON.stringify(newGroup)}`, 'reqLog.txt');
+            logger.debug(`Updated body --> ${JSON.stringify(newGroup)}`);
             data.groups.push(newGroup);
             if(newGroup.members) {
                 for(let element of newGroup.members) {
@@ -84,7 +84,7 @@ const createNewGroup = (request, response) => {
             }
             updateData('groups.json',data.groups);
             updateData('employees.json',data.employees);
-            logger.log(`Sending --> ${JSON.stringify(newGroup)}`, 'reqLog.txt');
+            logger.debug(`Sending --> ${JSON.stringify(newGroup)}`);
             response.status(201).json(newGroup);
         }
     }
@@ -92,7 +92,7 @@ const createNewGroup = (request, response) => {
 
 const updateGroup = (request, response) => {
     let updtGroup = request.body;
-    logger.log(`Recieved body --> ${JSON.stringify(updtGroup)}`, 'reqLog.txt');
+    logger.debug(`Recieved body --> ${JSON.stringify(updtGroup)}`);
     updtGroup.id = parseInt(request.params.id);
 
     let validationResult = groupSchema.validate(updtGroup);
@@ -110,7 +110,7 @@ const updateGroup = (request, response) => {
                 data.groups.find(e => e.id === updtGroup.id).description = updtGroup.description;
                 let oldMembers = data.groups.find(e => e.id === updtGroup.id).members;
                 data.groups.find(e => e.id === updtGroup.id).members = updtGroup.members;
-                logger.log(`Updated body --> ${JSON.stringify(updtGroup)}`, 'reqLog.txt');
+                logger.debug(`Updated body --> ${JSON.stringify(updtGroup)}`);
                 if(updtGroup.members) {
                     let membersToRemove = [];
                     let membersToGrant = updtGroup.members;
@@ -122,8 +122,8 @@ const updateGroup = (request, response) => {
                     membersToGrant = Array.from(new Set(membersToGrant)); 
                     membersToRemove = Array.from(new Set(membersToRemove));
 
-                    logger.log(`Members to grant --> ${membersToGrant}`, 'reqLog.txt');
-                    logger.log(`Members to remove --> ${membersToRemove}`, 'reqLog.txt');
+                    logger.debug(`Members to grant --> ${membersToGrant}`);
+                    logger.debug(`Members to remove --> ${membersToRemove}`);
                     //return;
                     for(let element of membersToGrant) {
                         if(data.employees.find(g => g.id === element).groups){
@@ -149,7 +149,7 @@ const updateGroup = (request, response) => {
                 }
                 updateData('groups.json',data.groups);
                 updateData('employees.json',data.employees);
-                logger.log(`Sending --> ${JSON.stringify(updtGroup)}`, 'reqLog.txt');
+                logger.debug(`Sending --> ${JSON.stringify(updtGroup)}`);
                 response.status(200).json(updtGroup);
             } else {
                 response.status(404).json({ "error": `Cannot find an existing group with ID ${updtGroup.id}` });
@@ -161,7 +161,7 @@ const updateGroup = (request, response) => {
 
 const deleteGroup = (request, response) => {
     if(data.groups.find(g => g.id === parseInt(request.params.id))) {
-        logger.log(`Deleting group --> ${JSON.stringify(data.groups.find(g => g.id === parseInt(request.params.id)))}`, 'reqLog.txt');
+        logger.debug(`Deleting group --> ${JSON.stringify(data.groups.find(g => g.id === parseInt(request.params.id)))}`);
         data.groups.splice(data.groups.indexOf(data.groups.find(g => g.id === parseInt(request.params.id))),1);
         for(let element of data.employees) {
             if(element.groups && element.groups.indexOf(parseInt(request.params.id)) != -1) {
@@ -172,7 +172,7 @@ const deleteGroup = (request, response) => {
         }
         updateData('groups.json',data.groups);
         updateData('employees.json',data.employees);
-        logger.log(`Sending --> { "message": "Deleted group with ID ${request.params.id}"`, 'reqLog.txt');
+        logger.debug(`Sending --> { "message": "Deleted group with ID ${request.params.id}"`);
         response.status(200).json({ "message": `Deleted group with ID ${request.params.id}` });
     } else {
         response.status(404).json({ "error": `Cannot find an group with ID ${request.params.id}` });
@@ -181,11 +181,11 @@ const deleteGroup = (request, response) => {
 
 const getGroup = (request, response) => {
     let group = data.groups.find(e => e.id === parseInt(request.params.id));
-    logger.log(JSON.stringify(group), 'reqLog.txt');
+    logger.debug(JSON.stringify(group));
     if(!group) {
         response.status(404).json({ "error": `Group with Id ${request.params.id} Not Found` });
     } else {
-        logger.log(`Sending --> ${JSON.stringify(group)}`, 'reqLog.txt');
+        logger.debug(`Sending --> ${JSON.stringify(group)}`);
         response.status(200).json(group);
     }
 }

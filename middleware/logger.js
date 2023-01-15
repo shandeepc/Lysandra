@@ -6,6 +6,15 @@ const path =  require('path');
 
 const logDir = path.join(__dirname, '..', 'logs');
 
+
+const debug = async (msg) => {
+    log(msg, 'reqLog.txt');
+}
+
+const error = async (msg) => {
+    log(msg, 'errorLog.txt');
+}
+
 const log = async (msg, logFile) => {
     logFile = path.join(logDir,logFile);
     var dateAndTime = datefns.format(new Date(), 'dd:MM:yyyy\tHH:mm:ss');
@@ -19,4 +28,4 @@ const log = async (msg, logFile) => {
     }
 }
 
-module.exports.log = log;
+module.exports = { debug, error } ;

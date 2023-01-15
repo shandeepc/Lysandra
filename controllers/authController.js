@@ -8,7 +8,6 @@ const jwt = require('jsonwebtoken');
 const fsPromises = require('fs').promises;
 const path = require('path');
 require('dotenv').config();
-const authOptions = require('../config/authOptions');
 
 const userSchema = Joi.object({
     username: Joi.string().min(1).max(30).required(),
@@ -35,9 +34,9 @@ async function auth (request, response) {
         let accessToken = jwt.sign(
             { "username": foundUser.username },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: (authOptions.authType === 'JWT'?'30s':'9999y') }
+            { expiresIn: (process.env.AUTH_TYPE === 'JWT'?'30s':'9999y') }
         );
-        if(authOptions.authType === 'JWT') {
+        if(process.env.AUTH_TYPE === 'JWT') {
             let refreshToken = jwt.sign(
                 { "username": foundUser.username },
                 process.env.REFRESH_TOKEN_SECRET,

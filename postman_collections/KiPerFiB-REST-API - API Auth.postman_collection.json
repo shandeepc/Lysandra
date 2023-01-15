@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4ada7b68-d468-48f9-97c2-8eceb3ae8d51",
+		"_postman_id": "8623f08b-54db-4720-9254-fc0b9cc06907",
 		"name": "KiPerFiB-REST-API - API Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,9 +11,6 @@
 				{
 					"name": "Register A API Account",
 					"request": {
-						"auth": {
-							"type": "noauth"
-						},
 						"method": "POST",
 						"header": [
 							{
@@ -29,7 +26,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"test new\",\r\n    \"password\": \"NotAStrongPassword\"\r\n}"
+							"raw": "{\r\n    \"username\": \"Admin\",\r\n    \"password\": \"NotAStrongPassword\"\r\n}"
 						},
 						"url": {
 							"raw": "http://localhost:6969/authreg",
@@ -48,9 +45,6 @@
 				{
 					"name": "Get API Token",
 					"request": {
-						"auth": {
-							"type": "noauth"
-						},
 						"method": "POST",
 						"header": [
 							{
@@ -66,7 +60,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"test new\",\r\n    \"password\": \"NotAStrongPassword\"\r\n}"
+							"raw": "{\r\n    \"username\": \"Admin\",\r\n    \"password\": \"NotAStrongPassword\"\r\n}"
 						},
 						"url": {
 							"raw": "http://localhost:6969/auth",
@@ -158,7 +152,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:6969/api/employees/1",
+							"raw": "http://localhost:6969/api/employees/105",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -167,7 +161,7 @@
 							"path": [
 								"api",
 								"employees",
-								"1"
+								"105"
 							]
 						}
 					},
@@ -191,7 +185,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": true\r\n}"
+							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": true,\r\n    \"groups\": [\r\n        1,\r\n        2\r\n    ]\r\n}"
 						},
 						"url": {
 							"raw": "http://localhost:6969/api/employees",
@@ -209,7 +203,7 @@
 					"response": []
 				},
 				{
-					"name": "Update An Employee",
+					"name": "Update An Employee(Full)",
 					"request": {
 						"method": "PUT",
 						"header": [
@@ -226,7 +220,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": false\r\n}"
+							"raw": "{\r\n    \"firstname\": \"Clark\",\r\n    \"lastname\": \"Kent\",\r\n    \"email\": \"clark.kent@shandeep.com\",\r\n    \"active\": true,\r\n    \"groups\": [\r\n        1,\r\n        2,\r\n        3\r\n    ]\r\n}"
 						},
 						"url": {
 							"raw": "http://localhost:6969/api/employees/105",
@@ -245,7 +239,43 @@
 					"response": []
 				},
 				{
-					"name": "Get An Employee Copy",
+					"name": "Update An Employee(Partial)",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstname\": \"Clark the superman\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employees/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete An Employee",
 					"request": {
 						"method": "DELETE",
 						"header": [
@@ -270,6 +300,72 @@
 							"path": [
 								"api",
 								"employees",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Enable An Employee",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees/enable/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"enable",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Disable An Employee",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees/disable/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"disable",
 								"105"
 							]
 						}
@@ -491,6 +587,52 @@
 			]
 		},
 		{
+			"name": "Pagination Sample",
+			"item": [
+				{
+					"name": "Get Employees By Page",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6969/api/employees?offset=1&limit=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees"
+							],
+							"query": [
+								{
+									"key": "offset",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Test Connection",
 			"request": {
 				"method": "GET",
@@ -507,12 +649,15 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:6969",
+					"raw": "http://localhost:6969/status",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "6969"
+					"port": "6969",
+					"path": [
+						"status"
+					]
 				}
 			},
 			"response": []
@@ -523,7 +668,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpYXQiOjE2NTEyNTc4NDAsImV4cCI6MzE3MTk1NzAwMjQwfQ.JfuhYrrrS1rwhfY-ZIPdO0-gLI9z36Q1U-Owd0zpZl8",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFkbWluIiwiaWF0IjoxNjczNzc5OTYxLCJleHAiOjMxNzIxODIyMjM2MX0.UPWQ9xISCYgcpFo-5w_j3cNAJJRikLiEh2OSaOaGMXs",
 				"type": "string"
 			}
 		]

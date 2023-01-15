@@ -9,7 +9,14 @@ router.route('/')
 
 router.route('/:id')
     .get(employeesController.getEmployee)
-    .put(employeesController.updateEmployee)
+    .put(employeesController.updateEmployeeOverwrite)
+    .patch(employeesController.updateEmployeeAppend)
     .delete(employeesController.deleteEmployee);
+
+router.route('/enable/:id')
+    .patch(employeesController.enableEmployee);
+
+router.route('/disable/:id')
+    .patch(employeesController.disableEmployee);
 
 module.exports = router;

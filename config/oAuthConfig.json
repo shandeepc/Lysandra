@@ -1,9 +1,9 @@
 {
     "clients": [
         {
-            "id": "client1",
-            "clientId": "client1",
-            "clientSecret": "client1",
+            "id": "Admin",
+            "clientId": "Admin",
+            "clientSecret": "NotAStrongPassword",
             "grants": [
                 "password",
                 "refresh_token",
@@ -14,8 +14,8 @@
     ],
     "users": [
         {
-            "username": "test",
-            "password": "test"
+            "username": "Admin",
+            "password": "NotAStrongPassword"
         }
     ]
 }

@@ -19,13 +19,13 @@ async function updateData(dPath, content) {
         await fsPromises.writeFile(path.join(__dirname, '..', 'model', dPath), JSON.stringify(content, null, 4));
         data.employeesPassword = require('../model/employeesPassword.json');
     } catch (error) {
-        logger.log(`Caught Exception --> ${error}`, 'errorLog.txt');
+        logger.error(`Caught Exception --> ${error}`);
     }
 }
 
 const setPassword = async (request, response) => {
     let newEmployeePassword = request.body;
-    logger.log(`Recieved body --> ${JSON.stringify(newEmployeePassword)}`, 'reqLog.txt');
+    logger.debug(`Recieved body --> ${JSON.stringify(newEmployeePassword)}`);
     newEmployeePassword.id = parseInt(request.params.id);
 
     let validationResult = employeePasswordSchema.validate(newEmployeePassword);
@@ -45,7 +45,7 @@ const setPassword = async (request, response) => {
             } else {
                 data.employeesPassword.push(newEmployeePassword);
             }
-            logger.log(`Updated body --> ${JSON.stringify(newEmployeePassword)}`, 'reqLog.txt');
+            logger.debug(`Updated body --> ${JSON.stringify(newEmployeePassword)}`);
             let hashedPwd = await bcrypt.hash(newEmployeePassword.password, 10);
             data.employeesPassword.find(e => e.id === newEmployeePassword.id).password = hashedPwd;
             //console.log(data.employeesPassword.find(e => e.id === newEmployeePassword.id));

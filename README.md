@@ -38,11 +38,14 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * [@node-oauth/oauth2-server](https://www.npmjs.com/package/@node-oauth/oauth2-server)
 * [body-parser](https://www.npmjs.com/package/body-parser)
 
-# New Features
-* OAuth2.0 Client Credentials Added
+# Recent Changes
+* Added PATCH operation for Updating Employees(Check PostMan Collections)
+* Added Seperate EndPoints for enabling and disabling employees(Check PostMan Collections)
+* Added OAuth2.0 Client Credentials
 * Added PostMan Collections with Examples
+
 ## Features
-* Mutiple Objects for managing(Employees & Groups)
+* Mutiple Schemas for managing(Employees & Groups)
 * Support mutiple authentication methods
     * No Authentication
     * UserName and Password based authentication
@@ -114,11 +117,11 @@ or
 - [x] Groups MVC
 - [x] JWT Authentication(Deprecated)
 - [x] Fix IDAM warnings
-- [ ] Implement PATCH Operation
+- [x] Implement PATCH Operation
+- [x] Add JWT Refresh via POST(Deprecated)
+- [x] Implement OAuth(Sort Of)
 - [ ] Support sorting and filtering
 - [ ] Fix cross auth bug(Secret..Sush)
-- [x] Add JWT Refresh via POST(Deprecated)
-- [ ] Implement OAuth(Sort Of)
 
 ## Roadmap
 
@@ -128,7 +131,7 @@ or
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Proprietary License. See `LICENSE.txt` for more information.
 
 ## Contact
 

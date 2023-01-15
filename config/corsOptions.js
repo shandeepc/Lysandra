@@ -5,7 +5,7 @@ const corsOptions = {
             callback(null, true)
         } else {
             callback(new Error('Not allowed by CORS'));
-            logger.log(`Not allowed by CORS, Origin --> ${origin}`, 'errorLog.txt');
+            logger.error(`Not allowed by CORS, Origin --> ${origin}`);
         }
     },
     optionsSuccessStatus: 200
