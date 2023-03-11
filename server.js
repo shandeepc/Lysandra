@@ -1,6 +1,6 @@
 /*
-Project Name - Kinda Perfect File Based REST API
-Version - 3.0.0
+Project Name - Lysandra
+Version - 3.0.1
 Author - @shandeepc
 Website - www.shandeep.tk
 */
@@ -15,6 +15,7 @@ require('dotenv').config();
 
 //Configs
 const corsOptions = require('./config/corsOptions');
+const pkg = require('./package.json');
 
 //Middlewares
 const logger = require('./middleware/logger');
@@ -24,16 +25,17 @@ const apiAuth = require('./middleware/apiAuth');
 const oAuthAuth = require('./middleware/oAuthAuth');
 const oAuthController = require('./controllers/oAuthController');
 
-logger.debug("  _  __  _   _____                  ______   _   ____      _____    ______    _____   _______                _____    _____ ");
-logger.debug(" | |/ / (_) |  __ \\                |  ____| (_) |  _ \\    |  __ \\  |  ____|  / ____| |__   __|       /\\     |  __ \\  |_   _|");
-logger.debug(" | ' /   _  | |__) |   ___   _ __  | |__     _  | |_) |   | |__) | | |__    | (___      | |         /  \\    | |__) |   | |  ");
-logger.debug(" |  <   | | |  ___/   / _ \\ | '__| |  __|   | | |  _ <    |  _  /  |  __|    \\___ \\     | |        / /\\ \\   |  ___/    | |  ");
-logger.debug(" | . \\  | | | |      |  __/ | |    | |      | | | |_) |   | | \\ \\  | |____   ____) |    | |       / ____ \\  | |       _| |_ ");
-logger.debug(" |_|\\_\\ |_| |_|       \\___| |_|    |_|      |_| |____/    |_|  \\_\\ |______| |_____/     |_|      /_/    \\_\\ |_|      |_____|");
-logger.debug("                                                                                                                            ");
-logger.debug('Kinda Perfect File Based REST API');
-logger.debug('Version - 3.0.0');
-logger.debug('By - Shandeep Srinivas - www.shandeep.tk\n');
+logger.debug(" ");
+logger.debug(" ██╗  ██╗   ██╗███████╗ █████╗ ███╗   ██╗██████╗ ██████╗  █████╗ ");
+logger.debug(" ██║  ╚██╗ ██╔╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔══██╗");
+logger.debug(" ██║   ╚████╔╝ ███████╗███████║██╔██╗ ██║██║  ██║██████╔╝███████║");
+logger.debug(" ██║    ╚██╔╝  ╚════██║██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══██║");
+logger.debug(" ███████╗██║   ███████║██║  ██║██║ ╚████║██████╔╝██║  ██║██║  ██║");
+logger.debug(" ╚══════╝╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝");
+logger.debug("                                                                 ");
+logger.debug(`Project ~${pkg.name}~`);
+logger.debug(`Version - ${pkg.version}`);
+logger.debug('By - Shandeep - www.shandeep.tk\n');
 
 logger.debug('Starting Application...');
 
@@ -47,9 +49,9 @@ app.use(bodyParser.json());
 
 //Entry point logger
 app.use((request, response, next) => {
-    logger.debug(`${request.url}\t${request.method}\t${request.headers.host}`);
-    //console.log(request.body);
-    //console.log(request.headers);
+    logger.debug(`${request.method}\t${request.headers.host}${request.url}`);
+    logger.debug(`Recieved body --> ${JSON.stringify(request.body)}`);
+    logger.debug(`Recieved Header --> ${JSON.stringify(request.headers)}`);
     next();
 });
 
@@ -104,7 +106,7 @@ app.all('*', (request, response) => {
     if (request.accepts('html')) {
         response.sendFile(path.join(__dirname, 'views', '404.html'));
     } else if (request.accepts('json')) {
-        response.json({ "error": "404 Oppsi UwU, pawge nwut fUwUnd" });
+        response.json({ "error": "-_-" });
     }
 });
 
@@ -118,6 +120,6 @@ app.listen(
     SERVER_PORT, 
     () => (
         logger.debug(`Application running on port ${SERVER_PORT}`),
-        logger.debug(`Open your browser and visit http://localhost/${SERVER_PORT}`)
+        logger.debug(`Open your browser and visit http://localhost:${SERVER_PORT}`)
         )
     );

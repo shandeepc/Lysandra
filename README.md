@@ -1,19 +1,22 @@
 <br />
 <div align="center">
-  <a href="https://github.com/shandeepc/KiPerFiB-REST-API/">
+  <a href="https://github.com/shandeepc/Lysandra">
     <img src="favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">KiPerFiB REST API</h3>
-
+  <h3 align="center">Lysandra</h3>
+  <p align="center">
+    Formally KiPerFiB REST API.
+  </p>
   <p align="center">
     Simple REST API for IDAM integration.
   </p>
 </div>
 
 
-# KiPerFiB REST API
-Kinda Perfect File Based REST API
+# Lysandra
+
+Version 3.0.1
 
 ## About The Project
 
@@ -71,7 +74,7 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/shandeepc/KiPerFiB-REST-API.git
+   git clone https://github.com/shandeepc/Lysandra.git
    ```
 3. Install NPM packages
    ```sh
@@ -108,7 +111,7 @@ or
    node server
    ```
 
-## Todo
+## Todo/Roadmap
 
 - [x] Employees MVC
 - [x] Basic Authentication
@@ -120,12 +123,9 @@ or
 - [x] Implement PATCH Operation
 - [x] Add JWT Refresh via POST(Deprecated)
 - [x] Implement OAuth(Sort Of)
+- [x] Simulate OAuth2.0 Authentication mechanism
 - [ ] Support sorting and filtering
 - [ ] Fix cross auth bug(Secret..Sush)
-
-## Roadmap
-
-- [x] Simulate OAuth2.0 Authentication mechanism
 - [ ] Add GUI
 - [ ] Add Native app
 
@@ -135,8 +135,4 @@ Distributed under the Proprietary License. See `LICENSE.txt` for more informatio
 
 ## Contact
 
-Shandeep - [@shandeepsrinivas](https://www.linkedin.com/in/shandeepsrinivas/) - [www.shandeep.tk](https://www.shandeep.tk)
-
-
-KiPerFiB REST API: [https://github.com/shandeepc/KiPerFiB-REST-API](https://github.com/shandeepc/KiPerFiB-REST-API)
-
+Shandeep - [@shandeepsrinivas](https://www.linkedin.com/in/shandeepsrinivas/) - [@_random_nerd](https://www.instagram.com/_random_nerd) - [www.shandeep.tk](https://www.shandeep.tk)

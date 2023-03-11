@@ -57,7 +57,6 @@ const getAllGroups = (request, response) => {
 
 const createNewGroup = (request, response) => {
     let newGroup = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(newGroup)}`);
     newGroup.id = data.groups.at(-1).id + 1;
 
     let validationResult = groupSchema.validate(newGroup);
@@ -92,7 +91,6 @@ const createNewGroup = (request, response) => {
 
 const updateGroup = (request, response) => {
     let updtGroup = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(updtGroup)}`);
     updtGroup.id = parseInt(request.params.id);
 
     let validationResult = groupSchema.validate(updtGroup);

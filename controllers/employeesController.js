@@ -62,7 +62,6 @@ const getAllEmployees = (request, response) => {
 
 const createNewEmployee = (request, response) => {
     let newEmployee = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(newEmployee)}`);
     newEmployee.id = data.employees.at(-1).id + 1;
 
     let validationResult = employeeSchema.validate(newEmployee);
@@ -97,7 +96,6 @@ const createNewEmployee = (request, response) => {
 
 const updateEmployeeOverwrite = (request, response) => {
     let updtEmployee = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(updtEmployee)}`);
     updtEmployee.id = parseInt(request.params.id);
 
     let validationResult = employeeSchema.validate(updtEmployee);
@@ -201,7 +199,6 @@ const getEmployee = (request, response) => {
 
 const updateEmployeeAppend = (request, response) => {
     let updtEmployee = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(updtEmployee)}`);
 
     if(Object.keys(updtEmployee).length === 0) {
         response.status(400).json({ "error": "Missing Request Body" });
@@ -273,7 +270,6 @@ const updateEmployeeAppend = (request, response) => {
                 response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
             }
         }
-        
     }
 }
 

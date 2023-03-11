@@ -1,7 +1,7 @@
 {
-  "name": "KiPerFiB-REST-API",
-  "version": "3.0.0",
-  "description": "A Node.js REST API for simple IIQ webservice(REST) connector integration",
+  "name": "Lysandra",
+  "version": "3.0.1",
+  "description": "A Node.js REST API for IDAM connector integration",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -30,8 +30,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shandeepc/KiPerFiB-REST-API"
+    "url": "https://github.com/shandeepc/Lysandra"
   },
   "author": "Shandeep",
-  "license": "MIT"
+  "license": "Proprietary"
 }

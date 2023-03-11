@@ -25,7 +25,6 @@ async function updateData(dPath, content) {
 
 const setPassword = async (request, response) => {
     let newEmployeePassword = request.body;
-    logger.debug(`Recieved body --> ${JSON.stringify(newEmployeePassword)}`);
     newEmployeePassword.id = parseInt(request.params.id);
 
     let validationResult = employeePasswordSchema.validate(newEmployeePassword);
@@ -48,8 +47,8 @@ const setPassword = async (request, response) => {
             logger.debug(`Updated body --> ${JSON.stringify(newEmployeePassword)}`);
             let hashedPwd = await bcrypt.hash(newEmployeePassword.password, 10);
             data.employeesPassword.find(e => e.id === newEmployeePassword.id).password = hashedPwd;
-            //console.log(data.employeesPassword.find(e => e.id === newEmployeePassword.id));
             updateData('employeesPassword.json', data.employeesPassword);
+            logger.debug(`Sending --> ${JSON.stringify(data.employeesPassword.find(e => e.id === newEmployeePassword.id))}`);
             response.status(200).json(data.employeesPassword.find(e => e.id === newEmployeePassword.id));
         }
     }

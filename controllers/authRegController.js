@@ -14,7 +14,6 @@ const userSchema = Joi.object({
 });
 
 async function createNewUser (request, response) {
-    logger.debug(`Recieved body --> ${JSON.stringify(request.body)}`);
     let validationResult = userSchema.validate(request.body);
 
     if(validationResult.error) {

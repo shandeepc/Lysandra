@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "9d0b5960-781d-4b58-b523-444e82a187a4",
-		"name": "KiPerFiB-REST-API - Basic Authentication",
+		"name": "Lysandra - Basic Authentication",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [

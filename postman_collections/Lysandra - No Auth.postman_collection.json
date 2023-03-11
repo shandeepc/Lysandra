@@ -1,94 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ee4dfdf1-d9b5-479d-b183-915a5f45d4c2",
-		"name": "KiPerFiB-REST-API - OAuth2.0 Client Credentials",
+		"_postman_id": "5c492e51-eeff-4079-98c0-9eebeb54edb5",
+		"name": "Lysandra - No Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
-		{
-			"name": "Authentication",
-			"item": [
-				{
-					"name": "Get Access Token",
-					"request": {
-						"auth": {
-							"type": "basic",
-							"basic": [
-								{
-									"key": "password",
-									"value": "NotAStrongPassword",
-									"type": "string"
-								},
-								{
-									"key": "username",
-									"value": "Admin",
-									"type": "string"
-								}
-							]
-						},
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "default"
-							},
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "default"
-							}
-						],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "default"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://localhost:6969/oauth/token",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "6969",
-							"path": [
-								"oauth",
-								"token"
-							]
-						}
-					},
-					"response": []
-				}
-			],
-			"auth": {
-				"type": "noauth"
-			},
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				}
-			]
-		},
 		{
 			"name": "Employees",
 			"item": [
@@ -649,81 +565,6 @@
 				}
 			},
 			"response": []
-		}
-	],
-	"auth": {
-		"type": "oauth2",
-		"oauth2": [
-			{
-				"key": "accessTokenUrl",
-				"value": "http://localhost:6969/oauth/token",
-				"type": "string"
-			},
-			{
-				"key": "clientSecret",
-				"value": "NotAStrongPassword",
-				"type": "string"
-			},
-			{
-				"key": "clientId",
-				"value": "Admin",
-				"type": "string"
-			},
-			{
-				"key": "grant_type",
-				"value": "client_credentials",
-				"type": "string"
-			},
-			{
-				"key": "tokenName",
-				"value": "OAuth Client Credentials",
-				"type": "string"
-			},
-			{
-				"key": "challengeAlgorithm",
-				"value": "S256",
-				"type": "string"
-			},
-			{
-				"key": "username",
-				"value": "test",
-				"type": "string"
-			},
-			{
-				"key": "password",
-				"value": "test",
-				"type": "string"
-			},
-			{
-				"key": "addTokenTo",
-				"value": "header",
-				"type": "string"
-			},
-			{
-				"key": "client_authentication",
-				"value": "header",
-				"type": "string"
-			}
-		]
-	},
-	"event": [
-		{
-			"listen": "prerequest",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		},
-		{
-			"listen": "test",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
 		}
 	]
 }
