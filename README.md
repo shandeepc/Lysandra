@@ -8,9 +8,6 @@
   <p align="center">
     Formally KiPerFiB REST API.
   </p>
-  <p align="center">
-    Simple REST API for IDAM integration.
-  </p>
 </div>
 
 
