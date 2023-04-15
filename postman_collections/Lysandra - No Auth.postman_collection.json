@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "5c492e51-eeff-4079-98c0-9eebeb54edb5",
+		"_postman_id": "7843438d-80d4-4bf0-a960-44fd711d9662",
 		"name": "Lysandra - No Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -172,6 +172,80 @@
 							"path": [
 								"api",
 								"employees",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Group",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"groups\": [\r\n        3,4\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employees/addgroup/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"addgroup",
+								"105"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Group",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"groups\": [\r\n        3,4\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:6969/api/employees/removegroup/105",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6969",
+							"path": [
+								"api",
+								"employees",
+								"removegroup",
 								"105"
 							]
 						}

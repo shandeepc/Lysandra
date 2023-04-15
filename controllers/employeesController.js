@@ -299,4 +299,93 @@ const disableEmployee = (request, response) => {
     }    
 }
 
-module.exports = { getAllEmployees, createNewEmployee, updateEmployeeOverwrite, updateEmployeeAppend, deleteEmployee, getEmployee, enableEmployee, disableEmployee };
+const addGroup = (request, response) => {
+    let addGroupBody = request.body;
+
+    if (Object.keys(addGroupBody).length === 0) {
+        response.status(400).json({ "error": "Missing Request Body" });
+    } else {
+        addGroupBody.id = parseInt(request.params.id);
+        if (addGroupBody.groups && addGroupBody.groups.length != 0) {
+            let isGroupValid = checkGroups(addGroupBody.groups);
+            if (isGroupValid != 'Okay') {
+                response.status(400).json({ "error": `${isGroupValid}` });
+            } else {
+                if (data.employees.find(e => e.id === addGroupBody.id)) {
+                    let oldGroups = data.employees.find(e => e.id === addGroupBody.id).groups;
+                    let groupsToGrant = addGroupBody.groups;
+                    if (oldGroups) {
+                        groupsToGrant = oldGroups.concat(groupsToGrant);
+                    }
+                    groupsToGrant = Array.from(new Set(groupsToGrant));
+
+                    logger.debug(`Groups to grant --> ${groupsToGrant}`);
+                    data.employees.find(e => e.id === addGroupBody.id).groups = groupsToGrant;
+                    for (let element of groupsToGrant) {
+                        if (data.groups.find(g => g.id === element).members) {
+                            if (!data.groups.find(g => g.id === element).members.includes(addGroupBody.id))
+                                data.groups.find(g => g.id === element).members.push(addGroupBody.id);
+                        } else {
+                            data.groups.find(g => g.id === element).members = [addGroupBody.id];
+                        }
+                    }
+                    updateData('employees.json', data.employees);
+                    updateData('groups.json', data.groups);
+                    logger.debug(`Sending --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
+                    response.status(200).json(data.employees.find(e => e.id === parseInt(request.params.id)));
+                } else {
+                    response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
+                }
+            }
+        } else {
+            response.status(400).json({ "error": 'Missing groups' });
+        }
+    }
+}
+
+const removeGroup = (request, response) => {
+    let removeGroupBody = request.body;
+
+    if (Object.keys(removeGroupBody).length === 0) {
+        response.status(400).json({ "error": "Missing Request Body" });
+    } else {
+        removeGroupBody.id = parseInt(request.params.id);
+        if (removeGroupBody.groups && removeGroupBody.groups.length != 0) {
+            let isGroupValid = checkGroups(removeGroupBody.groups);
+            if (isGroupValid != 'Okay') {
+                response.status(400).json({ "error": `${isGroupValid}` });
+            } else {
+                if (data.employees.find(e => e.id === removeGroupBody.id)) {
+                    let oldGroups = data.employees.find(e => e.id === removeGroupBody.id).groups;
+                    let groupsTokeep = [];
+                    let groupsToRemove = removeGroupBody.groups;
+                    if (oldGroups) {
+                        groupsTokeep = oldGroups.filter((g) => !removeGroupBody.groups.includes(g));
+                        groupsToRemove = groupsToRemove.concat(oldGroups);
+                        groupsToRemove = groupsToRemove.filter((g) => !groupsTokeep.includes(g));
+                    }
+                    groupsToRemove = Array.from(new Set(groupsToRemove));
+                    groupsTokeep = Array.from(new Set(groupsTokeep));
+
+                    logger.debug(`Groups to Keep --> ${groupsTokeep}`);
+                    data.employees.find(e => e.id === removeGroupBody.id).groups = groupsTokeep;
+                    for(let element of groupsToRemove) {
+                        data.groups.find(g => g.id === element).members.splice(data.groups.find(g => g.id === element).members.indexOf(removeGroupBody.id),1);
+                        if(data.groups.find(g => g.id === element).members.length == 0)
+                            delete data.groups.find(g => g.id === element)['members'];
+                    }
+                    updateData('employees.json', data.employees);
+                    updateData('groups.json', data.groups);
+                    logger.debug(`Sending --> ${JSON.stringify(data.employees.find(e => e.id === parseInt(request.params.id)))}`);
+                    response.status(200).json(data.employees.find(e => e.id === parseInt(request.params.id)));
+                } else {
+                    response.status(404).json({ "error": `Cannot find an existing employee with ID ${updtEmployee.id}` });
+                }
+            }
+        } else {
+            response.status(400).json({ "error": 'Missing groups' });
+        }
+    }
+}
+
+module.exports = { getAllEmployees, createNewEmployee, updateEmployeeOverwrite, updateEmployeeAppend, deleteEmployee, getEmployee, enableEmployee, disableEmployee, addGroup, removeGroup };

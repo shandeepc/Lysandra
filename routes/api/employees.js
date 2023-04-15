@@ -19,4 +19,10 @@ router.route('/enable/:id')
 router.route('/disable/:id')
     .patch(employeesController.disableEmployee);
 
+router.route('/addgroup/:id')
+    .patch(employeesController.addGroup);
+
+router.route('/removegroup/:id')
+    .patch(employeesController.removeGroup);
+
 module.exports = router;
