@@ -23,8 +23,7 @@
         "name": "payrollRead",
         "description": "Provide read access to payroll",
         "members": [
-            2,
-            4
+            2
         ]
     },
     {

@@ -13,7 +13,7 @@
 
 # Lysandra
 
-Version 3.0.1
+Version 4.0.0
 
 ## About The Project
 
@@ -39,8 +39,9 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 * [body-parser](https://www.npmjs.com/package/body-parser)
 
 # Recent Changes
-* Added PATCH operation for Updating Employees(Check PostMan Collections)
+* Added Seperate EndPoints for Adding and Removing group to/from employees(Check PostMan Collections)
 * Added Seperate EndPoints for enabling and disabling employees(Check PostMan Collections)
+* Added PATCH operation for Updating Employees(Check PostMan Collections)
 * Added OAuth2.0 Client Credentials
 * Added PostMan Collections with Examples
 
@@ -69,10 +70,10 @@ Primarily created to use as a Source/Target for IDAM Tools. But can be used for 
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/shandeepc/Lysandra.git
-   ```
+1. Download the lastest release
+   
+   https://github.com/shandeepc/Lysandra/releases
+   
 3. Install NPM packages
    ```sh
    npm install
