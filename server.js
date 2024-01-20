@@ -2,7 +2,7 @@
 Project Name - Lysandra
 Version - 4.0.0
 Author - @shandeepc
-Website - www.shandeep.tk
+Website - www.shandeep.dev
 */
 
 //Node Modules
@@ -35,7 +35,7 @@ logger.debug(" ╚══════╝╚═╝   ╚══════╝╚�
 logger.debug("                                                                 ");
 logger.debug(`Project ~${pkg.name}~`);
 logger.debug(`Version - ${pkg.version}`);
-logger.debug('By - Shandeep - www.shandeep.tk\n');
+logger.debug('By - Shandeep - www.shandeep.dev\n');
 
 logger.debug('Starting Application...');
 

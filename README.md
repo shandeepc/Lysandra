@@ -133,4 +133,4 @@ Distributed under the Proprietary License. See `LICENSE.txt` for more informatio
 
 ## Contact
 
-Shandeep - [@shandeepsrinivas](https://www.linkedin.com/in/shandeepsrinivas/) - [@_random_nerd](https://www.instagram.com/_random_nerd) - [www.shandeep.tk](https://www.shandeep.tk)
+Shandeep - [@shandeepsrinivas](https://www.linkedin.com/in/shandeepsrinivas/) - [@_random_nerd](https://www.instagram.com/_random_nerd) - [www.shandeep.dev](https://www.shandeep.dev)
