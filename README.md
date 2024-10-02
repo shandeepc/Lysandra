@@ -13,7 +13,7 @@
 
 # Lysandra
 
-Version 4.0.0
+Version 4.0.1
 
 ## About The Project
 
